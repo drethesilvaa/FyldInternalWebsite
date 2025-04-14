@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_grid_sections",
+  "info": {
+    "displayName": "Grid Section",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "Colunas": {
+      "type": "integer",
+      "max": 4,
+      "min": 1,
+      "default": 1,
+      "required": true
+    },
+    "Item": {
+      "displayName": "Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "grid.items"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page",
+      "inversedBy": "childPage"
+    },
+    "childPage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page",
+      "mappedBy": "page"
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.accordion",
+        "ui.rich-text-block",
+        "ui.grid-section"
+      ],
+      "required": true
+    }
+  }
+}

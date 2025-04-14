@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "VideoLink": {
+      "type": "string",
+      "required": true
+    },
+    "FyldIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ParteDaFyld": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.rich-text-block",
+        "ui.carousel"
+      ],
+      "required": true
+    },
+    "Empresa": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.rich-text-block",
+        "ui.grid-section",
+        "ui.carousel",
+        "ui.cards",
+        "ui.card-item",
+        "ui.accordion"
+      ],
+      "required": true
+    },
+    "TyFyld": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.rich-text-block",
+        "ui.grid-section",
+        "ui.carousel",
+        "ui.cards",
+        "ui.card-item",
+        "ui.accordion"
+      ],
+      "required": true
+    },
+    "placeholderImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

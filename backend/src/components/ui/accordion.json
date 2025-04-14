@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

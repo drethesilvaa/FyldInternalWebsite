@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_cards",
+  "info": {
+    "displayName": "Cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Horizontal": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "Items": {
+      "displayName": "Card Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.card-item"
+    }
+  }
+}
