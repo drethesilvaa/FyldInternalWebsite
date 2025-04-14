@@ -100,3 +100,11 @@ h6 {
 .lineHeight-2rem {
   @apply leading-6 md:leading-8;
 }
+
+button {
+  cursor: pointer;
+}
+
+.custom-container {
+  @apply mx-auto w-[90%];
+}

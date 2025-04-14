@@ -10,7 +10,11 @@ export const HomePage = () => {
 
   return (
     <>
-      <Hero videoUrl={home.VideoLink} bannerImage={home.placeholderImage} />
+      <Hero
+        videoUrl={home.VideoLink}
+        bannerImage={home.placeholderImage}
+        logo={home.FyldIcon}
+      />
     </>
   );
 };
