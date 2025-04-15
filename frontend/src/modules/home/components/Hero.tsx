@@ -1,6 +1,13 @@
 import Image from "next/image";
 import { useState, useRef } from "react";
 import ReactPlayer from "react-player";
+import {
+  Pause,
+  Play,
+  SpeakerSimpleHigh,
+  SpeakerSimpleSlash,
+  FrameCorners,
+} from "@phosphor-icons/react";
 
 interface Props {
   videoUrl: string;
@@ -13,8 +20,18 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
   const [muted, setMuted] = useState(false);
   const [volume, setVolume] = useState(0.8);
   const [played, setPlayed] = useState(0);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   const playerRef = useRef<ReactPlayer>(null);
+
+  const toggleFullscreen = () => {
+    if (!isFullscreen) {
+      document.documentElement.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+    setIsFullscreen(!isFullscreen);
+  };
 
   return (
     <div className="flex flex-col ">
@@ -29,7 +46,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
           onPlay={() => setPlaying(true)}
           onPause={() => setPlaying(false)}
           width={"100%"}
-          height={"60vh"}
+          height={isFullscreen ? "100vh" : "60vh"}
         />
       </div>
       <div
@@ -45,7 +62,11 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
         onClick={() => setPlaying(true)}
       >
         <div className=" bg-black/40  ">
-          <div className="min-h-[60vh] pt-16 custom-container flex flex-col items-start justify-between w-full h-full ">
+          <div
+            className={`${
+              isFullscreen ? "min-h-[100vh]" : "min-h-[60vh]"
+            }  pt-16 custom-container flex flex-col items-start justify-between w-full h-full `}
+          >
             <Image
               src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${logo.url}`}
               alt={logo.alt || ""}
@@ -53,7 +74,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
               height={111}
               className={" object-cover h-full rounded-md"}
             />
-            <div className="controls flex gap-4 w-full pb-8">
+            <div className="controls flex items-center gap-4 w-full pb-8">
               <button
                 onClick={() => {
                   const internalPlayer = playerRef.current?.getInternalPlayer();
@@ -64,12 +85,28 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                   }
                 }}
               >
-                {playing ? "Pause" : "Play"}
+                {playing ? (
+                  <Pause color={"var(--color-base-100)"} size={32} />
+                ) : (
+                  <Play color={"var(--color-base-100)"} size={32} />
+                )}
               </button>
-
+              <button onClick={() => setMuted(!muted)}>
+                {muted ? (
+                  <SpeakerSimpleSlash
+                    color={"var(--color-base-100)"}
+                    size={32}
+                  />
+                ) : (
+                  <SpeakerSimpleHigh
+                    color={"var(--color-base-100)"}
+                    size={32}
+                  />
+                )}
+              </button>
               <input
                 type="range"
-                className="range w-full"
+                className="range w-full [--range-bg:var(--color-base-300)] [--range-thumb:none] [--range-fill:1] range-sm"
                 min={0}
                 max={1}
                 step="any"
@@ -80,8 +117,8 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                   playerRef.current?.seekTo(newPlayed, "fraction"); // ✅ Seek to new time
                 }}
               />
-              <button onClick={() => setMuted(!muted)}>
-                {muted ? "Unmute" : "Mute"}
+              <button onClick={toggleFullscreen}>
+                <FrameCorners color={"var(--color-base-100)"} size={32} />
               </button>
             </div>
           </div>

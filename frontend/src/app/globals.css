@@ -5,7 +5,7 @@
 @plugin "daisyui";
 
 @plugin "daisyui/theme" {
-  name: "corporate";
+  name: "fyldTheme";
   default: false;
   prefersdark: false;
   color-scheme: "light";
