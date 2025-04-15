@@ -27,7 +27,7 @@ const componentMapping: ComponentMapping = {
   ComponentUiRichTextBlock: RichTextBlock,
   ComponentUiGridSection: GridSection,
   ComponentUiCarousel: Carousel,
-  ComponentUiCards: Cards,
+  // ComponentUiCards: Cards,
   ComponentUiAccordion: Accordion,
 };
 
@@ -39,6 +39,7 @@ export const HomePage = () => {
 
   const renderComponent = (componentData: ComponentData, typename: string) => {
     const Component = componentMapping[typename];
+    console.log(componentData);
     if (Component) {
       return <Component {...componentData} />;
     }
@@ -54,14 +55,27 @@ export const HomePage = () => {
       />
       <Navbar />
 
-      {/* Render components conditionally */}
-      {home.Empresa?.map((section: any) => (
-        <div key={section.id}>
-          {renderComponent(section, section.__typename)}
-        </div>
-      ))}
+      <div className="custom-container my-11">
+        {home.Empresa?.map((section: any) => (
+          <div key={section.id}>
+            {renderComponent(section, section.__typename)}
+          </div>
+        ))}
+      </div>
 
-      {home.TyFyld?.map((section: any) => (
+      <div className="bg-[var(--color-bg-green)]">
+        <div className="custom-container">
+          {home.TyFyld?.map((section: any) => (
+            <div key={section.id}>
+              {renderComponent(section, section.__typename)}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Render components conditionally */}
+
+      {/* {home.TyFyld?.map((section: any) => (
         <div key={section.id}>
           {section.Content && <RichTextBlock content={section.Content} />}
           {section.cardsItems && section.cardsItems.length > 0 && (
@@ -75,7 +89,7 @@ export const HomePage = () => {
           {section.Content && <RichTextBlock content={section.Content} />}
           {section.Slides && <Carousel items={section.Items} />}
         </div>
-      ))}
+      ))} */}
     </>
   );
 };

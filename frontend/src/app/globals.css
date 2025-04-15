@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @import "@fontsource/lato";
+@import "@fontsource/lato/900.css";
+@import "@fontsource/lato/700.css";
+@import "@fontsource/lato/400.css";
 @import "@fontsource/karla";
 
 @plugin "daisyui";
@@ -29,6 +32,7 @@
   --color-warning-content: oklch(0% 0 0);
   --color-error: oklch(70% 0.191 22.216);
   --color-error-content: oklch(0% 0 0);
+  --color-bg-green:#E8F6E3,
   --radius-selector: 0.25rem;
   --radius-field: 0.25rem;
   --radius-box: 0.25rem;

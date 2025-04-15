@@ -9,7 +9,7 @@ export interface GridItems extends Struct.ComponentSchema {
   };
   attributes: {
     Cards: Schema.Attribute.Component<'ui.cards', false>;
-    Content: Schema.Attribute.Blocks;
+    Content: Schema.Attribute.RichText & Schema.Attribute.Required;
   };
 }
 
@@ -28,10 +28,11 @@ export interface UiAccordion extends Struct.ComponentSchema {
 export interface UiCardItem extends Struct.ComponentSchema {
   collectionName: 'components_ui_card_items';
   info: {
+    description: '';
     displayName: 'Card Item';
   };
   attributes: {
-    Content: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    Content: Schema.Attribute.RichText & Schema.Attribute.Required;
     Imagem: Schema.Attribute.Media<'images'>;
   };
 }
@@ -71,6 +72,7 @@ export interface UiCarousel extends Struct.ComponentSchema {
 export interface UiGridSection extends Struct.ComponentSchema {
   collectionName: 'components_ui_grid_sections';
   info: {
+    description: '';
     displayName: 'Grid Section';
     icon: 'grid';
   };
@@ -92,10 +94,11 @@ export interface UiGridSection extends Struct.ComponentSchema {
 export interface UiRichTextBlock extends Struct.ComponentSchema {
   collectionName: 'components_ui_rich_text_blocks';
   info: {
+    description: '';
     displayName: 'Rich Text Block';
   };
   attributes: {
-    Content: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    Content: Schema.Attribute.RichText & Schema.Attribute.Required;
   };
 }
 

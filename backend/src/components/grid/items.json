@@ -7,13 +7,14 @@
   },
   "options": {},
   "attributes": {
-    "Content": {
-      "type": "blocks"
-    },
     "Cards": {
       "type": "component",
       "repeatable": false,
       "component": "ui.cards"
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

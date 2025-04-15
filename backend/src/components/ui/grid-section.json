@@ -2,7 +2,8 @@
   "collectionName": "components_ui_grid_sections",
   "info": {
     "displayName": "Grid Section",
-    "icon": "grid"
+    "icon": "grid",
+    "description": ""
   },
   "options": {},
   "attributes": {
