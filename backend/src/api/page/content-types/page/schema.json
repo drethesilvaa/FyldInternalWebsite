@@ -18,24 +18,19 @@
       "type": "uid",
       "targetField": "Title"
     },
-    "page": {
+    "ParentPage": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::page.page",
-      "inversedBy": "childPage"
-    },
-    "childPage": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::page.page",
-      "mappedBy": "page"
+      "target": "api::page.page"
     },
     "Content": {
       "type": "dynamiczone",
       "components": [
         "ui.accordion",
         "ui.rich-text-block",
-        "ui.grid-section"
+        "ui.grid-section",
+        "ui.carousel",
+        "ui.cards"
       ],
       "required": true
     }

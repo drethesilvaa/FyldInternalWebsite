@@ -2,6 +2,7 @@
 
 import { useHomeData } from "@/hooks/home/useHomeData";
 import { Hero } from "../components/Hero";
+import Navbar from "@/components/Navbar/Navbar";
 
 export const HomePage = () => {
   const { data: home, error, isLoading } = useHomeData();
@@ -15,6 +16,7 @@ export const HomePage = () => {
         bannerImage={home.placeholderImage}
         logo={home.FyldIcon}
       />
+      <Navbar />
     </>
   );
 };

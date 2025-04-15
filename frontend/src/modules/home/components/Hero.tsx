@@ -34,7 +34,11 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
   };
 
   return (
-    <div className="flex flex-col ">
+    <div
+      className={`${
+        isFullscreen ? "min-h-[100vh]" : "min-h-[60vh]"
+      } flex flex-col relative`}
+    >
       <div className="absolute top-0 left-0 right-0 bottom-0">
         <ReactPlayer
           ref={playerRef}

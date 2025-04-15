@@ -4,6 +4,7 @@ const RICH_TEXT_BLOCK = gql`
   fragment RichTextBlock on ComponentUiRichTextBlock {
     id
     Content
+    __typename
   }
 `;
 
@@ -11,6 +12,7 @@ const GRID_SECTION = gql`
   fragment GridSection on ComponentUiGridSection {
     id
     Colunas
+    __typename
     Item {
       Content
       Cards {
@@ -36,6 +38,7 @@ const CAROUSEL = gql`
         url
       }
     }
+    __typename
   }
 `;
 
@@ -49,6 +52,7 @@ const CARDS = gql`
         url
       }
     }
+    __typename
   }
 `;
 
@@ -59,6 +63,7 @@ const CARD_ITEM = gql`
       url
     }
     Content
+    __typename
   }
 `;
 
@@ -67,6 +72,7 @@ const ACCORDION = gql`
     id
     Title
     Content
+    __typename
   }
 `;
 

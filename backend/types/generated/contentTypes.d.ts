@@ -436,9 +436,14 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    childPage: Schema.Attribute.Relation<'oneToOne', 'api::page.page'>;
     Content: Schema.Attribute.DynamicZone<
-      ['ui.accordion', 'ui.rich-text-block', 'ui.grid-section']
+      [
+        'ui.accordion',
+        'ui.rich-text-block',
+        'ui.grid-section',
+        'ui.carousel',
+        'ui.cards',
+      ]
     > &
       Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
@@ -447,7 +452,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::page.page'> &
       Schema.Attribute.Private;
-    page: Schema.Attribute.Relation<'oneToOne', 'api::page.page'>;
+    ParentPage: Schema.Attribute.Relation<'oneToOne', 'api::page.page'>;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'Title'>;
     Title: Schema.Attribute.String;
