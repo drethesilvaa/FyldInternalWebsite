@@ -4,9 +4,15 @@ import remarkGfm from "remark-gfm";
 
 interface RichTextRendererProps {
   content: string;
+  configs?: {
+    paragraph?: string;
+  };
 }
 
-export const RichTextBlock: React.FC<RichTextRendererProps> = ({ content }) => {
+export const RichTextBlock: React.FC<RichTextRendererProps> = ({
+  content,
+  configs,
+}) => {
   const renderers = {
     h1: (props: any) => (
       <h1 className="heading-8xl font-extrabold" {...props} />
@@ -20,9 +26,13 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({ content }) => {
       <img className="shadow-sm aspect-[5/2] object-cover h-full" {...props} />
     ),
     p: (props: any) => {
-      console.log(props);
       return (
-        <p className="lineHeight-2rem text-justify text-neutral" {...props} />
+        <p
+          className={` ${
+            configs?.paragraph || "lineHeight-2rem text-justify text-neutral"
+          } `}
+          {...props}
+        />
       );
     },
     a: (props: any) => <a className="link link-primary" {...props} />,

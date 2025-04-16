@@ -120,6 +120,47 @@ export interface UiRichTextBlock extends Struct.ComponentSchema {
   };
 }
 
+export interface UtilList extends Struct.ComponentSchema {
+  collectionName: 'components_util_lists';
+  info: {
+    displayName: 'List';
+    icon: 'bulletList';
+  };
+  attributes: {
+    link: Schema.Attribute.String & Schema.Attribute.Required;
+    SocialMedia: Schema.Attribute.Enumeration<
+      ['Website', 'Instagram', 'Facebook', 'Spotify', 'Linkedin']
+    > &
+      Schema.Attribute.Required;
+  };
+}
+
+export interface UtilTitulo extends Struct.ComponentSchema {
+  collectionName: 'components_util_titulo_s';
+  info: {
+    displayName: 'Titulo ';
+    icon: 'bold';
+  };
+  attributes: {
+    color: Schema.Attribute.Enumeration<
+      [
+        'base',
+        'primary',
+        'secondary',
+        'accent',
+        'neutral',
+        'info',
+        'success',
+        'warning',
+        'error',
+      ]
+    > &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'base'>;
+    text: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -130,6 +171,8 @@ declare module '@strapi/strapi' {
       'ui.carousel': UiCarousel;
       'ui.grid-section': UiGridSection;
       'ui.rich-text-block': UiRichTextBlock;
+      'util.list': UtilList;
+      'util.titulo': UtilTitulo;
     }
   }
 }

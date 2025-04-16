@@ -1,4 +1,5 @@
 "use client";
+import { Footer, useFooterData } from "@/hooks/footer/useFooterData";
 import { useNavbarData } from "@/hooks/navbar/useNavbarData";
 import React, { createContext, useState, useContext, ReactNode } from "react";
 
@@ -12,6 +13,9 @@ export interface Page {
 interface PageContextType {
   Pages: Page[];
   isLoading: boolean;
+  footer: Footer | null;
+  isLoadingFooter: boolean;
+  fyldIcon: string;
 }
 
 const PagesContext = createContext<PageContextType | undefined>(undefined);
@@ -22,10 +26,19 @@ interface PagesProviderProps {
 
 export const PagesProvider = ({ children }: PagesProviderProps) => {
   const { data: pages, isLoading: isLoadingNavbar } = useNavbarData();
+  const { data: footer, isLoading: isLoadingFooter } = useFooterData();
 
   return (
     <PagesContext.Provider
-      value={{ Pages: pages || [], isLoading: isLoadingNavbar }}
+      value={{
+        Pages: pages?.pages || [],
+        isLoading: isLoadingNavbar,
+        footer: footer || null,
+        isLoadingFooter,
+        fyldIcon:
+          `${process.env.NEXT_PUBLIC_STRAPI_URL}${pages?.home.FyldIcon?.url}` ||
+          "",
+      }}
     >
       {children}
     </PagesContext.Provider>

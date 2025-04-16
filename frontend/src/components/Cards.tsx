@@ -27,7 +27,7 @@ export const Cards = ({ Horizontal, colunas, cardsItems, id }: CardsProps) => {
   };
 
   return (
-    <div className={`grid gap-4 ${colVariants[colunas]} `}>
+    <div className={`grid gap-4 ${colVariants[colunas]} my-6 `}>
       {cardsItems.map((item, index) => (
         <div className="card card-side bg-base-100 shadow-sm" key={index}>
           <figure className="w-full">

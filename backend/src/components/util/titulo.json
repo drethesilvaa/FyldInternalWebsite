@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_util_titulo_s",
+  "info": {
+    "displayName": "Titulo ",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "base",
+        "primary",
+        "secondary",
+        "accent",
+        "neutral",
+        "info",
+        "success",
+        "warning",
+        "error"
+      ],
+      "required": true,
+      "default": "base"
+    }
+  }
+}

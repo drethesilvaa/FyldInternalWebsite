@@ -3,23 +3,16 @@ import { gql } from "@apollo/client";
 export const GET_PAGE_DATA = gql`
   fragment RichTextBlock on ComponentUiRichTextBlock {
     id
-    Content
+    content: Content
+    __typename
   }
   fragment GridSection on ComponentUiGridSection {
     id
     Colunas
     Item {
       Content
-      Cards {
-        Horizontal
-        Items {
-          Content
-          Imagem {
-            url
-          }
-        }
-      }
     }
+    __typename
   }
 
   fragment Carousel on ComponentUiCarousel {
@@ -31,6 +24,7 @@ export const GET_PAGE_DATA = gql`
         url
       }
     }
+    __typename
   }
 
   fragment Cards on ComponentUiCards {
@@ -42,11 +36,13 @@ export const GET_PAGE_DATA = gql`
         url
       }
     }
+    __typename
   }
   fragment Accordion on ComponentUiAccordion {
     id
     Title
     Content
+    __typename
   }
 
   fragment ErrorFragment on Error {

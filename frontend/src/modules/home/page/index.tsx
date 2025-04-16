@@ -1,35 +1,9 @@
 "use client";
 import { useHomeData } from "@/hooks/home/useHomeData";
 import { Hero } from "../components/Hero";
-import Navbar from "@/components/Navbar/Navbar";
-import { RichTextBlock } from "@/components/RichTextBlock";
-import { GridSection } from "@/components/GridSection";
-import { Carousel } from "@/components/Carousel";
-import { Cards } from "@/components/Cards";
-import { Accordion } from "@/components/Accordion";
-
-// Define types for component data
-interface ComponentData {
-  Content?: any[];
-  Item?: any[];
-  Cards?: any[];
-  Imagem?: { url: string } | null;
-  Slides?: number;
-  Title?: string;
-  Horizontal?: boolean;
-}
-
-type ComponentMapping = {
-  [key: string]: React.ComponentType<any>; // Use `any` for generic component props
-};
-
-const componentMapping: ComponentMapping = {
-  ComponentUiRichTextBlock: RichTextBlock,
-  ComponentUiGridSection: GridSection,
-  // ComponentUiCarousel: Carousel,
-  ComponentUiCards: Cards,
-  ComponentUiAccordion: Accordion,
-};
+import { Navbar } from "@/components/Navbar/Navbar";
+import { Footer } from "@/components/Footer";
+import { useRenderComponent } from "@/hooks/useRenderComponent";
 
 export const HomePage = () => {
   const { data: home, error, isLoading } = useHomeData();
@@ -37,13 +11,8 @@ export const HomePage = () => {
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
 
-  const renderComponent = (componentData: ComponentData, typename: string) => {
-    const Component = componentMapping[typename];
-    if (Component) {
-      return <Component {...componentData} />;
-    }
-    return null;
-  };
+  const renderComponent = (section: any, typename: any) =>
+    useRenderComponent(section, typename);
 
   return (
     <>
@@ -63,7 +32,7 @@ export const HomePage = () => {
           ))}
         </div>
 
-        <div className="bg-[#e8f6e3] my-11 py-11">
+        <div className="bg-[#e8f6e3] my-11 py-16">
           <div className="custom-container">
             {home.TyFyld?.map((section: any) => (
               <div key={section.id}>
@@ -81,23 +50,7 @@ export const HomePage = () => {
         </div>
       </div>
 
-      {/* Render components conditionally */}
-
-      {/* {home.TyFyld?.map((section: any) => (
-        <div key={section.id}>
-          {section.Content && <RichTextBlock content={section.Content} />}
-          {section.cardsItems && section.cardsItems.length > 0 && (
-            <Cards items={section.cardsItems} />
-          )}
-        </div>
-      ))}
-
-      {home.ParteDaFyld?.map((section: any) => (
-        <div key={section.id}>
-          {section.Content && <RichTextBlock content={section.Content} />}
-          {section.Slides && <Carousel items={section.Items} />}
-        </div>
-      ))} */}
+      <Footer />
     </>
   );
 };

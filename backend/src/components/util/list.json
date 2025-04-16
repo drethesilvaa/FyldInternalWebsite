@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_util_lists",
+  "info": {
+    "displayName": "List",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "SocialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "Website",
+        "Instagram",
+        "Facebook",
+        "Spotify",
+        "Linkedin"
+      ],
+      "required": true
+    }
+  }
+}

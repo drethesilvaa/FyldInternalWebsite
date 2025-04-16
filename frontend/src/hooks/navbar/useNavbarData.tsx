@@ -9,7 +9,7 @@ const fetchData = async () => {
   }
 
   const data = await res.json();
-  return data?.pages as Page[];
+  return data as { home: { FyldIcon: { url?: string } }; pages: Page[] };
 };
 
 export const useNavbarData = () => {

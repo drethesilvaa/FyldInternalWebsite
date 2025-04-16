@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "address": {
+      "type": "richtext",
+      "required": true
+    },
+    "SocialLinks": {
+      "displayName": "List",
+      "type": "component",
+      "repeatable": true,
+      "component": "util.list",
+      "required": true
+    }
+  }
+}
