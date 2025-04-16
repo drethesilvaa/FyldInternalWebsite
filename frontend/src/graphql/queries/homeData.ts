@@ -15,15 +15,7 @@ const GRID_SECTION = gql`
     __typename
     Item {
       Content
-      Cards {
-        Horizontal
-        Items {
-          Content
-          Imagem {
-            url
-          }
-        }
-      }
+      Colunas
     }
   }
 `;
@@ -46,10 +38,12 @@ const CARDS = gql`
   fragment Cards on ComponentUiCards {
     id
     Horizontal
+    colunas
     cardsItems: Items {
       Content
       Imagem {
         url
+        alt: alternativeText
       }
     }
     __typename

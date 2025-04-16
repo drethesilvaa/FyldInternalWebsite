@@ -19,9 +19,12 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({ content }) => {
     img: (props: any) => (
       <img className="shadow-sm aspect-[5/2] object-cover h-full" {...props} />
     ),
-    p: (props: any) => (
-      <p className="lineHeight-2rem text-justify text-neutral" {...props} />
-    ),
+    p: (props: any) => {
+      console.log(props);
+      return (
+        <p className="lineHeight-2rem text-justify text-neutral" {...props} />
+      );
+    },
     a: (props: any) => <a className="link link-primary" {...props} />,
     pre: ({ children, className }: any) => {
       return (
@@ -48,8 +51,6 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({ content }) => {
       </ol>
     ),
   };
-
-  console.log(content);
 
   return (
     <div className="rich-text flex flex-col gap-4">

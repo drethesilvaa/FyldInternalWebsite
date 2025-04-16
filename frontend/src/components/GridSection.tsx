@@ -6,13 +6,27 @@ import { RichTextBlock } from "./RichTextBlock";
 interface GridSectionProps {
   Colunas: number;
   Item: {
+    Colunas: number;
     Content: any;
-    Cards: any[];
   }[];
 }
 
 export const GridSection = ({ Colunas, Item }: GridSectionProps) => {
-  console.log(Item);
+  const colSpanVariants: { [key: number]: string } = {
+    1: "col-span-full lg:col-span-1",
+    2: "col-span-full lg:col-span-2",
+    3: "col-span-full lg:col-span-3",
+    4: "col-span-full lg:col-span-4",
+    5: "col-span-full lg:col-span-5",
+    6: "col-span-full lg:col-span-6",
+    7: "col-span-full lg:col-span-7",
+    8: "col-span-full lg:col-span-8",
+    9: "col-span-full lg:col-span-9",
+    10: "col-span-full lg:col-span-10",
+    11: "col-span-full lg:col-span-11",
+    12: "col-span-full lg:col-span-12",
+  };
+
   return (
     <div
       className={`grid gap-6`}
@@ -21,22 +35,8 @@ export const GridSection = ({ Colunas, Item }: GridSectionProps) => {
       }}
     >
       {Item.map((item, index) => (
-        <div key={index} className="">
+        <div key={index} className={`${colSpanVariants[item.Colunas]}`}>
           <RichTextBlock content={item.Content} />
-
-          {item.Cards && item.Cards.length > 0 && (
-            <div className="mt-4">
-              {item.Cards.map((card, cardIndex) => (
-                <div
-                  key={cardIndex}
-                  className="bg-gray-100 p-4 rounded-md mb-4"
-                >
-                  {/* Render card content */}
-                  <p>{card}</p>
-                </div>
-              ))}
-            </div>
-          )}
         </div>
       ))}
     </div>

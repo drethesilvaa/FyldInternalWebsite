@@ -8,7 +8,15 @@ export interface GridItems extends Struct.ComponentSchema {
     icon: 'apps';
   };
   attributes: {
-    Cards: Schema.Attribute.Component<'ui.cards', false>;
+    Colunas: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 12;
+          min: 1;
+        },
+        number
+      >;
     Content: Schema.Attribute.RichText & Schema.Attribute.Required;
   };
 }
@@ -44,6 +52,16 @@ export interface UiCards extends Struct.ComponentSchema {
     displayName: 'Cards';
   };
   attributes: {
+    colunas: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 6;
+          min: 1;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<1>;
     Horizontal: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     Items: Schema.Attribute.Component<'ui.card-item', true>;
   };
@@ -81,7 +99,7 @@ export interface UiGridSection extends Struct.ComponentSchema {
       Schema.Attribute.Required &
       Schema.Attribute.SetMinMax<
         {
-          max: 4;
+          max: 12;
           min: 1;
         },
         number

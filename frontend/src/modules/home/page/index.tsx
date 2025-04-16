@@ -26,8 +26,8 @@ type ComponentMapping = {
 const componentMapping: ComponentMapping = {
   ComponentUiRichTextBlock: RichTextBlock,
   ComponentUiGridSection: GridSection,
-  ComponentUiCarousel: Carousel,
-  // ComponentUiCards: Cards,
+  // ComponentUiCarousel: Carousel,
+  ComponentUiCards: Cards,
   ComponentUiAccordion: Accordion,
 };
 
@@ -39,7 +39,6 @@ export const HomePage = () => {
 
   const renderComponent = (componentData: ComponentData, typename: string) => {
     const Component = componentMapping[typename];
-    console.log(componentData);
     if (Component) {
       return <Component {...componentData} />;
     }
@@ -55,17 +54,26 @@ export const HomePage = () => {
       />
       <Navbar />
 
-      <div className="custom-container my-11">
-        {home.Empresa?.map((section: any) => (
-          <div key={section.id}>
-            {renderComponent(section, section.__typename)}
-          </div>
-        ))}
-      </div>
+      <div className="flex flex-col">
+        <div className="custom-container my-11">
+          {home.Empresa?.map((section: any) => (
+            <div key={section.id}>
+              {renderComponent(section, section.__typename)}
+            </div>
+          ))}
+        </div>
 
-      <div className="bg-[var(--color-bg-green)]">
-        <div className="custom-container">
-          {home.TyFyld?.map((section: any) => (
+        <div className="bg-[#e8f6e3] my-11 py-11">
+          <div className="custom-container">
+            {home.TyFyld?.map((section: any) => (
+              <div key={section.id}>
+                {renderComponent(section, section.__typename)}
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="custom-container my-11">
+          {home.ParteDaFyld?.map((section: any) => (
             <div key={section.id}>
               {renderComponent(section, section.__typename)}
             </div>
