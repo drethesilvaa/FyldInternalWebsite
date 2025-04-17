@@ -34,7 +34,7 @@
         "ui.carousel",
         "ui.cards"
       ],
-      "required": true
+      "required": false
     },
     "pageBanner": {
       "type": "media",

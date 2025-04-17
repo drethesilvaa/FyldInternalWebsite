@@ -21,6 +21,20 @@
       },
       "required": true,
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "aspectRatio": {
+      "type": "enumeration",
+      "enum": [
+        "Medium Format",
+        "Standard",
+        "Square",
+        "Classic",
+        "Widescreen",
+        "Vertical Portrait",
+        "Cinemascope Panoramic"
+      ],
+      "required": true,
+      "default": "Medium Format"
     }
   }
 }

@@ -105,6 +105,12 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
                 alt={attribs?.alt || ""}
               />
             );
+          case "ul":
+            return (
+              <ul className="list-inside list-disc pl-6 space-y-2 text-neutral">
+                {domToReact(children as DOMNode[], options)}
+              </ul>
+            );
           default:
             return undefined;
         }

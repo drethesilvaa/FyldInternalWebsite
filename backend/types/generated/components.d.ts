@@ -36,15 +36,7 @@ export interface UiAccordion extends Struct.ComponentSchema {
     icon: 'server';
   };
   attributes: {
-    Content: Schema.Attribute.RichText &
-      Schema.Attribute.Required &
-      Schema.Attribute.CustomField<
-        'plugin::ckeditor5.CKEditor',
-        {
-          preset: 'defaultHtml';
-        }
-      >;
-    Title: Schema.Attribute.String & Schema.Attribute.Required;
+    Items: Schema.Attribute.Component<'util.title-content', true>;
   };
 }
 
@@ -55,6 +47,19 @@ export interface UiCardItem extends Struct.ComponentSchema {
     displayName: 'Card Item';
   };
   attributes: {
+    aspectRatio: Schema.Attribute.Enumeration<
+      [
+        'Medium\u00A0Format',
+        'Standard',
+        'Square',
+        'Classic',
+        'Widescreen',
+        'Vertical Portrait',
+        'Cinemascope Panoramic',
+      ]
+    > &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'Medium\u00A0Format'>;
     Content: Schema.Attribute.RichText &
       Schema.Attribute.Required &
       Schema.Attribute.CustomField<
@@ -164,6 +169,24 @@ export interface UtilList extends Struct.ComponentSchema {
   };
 }
 
+export interface UtilTitleContent extends Struct.ComponentSchema {
+  collectionName: 'components_util_title_contents';
+  info: {
+    displayName: 'title_content';
+  };
+  attributes: {
+    content: Schema.Attribute.RichText &
+      Schema.Attribute.Required &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    Titulo: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface UtilTitulo extends Struct.ComponentSchema {
   collectionName: 'components_util_titulo_s';
   info: {
@@ -201,6 +224,7 @@ declare module '@strapi/strapi' {
       'ui.grid-section': UiGridSection;
       'ui.rich-text-block': UiRichTextBlock;
       'util.list': UtilList;
+      'util.title-content': UtilTitleContent;
       'util.titulo': UtilTitulo;
     }
   }

@@ -11,6 +11,7 @@ export const GET_PAGE_DATA = gql`
     Colunas
     Item {
       Content
+      Colunas
     }
     __typename
   }
@@ -33,16 +34,20 @@ export const GET_PAGE_DATA = gql`
     colunas
     cardsItems: Items {
       Content
+      aspectRatio
       Imagem {
         url
       }
     }
     __typename
   }
+
   fragment Accordion on ComponentUiAccordion {
     id
-    Title
-    Content
+    items: Items {
+      Titulo
+      content
+    }
     __typename
   }
 

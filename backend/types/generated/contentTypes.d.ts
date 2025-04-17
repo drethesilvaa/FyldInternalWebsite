@@ -482,8 +482,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'ui.carousel',
         'ui.cards',
       ]
-    > &
-      Schema.Attribute.Required;
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

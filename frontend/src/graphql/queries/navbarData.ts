@@ -8,7 +8,7 @@ export const GET_NAVBAR_DATA = gql`
         alternativeText
       }
     }
-    pages {
+    pages(pagination: { limit: -1 }) {
       id: documentId
       Title
       slug

@@ -1,3 +1,6 @@
+// Cards.tsx
+"use client";
+import { AspectRatio } from "@/data/AspectRatio";
 import { RichTextBlock } from "./RichTextBlock";
 
 interface CardsProps {
@@ -6,11 +9,22 @@ interface CardsProps {
   cardsItems: {
     Content: string;
     Imagem: { url: string; alt: string } | null;
+    aspectRatio: AspectRatio;
   }[];
   id: number;
 }
 
-export const Cards = ({ Horizontal, colunas, cardsItems, id }: CardsProps) => {
+const ratioClass: Record<AspectRatio, string> = {
+  [AspectRatio.FiveByFour]: "aspect-[5/4]",
+  [AspectRatio.FourByThree]: "aspect-[4/3]",
+  [AspectRatio.OneByOne]: "aspect-square",
+  [AspectRatio.ThreeByTwo]: "aspect-[3/2]",
+  [AspectRatio.SixteenByNine]: "aspect-video",
+  [AspectRatio.NineBySixteen]: "aspect-[9/16]",
+  [AspectRatio.Cinema]: "aspect-[2.35/1]",
+};
+
+export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
   const colVariants: { [key: number]: string } = {
     1: "grid-cols-1 lg:grid-cols-1",
     2: "grid-cols-1 lg:grid-cols-2",
@@ -30,18 +44,32 @@ export const Cards = ({ Horizontal, colunas, cardsItems, id }: CardsProps) => {
     <div className={`grid gap-4 ${colVariants[colunas]} my-6 `}>
       {cardsItems.map((item, index) => (
         <div
-          className={`card ${
-            Horizontal ? "lg:card-side" : ""
-          }  bg-base-100 shadow-sm`}
           key={index}
+          className={`card bg-base-100 shadow-sm ${
+            Horizontal ? "md:card-side" : ""
+          }`}
         >
-          <figure className="w-full">
+          {/* 40% width on lg+, full width below */}
+          <figure
+            className={`
+              ${ratioClass[item.aspectRatio]}
+              w-full               
+              ${Horizontal ? "md:w-2/5" : ""}  
+            `}
+          >
             <img
+              className="object-cover w-full h-full"
               src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${item.Imagem?.url}`}
               alt={item.Imagem?.alt}
             />
           </figure>
-          <div className="card-body">
+
+          <div
+            className={`
+              card-body
+              ${Horizontal ? "md:w-3/5" : ""}
+            `}
+          >
             <RichTextBlock content={item.Content} />
           </div>
         </div>

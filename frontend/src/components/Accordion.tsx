@@ -1,14 +1,29 @@
-// src/components/Accordion.tsx
+import { RichTextBlock } from "./RichTextBlock";
+
 interface AccordionProps {
-  title: string;
-  content: string;
+  items: {
+    Titulo: string;
+    content: string;
+  }[];
 }
 
-export const Accordion = ({ title, content }: AccordionProps) => {
+export const Accordion = ({ items }: AccordionProps) => {
   return (
     <div>
-      <h3>{title}</h3>
-      <p>{content}</p>
+      {items.map((item, index) => (
+        <div
+          key={index}
+          className="collapse collapse-plus bg-base-100 border border-base-300 my-4"
+        >
+          <input type="checkbox" className="peer" />
+          <div className="collapse-title font-semibold text-primary font-header peer-checked:bg-base-200">
+            {item.Titulo}
+          </div>
+          <div className="collapse-content text-sm text-neutral">
+            <RichTextBlock content={item.content} />
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

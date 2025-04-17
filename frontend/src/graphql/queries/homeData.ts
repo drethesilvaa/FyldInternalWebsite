@@ -41,6 +41,7 @@ const CARDS = gql`
     colunas
     cardsItems: Items {
       Content
+      aspectRatio
       Imagem {
         url
         alt: alternativeText
@@ -56,6 +57,7 @@ const CARD_ITEM = gql`
     Imagem {
       url
     }
+    aspectRatio
     content: Content
     __typename
   }
@@ -64,8 +66,10 @@ const CARD_ITEM = gql`
 const ACCORDION = gql`
   fragment Accordion on ComponentUiAccordion {
     id
-    Title
-    Content
+    items: Items {
+      Titulo
+      content
+    }
     __typename
   }
 `;
