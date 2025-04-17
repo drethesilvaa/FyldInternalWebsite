@@ -58,7 +58,6 @@ export interface UiCardItem extends Struct.ComponentSchema {
         'Cinemascope Panoramic',
       ]
     > &
-      Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'Medium\u00A0Format'>;
     Content: Schema.Attribute.RichText &
       Schema.Attribute.Required &

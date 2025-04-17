@@ -52,7 +52,11 @@ export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
           {/* 40% width on lg+, full width below */}
           <figure
             className={`
-              ${ratioClass[item.aspectRatio]}
+              ${
+                ratioClass
+                  ? ratioClass[item.aspectRatio]
+                  : ratioClass[AspectRatio.FiveByFour]
+              }
               w-full               
               ${Horizontal ? "md:w-2/5" : ""}  
             `}

@@ -33,7 +33,7 @@
         "Vertical Portrait",
         "Cinemascope Panoramic"
       ],
-      "required": true,
+      "required": false,
       "default": "Medium Format"
     }
   }
