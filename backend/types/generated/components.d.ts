@@ -17,18 +17,33 @@ export interface GridItems extends Struct.ComponentSchema {
         },
         number
       >;
-    Content: Schema.Attribute.RichText & Schema.Attribute.Required;
+    Content: Schema.Attribute.RichText &
+      Schema.Attribute.Required &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
   };
 }
 
 export interface UiAccordion extends Struct.ComponentSchema {
   collectionName: 'components_ui_accordions';
   info: {
+    description: '';
     displayName: 'Accordion';
     icon: 'server';
   };
   attributes: {
-    Content: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    Content: Schema.Attribute.RichText &
+      Schema.Attribute.Required &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
     Title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -40,7 +55,14 @@ export interface UiCardItem extends Struct.ComponentSchema {
     displayName: 'Card Item';
   };
   attributes: {
-    Content: Schema.Attribute.RichText & Schema.Attribute.Required;
+    Content: Schema.Attribute.RichText &
+      Schema.Attribute.Required &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
     Imagem: Schema.Attribute.Media<'images'>;
   };
 }
@@ -116,7 +138,14 @@ export interface UiRichTextBlock extends Struct.ComponentSchema {
     displayName: 'Rich Text Block';
   };
   attributes: {
-    Content: Schema.Attribute.RichText & Schema.Attribute.Required;
+    Content: Schema.Attribute.RichText &
+      Schema.Attribute.Required &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
   };
 }
 

@@ -2,7 +2,8 @@
   "collectionName": "components_ui_accordions",
   "info": {
     "displayName": "Accordion",
-    "icon": "server"
+    "icon": "server",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,8 +12,12 @@
       "required": true
     },
     "Content": {
-      "type": "blocks",
-      "required": true
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

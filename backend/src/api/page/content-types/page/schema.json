@@ -12,11 +12,13 @@
   },
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "slug": {
       "type": "uid",
-      "targetField": "Title"
+      "targetField": "Title",
+      "required": true
     },
     "ParentPage": {
       "type": "relation",
@@ -33,6 +35,14 @@
         "ui.cards"
       ],
       "required": true
+    },
+    "pageBanner": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

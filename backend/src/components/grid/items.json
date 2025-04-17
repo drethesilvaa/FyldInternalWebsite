@@ -7,15 +7,19 @@
   },
   "options": {},
   "attributes": {
-    "Content": {
-      "type": "richtext",
-      "required": true
-    },
     "Colunas": {
       "type": "integer",
       "required": true,
       "min": 1,
       "max": 12
+    },
+    "Content": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

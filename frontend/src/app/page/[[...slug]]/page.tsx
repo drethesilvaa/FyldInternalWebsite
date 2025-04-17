@@ -20,7 +20,7 @@ export default function Page({ params }: PageProps) {
     useRenderComponent(section, typename);
 
   return (
-    <PagesLayout>
+    <PagesLayout banner={page?.pageBanner} title={page?.Title}>
       {page?.Content.map((section: any) => (
         <div key={section.id}>
           {renderComponent(section, section.__typename)}

@@ -11,16 +11,20 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "address": {
-      "type": "richtext",
-      "required": true
-    },
     "SocialLinks": {
       "displayName": "List",
       "type": "component",
       "repeatable": true,
       "component": "util.list",
       "required": true
+    },
+    "address": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

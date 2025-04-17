@@ -30,6 +30,7 @@ export const GET_PAGE_DATA = gql`
   fragment Cards on ComponentUiCards {
     id
     Horizontal
+    colunas
     cardsItems: Items {
       Content
       Imagem {
@@ -54,6 +55,10 @@ export const GET_PAGE_DATA = gql`
     pages_connection(filters: { slug: { eq: $slug } }) {
       nodes {
         id: documentId
+        pageBanner {
+          url
+          alternativeText
+        }
         Title
         slug
         Content {
