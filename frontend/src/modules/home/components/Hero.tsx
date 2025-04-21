@@ -62,7 +62,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
         style={
           !playing
             ? {
-                backgroundImage: `url(${process.env.NEXT_PUBLIC_STRAPI_URL}${bannerImage?.url})`,
+                backgroundImage: `url(${bannerImage?.url})`,
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
               }
             : {}
@@ -82,7 +82,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
               >
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${logo?.url}`}
+                  src={`${logo?.url}`}
                   alt={logo?.alt || ""}
                   width={600}
                   height={111}

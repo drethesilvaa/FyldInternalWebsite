@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     domains: [
       "localhost",
       "127.0.0.1",
-      "https://fearless-cats-2a14435633.strapiapp.com",
+      "fearless-cats-2a14435633.media.strapiapp.com",
     ],
   },
   eslint: {

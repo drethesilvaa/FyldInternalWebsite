@@ -58,7 +58,7 @@ export const Carousel = ({ Items, Slides }: CarouselProps) => {
               variants={slideVariants}
             >
               <img
-                src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${item.Imagem?.url}`}
+                src={`${item.Imagem?.url}`}
                 alt={item.Imagem?.alt}
               />
               <RichTextBlock content={item.Content} />

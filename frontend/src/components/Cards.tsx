@@ -80,7 +80,7 @@ export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
           >
             <img
               className="object-cover w-full h-full"
-              src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${item.Imagem?.url}`}
+              src={`${item.Imagem?.url}`}
               alt={item.Imagem?.alt}
             />
           </figure>

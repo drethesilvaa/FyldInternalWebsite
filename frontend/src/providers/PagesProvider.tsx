@@ -36,7 +36,7 @@ export const PagesProvider = ({ children }: PagesProviderProps) => {
         footer: footer || null,
         isLoadingFooter,
         fyldIcon:
-          `${process.env.NEXT_PUBLIC_STRAPI_URL}${pages?.home.FyldIcon?.url}` ||
+          `${pages?.home.FyldIcon?.url}` ||
           "",
       }}
     >

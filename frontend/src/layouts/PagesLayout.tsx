@@ -25,7 +25,7 @@ export default function PagesLayout({
       {banner?.url && (
         <div className="relative">
           <img
-            src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${banner?.url}`}
+            src={`${banner?.url}`}
             className="object-cover aspect-[12/1] brightness-50"
             alt={banner?.alternativeText}
           />
