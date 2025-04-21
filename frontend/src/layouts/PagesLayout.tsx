@@ -2,11 +2,13 @@ import Breadcrumb from "@/components/Breadcrumb/Breadcrumb";
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import Image, { StaticImageData } from "next/image";
+import PageLoader from "./PageLoader";
 
 export default function PagesLayout({
   children,
   banner,
   title,
+  isLoading,
 }: Readonly<{
   children: React.ReactNode;
   banner?: {
@@ -14,9 +16,11 @@ export default function PagesLayout({
     alternativeText: string;
   };
   title?: string;
+  isLoading: boolean;
 }>) {
   return (
     <>
+      {isLoading && <PageLoader />}
       <Navbar />
       {banner?.url && (
         <div className="relative">

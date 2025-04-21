@@ -9,6 +9,7 @@ import {
   SpeakerSimpleSlash,
   FrameCorners,
 } from "@phosphor-icons/react";
+import { motion } from "framer-motion";
 
 interface Props {
   videoUrl: string;
@@ -41,25 +42,27 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
       } flex flex-col relative`}
     >
       <div className="absolute top-0 left-0 right-0 bottom-0">
-        <ReactPlayer
-          ref={playerRef}
-          url={videoUrl}
-          playing={playing}
-          muted={muted}
-          volume={volume}
-          onProgress={({ played }) => setPlayed(played)}
-          onPlay={() => setPlaying(true)}
-          onPause={() => setPlaying(false)}
-          width={"100%"}
-          height={isFullscreen ? "100vh" : "60vh"}
-        />
+        {videoUrl && (
+          <ReactPlayer
+            ref={playerRef}
+            url={videoUrl}
+            playing={playing}
+            muted={muted}
+            volume={volume}
+            onProgress={({ played }) => setPlayed(played)}
+            onPlay={() => setPlaying(true)}
+            onPause={() => setPlaying(false)}
+            width={"100%"}
+            height={isFullscreen ? "100vh" : "60vh"}
+          />
+        )}
       </div>
       <div
         className=" z-10 bg-cover bg-center "
         style={
           !playing
             ? {
-                backgroundImage: `url(${process.env.NEXT_PUBLIC_STRAPI_URL}${bannerImage.url})`,
+                backgroundImage: `url(${process.env.NEXT_PUBLIC_STRAPI_URL}${bannerImage?.url})`,
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
               }
             : {}
@@ -72,14 +75,28 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
               isFullscreen ? "min-h-[100vh]" : "min-h-[60vh]"
             }  pt-16 custom-container flex flex-col items-start justify-between w-full h-full `}
           >
-            <Image
-              src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${logo.url}`}
-              alt={logo.alt || ""}
-              width={600}
-              height={111}
-              className={" object-cover h-full rounded-md"}
-            />
-            <div className="controls flex items-center gap-4 w-full pb-8">
+            {logo && (
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+              >
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_STRAPI_URL}${logo?.url}`}
+                  alt={logo?.alt || ""}
+                  width={600}
+                  height={111}
+                  className="object-cover h-full rounded-md"
+                />
+              </motion.div>
+            )}
+
+            <motion.div
+              className="controls flex items-center gap-4 w-full pb-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
+            >
               <button
                 onClick={() => {
                   const internalPlayer = playerRef.current?.getInternalPlayer();
@@ -96,6 +113,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                   <Play color={"var(--color-base-100)"} size={32} />
                 )}
               </button>
+
               <button onClick={() => setMuted(!muted)}>
                 {muted ? (
                   <SpeakerSimpleSlash
@@ -109,6 +127,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                   />
                 )}
               </button>
+
               <input
                 type="range"
                 className="range w-full [--range-bg:var(--color-base-300)] [--range-thumb:none] [--range-fill:1] range-sm"
@@ -119,13 +138,14 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                 onChange={(e) => {
                   const newPlayed = parseFloat(e.target.value);
                   setPlayed(newPlayed);
-                  playerRef.current?.seekTo(newPlayed, "fraction"); // ✅ Seek to new time
+                  playerRef.current?.seekTo(newPlayed, "fraction");
                 }}
               />
+
               <button onClick={toggleFullscreen}>
                 <FrameCorners color={"var(--color-base-100)"} size={32} />
               </button>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

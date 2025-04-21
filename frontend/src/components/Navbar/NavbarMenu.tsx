@@ -1,7 +1,10 @@
 "use client";
 import { useCurrentPage } from "@/hooks/useCurrentPage";
-import { Page, usePages } from "@/providers/PagesProvider";
+import { usePages, Page } from "@/providers/PagesProvider";
 import Link from "next/link";
+import { useResponsiveNavbarMenu } from "@/hooks/navbar/useResponsiveNavbarMenu";
+import { motion } from "framer-motion";
+import { itemVariants, listVariants } from "./constants";
 
 const RenderMenu = ({
   parentPage,
@@ -22,20 +25,19 @@ const RenderMenu = ({
 
   if (childPages.length === 0) {
     return (
-      <li key={parentPage?.id}>
+      <motion.li key={parentPage?.id} variants={itemVariants}>
         <Link href={`/${fullPath}`} className="text-nowrap">
           {parentPage?.Title}
         </Link>
-      </li>
+      </motion.li>
     );
   }
 
   return (
-    <li key={parentPage?.id}>
+    <motion.li key={parentPage?.id} variants={itemVariants}>
       <details>
         <summary className="text-nowrap">{parentPage?.Title}</summary>
-
-        <ul className="menu bg-primary rounded-box">
+        <ul className="menu bg-primary rounded-box z-50">
           {childPages.map((page) => (
             <RenderMenu
               key={page.id}
@@ -46,39 +48,79 @@ const RenderMenu = ({
           ))}
         </ul>
       </details>
-    </li>
+    </motion.li>
   );
 };
 
 const NavbarMenu = () => {
   const { Pages: pages, isLoading: isLoadingNavbar } = usePages();
-  const { isLandingPage } = useCurrentPage();
+  const { isLandingPage, pathName } = useCurrentPage();
 
-  if (isLoadingNavbar) return <p>Loading</p>;
+  const { isDesktop, containerRef, visibleItems, overflowItems } =
+    useResponsiveNavbarMenu(pages, pathName);
+
+  if (isLoadingNavbar) return <div className="skeleton  h-14 w-full"></div>;
 
   const parentPages = pages?.filter((page) => page.ParentPage === null) || [];
 
   return (
     <nav className="bg-primary">
       <div className="custom-container">
-        <ul
+        <motion.ul
+          ref={containerRef}
           className={`menu ${
             isLandingPage ? "justify-around" : "justify-end"
-          }  w-full gap-4 text-base font-semibold font-header uppercase text-white lg:menu-horizontal`}
+          } w-full gap-4 text-base font-semibold font-header uppercase text-white lg:menu-horizontal`}
+          initial="hidden"
+          animate="visible"
+          variants={listVariants}
         >
-          <li>
+          <motion.li variants={itemVariants}>
             <Link href="/">Home</Link>
-          </li>
+          </motion.li>
 
-          {parentPages.map((parentPage) => (
-            <RenderMenu
-              key={parentPage.id}
-              parentPage={parentPage}
-              pages={pages || []}
-              currentPath="page"
-            />
-          ))}
-        </ul>
+          {isDesktop ? (
+            <>
+              {visibleItems.map((page) => (
+                <RenderMenu
+                  key={page.id}
+                  parentPage={page}
+                  pages={pages || []}
+                  currentPath="page"
+                />
+              ))}
+
+              {overflowItems.length > 0 && (
+                <motion.li variants={itemVariants}>
+                  <details>
+                    <summary className="text-nowrap">Mais</summary>
+                    <ul className="absolute right-0 bg-primary menu rounded-box z-50">
+                      {overflowItems.map((page) => (
+                        <RenderMenu
+                          key={page.id}
+                          parentPage={page}
+                          pages={pages || []}
+                          currentPath="page"
+                        />
+                      ))}
+                    </ul>
+                  </details>
+                </motion.li>
+              )}
+            </>
+          ) : (
+            <>
+              {parentPages.map((page) => (
+                <RenderMenu
+                  key={page.id}
+                  parentPage={page}
+                  pages={pages || []}
+                  currentPath="page"
+                />
+              ))}
+            </>
+          )}
+        </motion.ul>
       </div>
     </nav>
   );

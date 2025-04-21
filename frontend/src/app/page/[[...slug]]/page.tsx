@@ -2,6 +2,7 @@
 import { usepageData } from "@/hooks/pages/usePageData";
 import { useRenderComponent } from "@/hooks/useRenderComponent";
 import PagesLayout from "@/layouts/PagesLayout";
+import PagesLayoutSkeleton from "@/layouts/PagesLayoutSkeleton";
 import { use } from "react";
 
 interface PageProps {
@@ -20,7 +21,7 @@ export default function Page({ params }: PageProps) {
     useRenderComponent(section, typename);
 
   return (
-    <PagesLayout banner={page?.pageBanner} title={page?.Title}>
+    <PagesLayout banner={page?.pageBanner} title={page?.Title} isLoading={isLoading}>
       {page?.Content.map((section: any) => (
         <div key={section.id}>
           {renderComponent(section, section.__typename)}

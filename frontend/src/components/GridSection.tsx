@@ -1,8 +1,7 @@
-// src/components/GridSection.tsx
 import React from "react";
 import { RichTextBlock } from "./RichTextBlock";
+import { motion } from "framer-motion";
 
-// Define the type for Content and Cards
 interface GridSectionProps {
   Colunas: number;
   Item: {
@@ -35,9 +34,21 @@ export const GridSection = ({ Colunas, Item }: GridSectionProps) => {
       }}
     >
       {Item.map((item, index) => (
-        <div key={index} className={`${colSpanVariants[item.Colunas]}`}>
-          <RichTextBlock content={item.Content} />
-        </div>
+        <motion.div
+          key={index}
+          className={`${colSpanVariants[item.Colunas]}`}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.6,
+            ease: "easeOut",
+            delay: index * 0.4, // ⏱️ Add staggered delay
+          }}
+        >
+          <div>
+            <RichTextBlock content={item.Content} />
+          </div>
+        </motion.div>
       ))}
     </div>
   );

@@ -2,6 +2,7 @@
 "use client";
 import { AspectRatio } from "@/data/AspectRatio";
 import { RichTextBlock } from "./RichTextBlock";
+import { motion } from "framer-motion";
 
 interface CardsProps {
   Horizontal: boolean;
@@ -24,6 +25,19 @@ const ratioClass: Record<AspectRatio, string> = {
   [AspectRatio.Cinema]: "aspect-[2.35/1]",
 };
 
+const cardVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      ease: "easeOut",
+      delay: i * 0.1,
+    },
+  }),
+};
+
 export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
   const colVariants: { [key: number]: string } = {
     1: "grid-cols-1 lg:grid-cols-1",
@@ -43,23 +57,26 @@ export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
   return (
     <div className={`grid gap-4 ${colVariants[colunas]} my-6 `}>
       {cardsItems.map((item, index) => (
-        <div
+        <motion.div
           key={index}
           className={`card bg-base-100 shadow-sm ${
             Horizontal ? "md:card-side" : ""
           }`}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={cardVariants}
+          custom={index}
         >
-          {/* 40% width on lg+, full width below */}
           <figure
             className={`
-              ${
-                ratioClass
-                  ? ratioClass[item.aspectRatio]
-                  : ratioClass[AspectRatio.FiveByFour]
-              }
-              w-full               
-              ${Horizontal ? "md:w-2/5" : ""}  
-            `}
+        ${
+          ratioClass
+            ? ratioClass[item.aspectRatio]
+            : ratioClass[AspectRatio.FiveByFour]
+        }
+        w-full ${Horizontal ? "md:w-2/5" : ""}
+      `}
           >
             <img
               className="object-cover w-full h-full"
@@ -68,15 +85,10 @@ export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
             />
           </figure>
 
-          <div
-            className={`
-              card-body
-              ${Horizontal ? "md:w-3/5" : ""}
-            `}
-          >
+          <div className={`card-body ${Horizontal ? "md:w-3/5" : ""}`}>
             <RichTextBlock content={item.Content} />
           </div>
-        </div>
+        </motion.div>
       ))}
     </div>
   );
