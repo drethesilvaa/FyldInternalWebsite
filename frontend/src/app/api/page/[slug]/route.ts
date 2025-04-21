@@ -5,9 +5,9 @@ import { GET_PAGE_DATA } from "@/graphql/queries/pageData";
 
 export async function GET(
   req: NextRequest,
-  context: { params: { slug: string } }
+  { params }: { params: Record<string, string> }
 ) {
-  const { slug } = context.params;
+  const slug = params.slug;
 
   try {
     const data: any = await request(
@@ -19,6 +19,7 @@ export async function GET(
 
     return NextResponse.json(data.pages_connection?.nodes[0]);
   } catch (error) {
+    console.error("GraphQL Error:", error);
     return NextResponse.json(
       { error: "Internal Server Error" },
       { status: 500 }
