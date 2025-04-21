@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: strapi-backend
+    env: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: DATABASE_CLIENT
+        value: sqlite
+      - key: STRAPI_ADMIN_JWT_SECRET
+        generateValue: true
+      - key: APP_KEYS
+        generateValue: true
+      - key: API_TOKEN_SALT
+        generateValue: true
+      - key: JWT_SECRET
+        generateValue: true
+      # Add other env vars your Strapi setup needs
+
+    disk:
+      name: uploads
+      mountPath: /backend/public/uploads
+      sizeGB: 1
+
+  - type: web
+    name: nextjs-frontend
+    env: node
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: NEXT_PUBLIC_STRAPI_URL
+        value: https://strapi-backend.onrender.com # Replace with your actual backend URL

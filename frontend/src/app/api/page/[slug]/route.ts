@@ -5,9 +5,9 @@ import { GET_PAGE_DATA } from "@/graphql/queries/pageData";
 
 export async function GET(
   req: NextRequest,
-  context: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ): Promise<NextResponse> {
-  const { slug } = context.params;
+  const { slug } = await params;
 
   try {
     const data: any = await request(
