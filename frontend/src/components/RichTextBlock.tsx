@@ -79,7 +79,7 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
               <p
                 className={
                   configs?.paragraph ||
-                  "lineHeight-2rem text-justify text-neutral"
+                  "lineHeight-2rem text-justify text-neutral pt-1"
                 }
                 style={parseStyle(attribs?.style)}
               >
@@ -100,7 +100,8 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
           case "img":
             return (
               <img
-                className="shadow-sm aspect-[5/2] object-cover h-full"
+                style={parseStyle(attribs?.style)}
+                className="shadow-sm object-cover h-full"
                 src={attribs?.src}
                 alt={attribs?.alt || ""}
               />
@@ -118,9 +119,5 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
     },
   };
 
-  return (
-    <div className="rich-text flex flex-col gap-4">
-      {parse(content, options)}
-    </div>
-  );
+  return <>{parse(content, options)};</>;
 };

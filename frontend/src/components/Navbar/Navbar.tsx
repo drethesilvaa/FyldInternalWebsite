@@ -18,7 +18,7 @@ export const Navbar = ({ children }: NavbarProps) => {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-primary min-h-full w-80 p-4">
+        <ul className="menu bg-primary min-h-full w-80 p-4 overflow-auto ">
           <NavbarMenu />
         </ul>
       </div>

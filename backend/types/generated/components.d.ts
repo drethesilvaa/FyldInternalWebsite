@@ -60,7 +60,6 @@ export interface UiCardItem extends Struct.ComponentSchema {
     > &
       Schema.Attribute.DefaultTo<'Medium\u00A0Format'>;
     Content: Schema.Attribute.RichText &
-      Schema.Attribute.Required &
       Schema.Attribute.CustomField<
         'plugin::ckeditor5.CKEditor',
         {
@@ -96,6 +95,7 @@ export interface UiCards extends Struct.ComponentSchema {
 export interface UiCarousel extends Struct.ComponentSchema {
   collectionName: 'components_ui_carousels';
   info: {
+    description: '';
     displayName: 'Carousel';
   };
   attributes: {

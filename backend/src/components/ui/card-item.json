@@ -19,7 +19,7 @@
       "options": {
         "preset": "defaultHtml"
       },
-      "required": true,
+      "required": false,
       "customField": "plugin::ckeditor5.CKEditor"
     },
     "aspectRatio": {

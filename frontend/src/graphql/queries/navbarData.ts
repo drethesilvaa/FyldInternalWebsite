@@ -8,7 +8,7 @@ export const GET_NAVBAR_DATA = gql`
         alternativeText
       }
     }
-    pages(pagination: { limit: -1 }) {
+    pages(pagination: { limit: -1 }, sort: "createdAt:asc") {
       id: documentId
       Title
       slug

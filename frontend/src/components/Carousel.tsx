@@ -57,11 +57,8 @@ export const Carousel = ({ Items, Slides }: CarouselProps) => {
               viewport={{ once: true, amount: 0.3 }}
               variants={slideVariants}
             >
-              <img
-                src={`${item.Imagem?.url}`}
-                alt={item.Imagem?.alt}
-              />
-              <RichTextBlock content={item.Content} />
+              <img src={`${item.Imagem?.url}`} alt={item.Imagem?.alt} />
+              {item.Content && <RichTextBlock content={item.Content} />}
             </motion.div>
           </SwiperSlide>
         ))}
