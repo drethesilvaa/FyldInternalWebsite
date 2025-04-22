@@ -86,7 +86,7 @@ export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
           </figure>
 
           <div className={`card-body ${Horizontal ? "md:w-3/5" : ""}`}>
-            <RichTextBlock content={item.Content} />
+            <RichTextBlock Content={item.Content} />
           </div>
         </motion.div>
       ))}

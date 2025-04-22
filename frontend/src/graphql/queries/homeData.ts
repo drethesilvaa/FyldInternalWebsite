@@ -3,7 +3,7 @@ import { gql } from "@apollo/client";
 const RICH_TEXT_BLOCK = gql`
   fragment RichTextBlock on ComponentUiRichTextBlock {
     id
-    content: Content
+    Content
     __typename
   }
 `;

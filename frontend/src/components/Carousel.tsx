@@ -30,17 +30,17 @@ export const Carousel = ({ Items, Slides }: CarouselProps) => {
   return (
     <div className="relative w-full overflow-hidden my-6">
       <Swiper
-        slidesPerView={2}
+        slidesPerView={Slides > 2 ? 2 : Slides}
         spaceBetween={16}
         pagination={{ clickable: true }}
         modules={[Pagination]}
         className="mySwiper pb-10"
         breakpoints={{
           640: {
-            slidesPerView: 2,
+            slidesPerView: Slides > 2 ? 2 : Slides,
           },
           768: {
-            slidesPerView: 3,
+            slidesPerView: Slides > 3 ? 3 : Slides,
           },
           1024: {
             slidesPerView: Slides,
@@ -50,15 +50,19 @@ export const Carousel = ({ Items, Slides }: CarouselProps) => {
         {Items.map((item, index) => (
           <SwiperSlide key={index} className="pb-10">
             <motion.div
-              className="w-full h-full"
+              className=""
               custom={index}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
               variants={slideVariants}
             >
-              <img src={`${item.Imagem?.url}`} alt={item.Imagem?.alt} />
-              {item.Content && <RichTextBlock content={item.Content} />}
+              <img
+                style={{ margin: "0 auto" }}
+                src={`${item.Imagem?.url}`}
+                alt={item.Imagem?.alt}
+              />
+              {item.Content && <RichTextBlock Content={item.Content} />}
             </motion.div>
           </SwiperSlide>
         ))}

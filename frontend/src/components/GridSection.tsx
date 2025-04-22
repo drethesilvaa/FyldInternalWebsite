@@ -36,7 +36,9 @@ export const GridSection = ({ Colunas, Item }: GridSectionProps) => {
       {Item.map((item, index) => (
         <motion.div
           key={index}
-          className={`${colSpanVariants[item.Colunas]}`}
+          className={`${
+            colSpanVariants[item.Colunas]
+          } flex flex-col justify-center`}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
@@ -45,8 +47,8 @@ export const GridSection = ({ Colunas, Item }: GridSectionProps) => {
             delay: index * 0.4, // ⏱️ Add staggered delay
           }}
         >
-          <div>
-            <RichTextBlock content={item.Content} />
+          <div className="">
+            <RichTextBlock Content={item.Content} />
           </div>
         </motion.div>
       ))}

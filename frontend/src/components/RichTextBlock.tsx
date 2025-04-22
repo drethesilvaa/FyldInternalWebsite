@@ -3,14 +3,14 @@ import parse, { DOMNode, Element, domToReact } from "html-react-parser";
 import { parseStyle } from "@/util/parseStyle";
 
 interface RichTextRendererProps {
-  content: string;
+  Content: string;
   configs?: {
     paragraph?: string;
   };
 }
 
 export const RichTextBlock: React.FC<RichTextRendererProps> = ({
-  content,
+  Content,
   configs,
 }) => {
   const options = {
@@ -97,11 +97,23 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
                 {domToReact(children as DOMNode[], options)}{" "}
               </a>
             );
+          case "figure":
+            return (
+              <figure
+                style={{
+                  ...parseStyle(attribs?.style),
+                  margin: "0 auto",
+                }}
+                className={attribs?.class}
+              >
+                {domToReact(children as DOMNode[], options)}
+              </figure>
+            );
           case "img":
             return (
               <img
                 style={parseStyle(attribs?.style)}
-                className="shadow-sm object-cover h-full"
+                className="object-cover h-full "
                 src={attribs?.src}
                 alt={attribs?.alt || ""}
               />
@@ -112,6 +124,12 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
                 {domToReact(children as DOMNode[], options)}
               </ul>
             );
+          case "ol":
+            return (
+              <ol className="list-decimal pl-6 space-y-2 text-neutral">
+                {domToReact(children as DOMNode[], options)}
+              </ol>
+            );
           default:
             return undefined;
         }
@@ -119,5 +137,9 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
     },
   };
 
-  return <>{parse(content, options)};</>;
+  if (!Content) return "";
+
+  const cleaned = Content.replace(/&nbsp;/g, "").replace(/\u00A0/g, "");
+
+  return <>{parse(cleaned, options)}</>;
 };

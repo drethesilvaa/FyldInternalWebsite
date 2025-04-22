@@ -39,7 +39,7 @@ export const Accordion = ({ items }: AccordionProps) => {
             {item.Titulo}
           </div>
           <div className="collapse-content text-sm text-neutral">
-            <RichTextBlock content={item.content} />
+            <RichTextBlock Content={item.content} />
           </div>
         </motion.div>
       ))}
