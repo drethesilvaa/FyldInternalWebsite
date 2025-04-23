@@ -74,6 +74,14 @@ const ACCORDION = gql`
   }
 `;
 
+const SPACER = gql`
+  fragment SpacerComponent on ComponentUiSpacer {
+    id
+    tamanho
+    __typename
+  }
+`;
+
 const ERROR_FRAGMENT = gql`
   fragment ErrorFragment on Error {
     code
@@ -88,6 +96,7 @@ export const GET_HOME_DATA = gql`
   ${CARDS}
   ${CARD_ITEM}
   ${ACCORDION}
+  ${SPACER}
   ${ERROR_FRAGMENT}
 
   query HomeData {
@@ -108,6 +117,7 @@ export const GET_HOME_DATA = gql`
         ...Cards
         ...CardItem
         ...Accordion
+        ...SpacerComponent
         ...ErrorFragment
       }
       TyFyld {
@@ -117,6 +127,7 @@ export const GET_HOME_DATA = gql`
         ...Cards
         ...CardItem
         ...Accordion
+        ...SpacerComponent
         ...ErrorFragment
       }
       ParteDaFyld {

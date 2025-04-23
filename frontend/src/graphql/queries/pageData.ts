@@ -16,6 +16,12 @@ export const GET_PAGE_DATA = gql`
     __typename
   }
 
+  fragment SpacerComponent on ComponentUiSpacer {
+    id
+    tamanho
+    __typename
+  }
+
   fragment Carousel on ComponentUiCarousel {
     id
     Slides
@@ -72,6 +78,7 @@ export const GET_PAGE_DATA = gql`
           ...Carousel
           ...Cards
           ...Accordion
+          ...SpacerComponent
           ...ErrorFragment
         }
       }
