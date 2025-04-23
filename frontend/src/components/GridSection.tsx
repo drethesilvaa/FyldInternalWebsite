@@ -47,9 +47,7 @@ export const GridSection = ({ Colunas, Item }: GridSectionProps) => {
             delay: index * 0.4, // ⏱️ Add staggered delay
           }}
         >
-          <div className="">
-            <RichTextBlock Content={item.Content} />
-          </div>
+          <RichTextBlock Content={item.Content} />
         </motion.div>
       ))}
     </div>

@@ -126,7 +126,7 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
             );
           case "ol":
             return (
-              <ol className="list-decimal pl-6 space-y-2 text-neutral">
+              <ol className="list-decimal marker:font-bold pl-6 space-y-2 text-neutral">
                 {domToReact(children as DOMNode[], options)}
               </ol>
             );
