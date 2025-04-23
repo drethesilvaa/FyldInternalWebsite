@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_spacers",
+  "info": {
+    "displayName": "spacer",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "tamanho": {
+      "type": "enumeration",
+      "enum": [
+        "px12",
+        "px16",
+        "px24",
+        "px32",
+        "px48",
+        "px64",
+        "px96",
+        "px128"
+      ]
+    }
+  }
+}

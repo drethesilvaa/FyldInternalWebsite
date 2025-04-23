@@ -32,7 +32,8 @@
         "ui.rich-text-block",
         "ui.grid-section",
         "ui.carousel",
-        "ui.cards"
+        "ui.cards",
+        "ui.spacer"
       ],
       "required": false
     },

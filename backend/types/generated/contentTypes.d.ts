@@ -430,6 +430,7 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
         'ui.cards',
         'ui.card-item',
         'ui.accordion',
+        'ui.spacer',
       ]
     > &
       Schema.Attribute.Required;
@@ -452,6 +453,7 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
         'ui.cards',
         'ui.card-item',
         'ui.accordion',
+        'ui.spacer',
       ]
     > &
       Schema.Attribute.Required;
@@ -481,6 +483,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'ui.grid-section',
         'ui.carousel',
         'ui.cards',
+        'ui.spacer',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;

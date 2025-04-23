@@ -26,6 +26,7 @@ export const Footer = () => {
     size: 40,
     color: "var(--color-neutral)",
   };
+  
 
   const renderSocialLink = (socialMedia: SocialMedias, link: string) => {
     switch (socialMedia) {
@@ -72,7 +73,7 @@ export const Footer = () => {
           configs={{ paragraph: "text-center text-neutral" }}
         />
 
-        <div className="flex gap-4 items-center justify-center mt-10">
+        <div className="flex gap-4 items-center justify-center mt-10 mt-">
           {footer?.SocialLinks &&
             footer.SocialLinks.map((social, index) => {
               const socialMediaEnum =

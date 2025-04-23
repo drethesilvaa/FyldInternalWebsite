@@ -39,7 +39,8 @@
         "ui.carousel",
         "ui.cards",
         "ui.card-item",
-        "ui.accordion"
+        "ui.accordion",
+        "ui.spacer"
       ],
       "required": true
     },
@@ -51,17 +52,18 @@
         "ui.carousel",
         "ui.cards",
         "ui.card-item",
-        "ui.accordion"
+        "ui.accordion",
+        "ui.spacer"
       ],
       "required": true
     },
     "placeholderImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

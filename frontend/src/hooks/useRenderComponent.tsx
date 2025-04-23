@@ -4,6 +4,7 @@ import { GridSection } from "@/components/GridSection";
 import { Carousel } from "@/components/Carousel";
 import { Cards } from "@/components/Cards";
 import { Accordion } from "@/components/Accordion";
+import { Spacer } from "@/components/Spacer";
 
 interface ComponentData {
   Content?: any[];
@@ -25,6 +26,7 @@ const componentMapping: ComponentMapping = {
   ComponentUiCarousel: Carousel,
   ComponentUiCards: Cards,
   ComponentUiAccordion: Accordion,
+  ComponentUiSpacer: Spacer,
 };
 
 export const useRenderComponent = (

@@ -153,6 +153,19 @@ export interface UiRichTextBlock extends Struct.ComponentSchema {
   };
 }
 
+export interface UiSpacer extends Struct.ComponentSchema {
+  collectionName: 'components_ui_spacers';
+  info: {
+    displayName: 'spacer';
+    icon: 'crop';
+  };
+  attributes: {
+    tamanho: Schema.Attribute.Enumeration<
+      ['px12', 'px16', 'px24', 'px32', 'px48', 'px64', 'px96', 'px128']
+    >;
+  };
+}
+
 export interface UtilList extends Struct.ComponentSchema {
   collectionName: 'components_util_lists';
   info: {
@@ -222,6 +235,7 @@ declare module '@strapi/strapi' {
       'ui.carousel': UiCarousel;
       'ui.grid-section': UiGridSection;
       'ui.rich-text-block': UiRichTextBlock;
+      'ui.spacer': UiSpacer;
       'util.list': UtilList;
       'util.title-content': UtilTitleContent;
       'util.titulo': UtilTitulo;
