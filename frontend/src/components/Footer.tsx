@@ -68,14 +68,13 @@ export const Footer = () => {
     <footer className="mt-20 bg-[#CFEAE1] py-14 text-center">
       <div className="custom-container">
         <RichTextBlock
-          content={footer?.address || ""}
+          Content={footer?.address || ""}
           configs={{ paragraph: "text-center text-neutral" }}
         />
 
         <div className="flex gap-4 items-center justify-center mt-10">
           {footer?.SocialLinks &&
             footer.SocialLinks.map((social, index) => {
-              // Ensure social.SocialMedia is a valid enum value by casting the string to SocialMedias
               const socialMediaEnum =
                 SocialMedias[social.SocialMedia as keyof typeof SocialMedias];
 
@@ -86,7 +85,7 @@ export const Footer = () => {
                   </div>
                 );
               }
-              return null; // In case an invalid value is found
+              return null; 
             })}
         </div>
 
