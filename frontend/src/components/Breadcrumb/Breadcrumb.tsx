@@ -27,7 +27,7 @@ export default function Breadcrumb() {
 
   return (
     <div className="text-sm breadcrumbs bg-[var(--color-secondary)]">
-      <ul className="custom-container text-base">
+      <ul className="custom-container text-white">
         <li>
           <Link href="/">Home</Link>
         </li>
