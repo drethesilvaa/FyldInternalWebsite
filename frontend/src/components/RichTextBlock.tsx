@@ -74,7 +74,15 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
                 {domToReact(children as DOMNode[], options)}{" "}
               </h6>
             );
-          case "p":
+          case "p": {
+            const parent = (domNode as any).parent as Element | undefined;
+            console.log(parent?.name);
+            const inListItem = parent?.name === "li";
+
+            if (inListItem) {
+              return <>{domToReact(children as DOMNode[], options)}</>;
+            }
+
             return (
               <p
                 className={
@@ -83,9 +91,10 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
                 }
                 style={parseStyle(attribs?.style)}
               >
-                {domToReact(children as DOMNode[], options)}{" "}
+                {domToReact(children as DOMNode[], options)}
               </p>
             );
+          }
           case "a":
             return (
               <a
@@ -124,11 +133,25 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
                 {domToReact(children as DOMNode[], options)}
               </ul>
             );
-          case "ol":
+          case "ol": {
             return (
-              <ol className="list-decimal marker:font-bold pl-6 space-y-2 text-neutral">
+              <ol
+                style={{
+                  ...parseStyle(attribs?.style),
+                }}
+                className="pl-6 space-y-2 text-neutral marker:font-bold"
+              >
                 {domToReact(children as DOMNode[], options)}
               </ol>
+            );
+          }
+          case "table":
+            return (
+              <div className="overflow-x-auto rounded-box border border-base-content/5 bg-base-100">
+                <table className={`table text-neutral`}>
+                  {domToReact(children as DOMNode[], options)}
+                </table>
+              </div>
             );
           default:
             return undefined;

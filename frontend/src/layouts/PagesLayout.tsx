@@ -26,7 +26,7 @@ export default function PagesLayout({
         <div className="relative">
           <img
             src={`${banner?.url}`}
-            className="object-cover aspect-[12/1] brightness-50"
+            className="object-cover aspect-[12/1] brightness-50 max-h-40"
             alt={banner?.alternativeText}
           />
         </div>
@@ -38,7 +38,7 @@ export default function PagesLayout({
             {title}
           </h2>
         )}
-        <div className="mt-5">{children}</div>
+        <div className="mt-5 overflow-auto">{children}</div>
       </div>
       <Footer />
     </>

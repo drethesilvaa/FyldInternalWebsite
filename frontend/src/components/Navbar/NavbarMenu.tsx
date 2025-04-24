@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useResponsiveNavbarMenu } from "@/hooks/navbar/useResponsiveNavbarMenu";
 import { motion } from "framer-motion";
 import { itemVariants, listVariants } from "./constants";
+import { useEffect } from "react";
 
 const RenderMenu = ({
   parentPage,
@@ -15,7 +16,7 @@ const RenderMenu = ({
   pages: Page[];
   currentPath?: string;
 }) => {
-  const childPages = pages?.filter(
+  const childPages = pages.filter(
     (page) => page.ParentPage?.slug === parentPage?.slug
   );
 
@@ -25,19 +26,27 @@ const RenderMenu = ({
 
   if (childPages.length === 0) {
     return (
-      <motion.li key={parentPage?.id} variants={itemVariants}>
+      <motion.li key={parentPage!.id} variants={itemVariants}>
         <Link href={`/${fullPath}`} className="text-nowrap">
-          {parentPage?.Title}
+          {parentPage!.Title}
         </Link>
       </motion.li>
     );
   }
 
   return (
-    <motion.li key={parentPage?.id} variants={itemVariants}>
-      <details>
-        <summary className="text-nowrap">{parentPage?.Title}</summary>
-        <ul className="menu bg-primary rounded-box z-50">
+    <motion.li key={parentPage!.id} variants={itemVariants}>
+      <details className="group">
+        <summary className="flex items-center justify-between cursor-pointer text-nowrap">
+          <Link
+            href={`/${fullPath}`}
+            onClick={(e) => e.stopPropagation()}
+            className="flex-1"
+          >
+            {parentPage!.Title}
+          </Link>
+        </summary>
+        <ul className="menu bg-primary rounded-box z-50 mt-2">
           {childPages.map((page) => (
             <RenderMenu
               key={page.id}
