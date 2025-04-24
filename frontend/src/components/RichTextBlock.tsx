@@ -76,13 +76,24 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
             );
           case "p": {
             const parent = (domNode as any).parent as Element | undefined;
-            console.log(parent?.name);
             const inListItem = parent?.name === "li";
 
-            if (inListItem) {
-              return <>{domToReact(children as DOMNode[], options)}</>;
+            const childNodes = children as DOMNode[];
+
+            const hasContent = childNodes.some((node) => {
+              if (node.type !== "text") return true;
+              const text = (node as any).data as string;
+              return text.trim().length > 0;
+            });
+
+            if (!hasContent) {
+              return <br />;
             }
 
+            const inner = domToReact(childNodes, options);
+            if (inListItem) {
+              return <>{inner}</>;
+            }
             return (
               <p
                 className={
@@ -91,7 +102,7 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
                 }
                 style={parseStyle(attribs?.style)}
               >
-                {domToReact(children as DOMNode[], options)}
+                {inner}
               </p>
             );
           }
@@ -134,11 +145,12 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
               </ul>
             );
           case "ol": {
+            const listStart = attribs?.start ? parseInt(attribs.start, 10) : 1;
+
             return (
               <ol
-                style={{
-                  ...parseStyle(attribs?.style),
-                }}
+                start={listStart}
+                style={parseStyle(attribs?.style)}
                 className="pl-6 space-y-2 text-neutral marker:font-bold"
               >
                 {domToReact(children as DOMNode[], options)}
