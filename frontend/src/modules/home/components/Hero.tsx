@@ -10,6 +10,7 @@ import {
   FrameCorners,
 } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
+import { strapiUrl } from "@/app/layout";
 
 interface Props {
   videoUrl: string;
@@ -82,7 +83,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
               >
                 <Image
-                  src={`${logo?.url}`}
+                  src={`${strapiUrl}${logo?.url}`}
                   alt={logo?.alt || ""}
                   width={600}
                   height={111}

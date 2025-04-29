@@ -1,4 +1,5 @@
 "use client";
+import { strapiUrl } from "@/app/layout";
 import { Footer, useFooterData } from "@/hooks/footer/useFooterData";
 import { useNavbarData } from "@/hooks/navbar/useNavbarData";
 import React, { createContext, useState, useContext, ReactNode } from "react";
@@ -35,9 +36,7 @@ export const PagesProvider = ({ children }: PagesProviderProps) => {
         isLoading: isLoadingNavbar,
         footer: footer || null,
         isLoadingFooter,
-        fyldIcon:
-          `${pages?.home.FyldIcon?.url}` ||
-          "",
+        fyldIcon: `${strapiUrl}${pages?.home.FyldIcon?.url}` || "",
       }}
     >
       {children}

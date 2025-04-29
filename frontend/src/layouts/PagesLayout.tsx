@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import Image, { StaticImageData } from "next/image";
 import PageLoader from "./PageLoader";
+import { strapiUrl } from "@/app/layout";
 
 export default function PagesLayout({
   children,
@@ -25,7 +26,7 @@ export default function PagesLayout({
       {banner?.url && (
         <div className="relative">
           <img
-            src={`${banner?.url}`}
+            src={`${strapiUrl}${banner?.url}`}
             className="object-cover aspect-[12/1] brightness-50 max-h-40"
             alt={banner?.alternativeText}
           />

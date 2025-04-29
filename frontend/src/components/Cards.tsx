@@ -3,6 +3,7 @@
 import { AspectRatio } from "@/data/AspectRatio";
 import { RichTextBlock } from "./RichTextBlock";
 import { motion } from "framer-motion";
+import { strapiUrl } from "@/app/layout";
 
 interface CardsProps {
   Horizontal: boolean;
@@ -39,6 +40,7 @@ const cardVariants = {
 };
 
 export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
+
   const colVariants: { [key: number]: string } = {
     1: "grid-cols-1 lg:grid-cols-1",
     2: "grid-cols-1 lg:grid-cols-2",
@@ -80,7 +82,7 @@ export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
           >
             <img
               className="object-cover w-full h-full"
-              src={`${item.Imagem?.url}`}
+              src={`${strapiUrl}${item.Imagem?.url}`}
               alt={item.Imagem?.alt}
             />
           </figure>

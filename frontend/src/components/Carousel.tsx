@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import { motion } from "framer-motion";
 import { AspectRatio } from "@/data/AspectRatio";
 import { ratioClass } from "./Cards";
+import { strapiUrl } from "@/app/layout";
 
 interface CarouselProps {
   Items: {
@@ -65,7 +66,7 @@ export const Carousel = ({ Items, Slides }: CarouselProps) => {
             >
               <img
                 style={{ margin: "0 auto" }}
-                src={`${item.Imagem?.url}`}
+                src={`${strapiUrl}${item.Imagem?.url}`}
                 alt={item.Imagem?.alt}
                 className={`object-cover ${
                   ratioClass

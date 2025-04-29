@@ -1,6 +1,7 @@
 import React from "react";
 import parse, { DOMNode, Element, domToReact } from "html-react-parser";
 import { parseStyle } from "@/util/parseStyle";
+import { strapiUrl } from "@/app/layout";
 
 interface RichTextRendererProps {
   Content: string;
@@ -134,7 +135,7 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
               <img
                 style={parseStyle(attribs?.style)}
                 className="object-cover h-full "
-                src={attribs?.src}
+                src={`${strapiUrl}${attribs?.src}`}
                 alt={attribs?.alt || ""}
               />
             );

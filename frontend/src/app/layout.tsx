@@ -20,6 +20,8 @@ export const metadata: Metadata = {
     "Para manter as coisas simples, aqui, deixamos-te um perspetiva geral das regras que nos guiam dentro e fora de campo.",
 };
 
+export const strapiUrl = process.env.NEXT_PUBLIC_STRAPI_URL;
+
 export default function RootLayout({
   children,
 }: Readonly<{
