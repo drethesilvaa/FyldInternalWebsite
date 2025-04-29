@@ -33,7 +33,6 @@ export default function Page({ params }: PageProps) {
           {renderComponent(section, section.__typename)}
         </Fragment>
       ))}
-      <div></div>
     </PagesLayout>
   );
 }

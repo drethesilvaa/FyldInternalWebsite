@@ -38,7 +38,7 @@ export default function PagesLayout({
             {title}
           </h2>
         )}
-        <div className="mt-5 overflow-auto">{children}</div>
+        <div className="mt-5">{children}</div>
       </div>
       <Footer />
     </>

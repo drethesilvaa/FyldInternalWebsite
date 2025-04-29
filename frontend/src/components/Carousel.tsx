@@ -4,11 +4,14 @@ import { RichTextBlock } from "./RichTextBlock";
 import "swiper/css";
 import "swiper/css/pagination";
 import { motion } from "framer-motion";
+import { AspectRatio } from "@/data/AspectRatio";
+import { ratioClass } from "./Cards";
 
 interface CarouselProps {
   Items: {
     Content: string;
     Imagem: { url: string; alt: string } | null;
+    aspectRatio: AspectRatio;
   }[];
   Slides: number;
 }
@@ -36,6 +39,9 @@ export const Carousel = ({ Items, Slides }: CarouselProps) => {
         modules={[Pagination]}
         className="mySwiper pb-10"
         breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
           640: {
             slidesPerView: Slides > 2 ? 2 : Slides,
           },
@@ -61,6 +67,11 @@ export const Carousel = ({ Items, Slides }: CarouselProps) => {
                 style={{ margin: "0 auto" }}
                 src={`${item.Imagem?.url}`}
                 alt={item.Imagem?.alt}
+                className={`object-cover ${
+                  ratioClass
+                    ? ratioClass[item.aspectRatio]
+                    : ratioClass[AspectRatio.FiveByFour]
+                }`}
               />
               {item.Content && <RichTextBlock Content={item.Content} />}
             </motion.div>

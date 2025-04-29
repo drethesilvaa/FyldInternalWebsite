@@ -109,7 +109,7 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
           case "a":
             return (
               <a
-                className="link link-primary"
+                className="link link-secondary"
                 href={attribs?.href}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -157,6 +157,12 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
               </ol>
             );
           }
+          case "thead":
+            return (
+              <thead className="bg-[#e8f6e3] text-neutral">
+                {domToReact(children as DOMNode[], options)}
+              </thead>
+            );
           case "table":
             return (
               <div className="overflow-x-auto rounded-box border border-base-content/5 bg-base-100">

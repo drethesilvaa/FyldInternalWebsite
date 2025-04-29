@@ -30,6 +30,7 @@ export const GET_PAGE_DATA = gql`
       Imagem {
         url
       }
+      aspectRatio
     }
     __typename
   }

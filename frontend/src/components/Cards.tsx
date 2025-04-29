@@ -15,7 +15,7 @@ interface CardsProps {
   id: number;
 }
 
-const ratioClass: Record<AspectRatio, string> = {
+export const ratioClass: Record<AspectRatio, string> = {
   [AspectRatio.FiveByFour]: "aspect-[5/4]",
   [AspectRatio.FourByThree]: "aspect-[4/3]",
   [AspectRatio.OneByOne]: "aspect-square",

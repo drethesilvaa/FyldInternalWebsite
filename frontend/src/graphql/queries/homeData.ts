@@ -29,6 +29,7 @@ const CAROUSEL = gql`
       Imagem {
         url
       }
+      aspectRatio
     }
     __typename
   }
