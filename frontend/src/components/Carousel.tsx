@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import { motion } from "framer-motion";
 import { AspectRatio } from "@/data/AspectRatio";
 import { ratioClass } from "./Cards";
-import { strapiUrl } from "@/app/layout";
+import { strapiUrl } from "@/data/strapiUrl";
 
 interface CarouselProps {
   Items: {

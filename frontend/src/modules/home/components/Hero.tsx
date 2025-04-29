@@ -10,7 +10,7 @@ import {
   FrameCorners,
 } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
-import { strapiUrl } from "@/app/layout";
+import { strapiUrl } from "@/data/strapiUrl";
 
 interface Props {
   videoUrl: string;

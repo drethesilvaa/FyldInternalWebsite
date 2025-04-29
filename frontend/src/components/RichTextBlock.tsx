@@ -1,7 +1,7 @@
 import React from "react";
 import parse, { DOMNode, Element, domToReact } from "html-react-parser";
 import { parseStyle } from "@/util/parseStyle";
-import { strapiUrl } from "@/app/layout";
+import { strapiUrl } from "@/data/strapiUrl";
 
 interface RichTextRendererProps {
   Content: string;

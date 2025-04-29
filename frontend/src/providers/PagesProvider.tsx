@@ -1,5 +1,5 @@
 "use client";
-import { strapiUrl } from "@/app/layout";
+import { strapiUrl } from "@/data/strapiUrl";
 import { Footer, useFooterData } from "@/hooks/footer/useFooterData";
 import { useNavbarData } from "@/hooks/navbar/useNavbarData";
 import React, { createContext, useState, useContext, ReactNode } from "react";

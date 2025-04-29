@@ -3,7 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import Image, { StaticImageData } from "next/image";
 import PageLoader from "./PageLoader";
-import { strapiUrl } from "@/app/layout";
+import { strapiUrl } from "@/data/strapiUrl";
 
 export default function PagesLayout({
   children,
