@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import { Footer } from "@/components/Footer";
 import { useRenderComponent } from "@/hooks/useRenderComponent";
 import PageLoader from "@/layouts/PageLoader";
+import { strapiUrl } from "@/data/strapiUrl";
 
 export const HomePage = () => {
   const { data: home, error, isLoading } = useHomeData();
@@ -20,8 +21,8 @@ export const HomePage = () => {
 
       <Hero
         videoUrl={home?.VideoLink}
-        bannerImage={home?.placeholderImage}
-        logo={home?.FyldIcon}
+        bannerImage={`${strapiUrl}${home?.placeholderImage}`}
+        logo={`${strapiUrl}${home?.FyldIcon}`}
       />
       <Navbar />
 
