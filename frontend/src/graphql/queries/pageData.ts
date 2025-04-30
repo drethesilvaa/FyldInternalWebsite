@@ -6,7 +6,7 @@ export const GET_PAGE_DATA = gql`
     Content
     __typename
   }
-  fragment GridSection on ComponentUiGridSection {
+  fragment GridSectionV2 on ComponentUiGridSection {
     id
     Colunas
     Item {
@@ -35,7 +35,7 @@ export const GET_PAGE_DATA = gql`
     __typename
   }
 
-  fragment Cards on ComponentUiCards {
+  fragment CardsV2 on ComponentUiCards {
     id
     Horizontal
     colunas
@@ -75,9 +75,9 @@ export const GET_PAGE_DATA = gql`
         slug
         Content {
           ...RichTextBlock
-          ...GridSection
+          ...GridSectionV2
           ...Carousel
-          ...Cards
+          ...CardsV2
           ...Accordion
           ...SpacerComponent
           ...ErrorFragment

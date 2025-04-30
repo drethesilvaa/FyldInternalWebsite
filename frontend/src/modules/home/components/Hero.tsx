@@ -63,7 +63,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
         style={
           !playing
             ? {
-                backgroundImage: `url(${bannerImage?.url})`,
+                backgroundImage: `url(${strapiUrl}${bannerImage?.url})`,
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
               }
             : {}

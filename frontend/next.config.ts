@@ -1,16 +1,29 @@
-import type { NextConfig } from "next";
+import { type NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: [
-      "localhost",
-      "127.0.0.1",
-      "fearless-cats-2a14435633.media.strapiapp.com",
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "localhost",
+        port: "", 
+        pathname: "/**", 
+      },
+      {
+        protocol: "http",
+        hostname: "127.0.0.1",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "fyldinternalwebsitestrapi.onrender.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
 };
