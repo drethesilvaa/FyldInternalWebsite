@@ -15,6 +15,10 @@ module.exports = ({ env }) => {
         ssl: { rejectUnauthorized: false },
       },
       debug: false,
+      pool: {
+        min: 2,
+        max: 10,
+      },
     },
   };
 };
