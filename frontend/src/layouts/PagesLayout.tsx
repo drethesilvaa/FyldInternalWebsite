@@ -27,7 +27,7 @@ export default function PagesLayout({
         <div className="relative">
           <img
             src={`${strapiUrl}${banner?.url}`}
-            className="object-cover aspect-[12/1] brightness-50 max-h-40"
+            className="object-cover aspect-[12/1] brightness-50 max-h-40 w-full"
             alt={banner?.alternativeText}
           />
         </div>

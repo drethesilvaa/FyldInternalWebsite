@@ -17,6 +17,6 @@ export const useNavbarData = () => {
     queryKey: ["Nav Data"],
     queryFn: () => fetchData(),
     staleTime: 1000 * 60 * 5,
-    retry: false,
+    retry: 2,
   });
 };
