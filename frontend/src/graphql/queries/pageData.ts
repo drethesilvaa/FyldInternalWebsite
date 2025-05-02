@@ -39,6 +39,7 @@ export const GET_PAGE_DATA = gql`
     id
     Horizontal
     colunas
+    padding
     cardsItems: Items {
       Content
       aspectRatio

@@ -40,6 +40,7 @@ const CARDS = gql`
     id
     Horizontal
     colunas
+    padding
     cardsItems: Items {
       Content
       aspectRatio

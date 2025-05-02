@@ -89,6 +89,9 @@ export interface UiCards extends Struct.ComponentSchema {
       Schema.Attribute.DefaultTo<1>;
     Horizontal: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     Items: Schema.Attribute.Component<'ui.card-item', true>;
+    padding: Schema.Attribute.Enumeration<
+      ['px12', 'px16', 'px24', 'px32', 'px48', 'px64', 'px96', 'px128']
+    >;
   };
 }
 

@@ -8,6 +8,7 @@ import { strapiUrl } from "@/data/strapiUrl";
 interface CardsProps {
   Horizontal: boolean;
   colunas: number;
+  padding: PaddingSize;
   cardsItems: {
     Content: string;
     Imagem: { url: string; alt: string } | null;
@@ -15,6 +16,27 @@ interface CardsProps {
   }[];
   id: number;
 }
+
+type PaddingSize =
+  | "px12"
+  | "px16"
+  | "px24"
+  | "px32"
+  | "px48"
+  | "px64"
+  | "px96"
+  | "px128";
+
+const paddingMap: Record<PaddingSize, string> = {
+  px12: "lg:px-3",
+  px16: "lg:px-4",
+  px24: "lg:px-6",
+  px32: "lg:px-8",
+  px48: "lg:px-12",
+  px64: "lg:px-16",
+  px96: "lg:px-24",
+  px128: "lg:px-32",
+};
 
 export const ratioClass: Record<AspectRatio, string> = {
   [AspectRatio.FiveByFour]: "aspect-[5/4]",
@@ -39,7 +61,12 @@ const cardVariants = {
   }),
 };
 
-export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
+export const Cards = ({
+  Horizontal,
+  colunas,
+  padding,
+  cardsItems,
+}: CardsProps) => {
   const colVariants: { [key: number]: string } = {
     1: "grid-cols-1 lg:grid-cols-1",
     2: "grid-cols-1 lg:grid-cols-2",
@@ -56,7 +83,11 @@ export const Cards = ({ Horizontal, colunas, cardsItems }: CardsProps) => {
   };
 
   return (
-    <div className={`grid gap-4 ${colVariants[colunas]} my-6 `}>
+    <div
+      className={`grid gap-4 ${colVariants[colunas]} ${
+        padding ? paddingMap[padding] : ""
+      } my-6`}
+    >
       {cardsItems.map((item, index) => (
         <motion.div
           key={index}

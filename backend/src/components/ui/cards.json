@@ -23,6 +23,19 @@
       "default": 1,
       "min": 1,
       "max": 6
+    },
+    "padding": {
+      "type": "enumeration",
+      "enum": [
+        "px12",
+        "px16",
+        "px24",
+        "px32",
+        "px48",
+        "px64",
+        "px96",
+        "px128"
+      ]
     }
   }
 }
