@@ -5,16 +5,22 @@ import Link from "next/link";
 import { useResponsiveNavbarMenu } from "@/hooks/navbar/useResponsiveNavbarMenu";
 import { motion } from "framer-motion";
 import { itemVariants, listVariants } from "./constants";
-import { useEffect } from "react";
+import { useState } from "react";
 
 const RenderMenu = ({
   parentPage,
   pages,
   currentPath = "",
+  level = 0,
+  openMenus,
+  setOpenMenus,
 }: {
   parentPage: Page | null;
   pages: Page[];
   currentPath?: string;
+  level: number;
+  openMenus: Record<number, string | null>;
+  setOpenMenus: (value: Record<number, string | null>) => void;
 }) => {
   const childPages = pages.filter(
     (page) => page.ParentPage?.slug === parentPage?.slug
@@ -23,6 +29,8 @@ const RenderMenu = ({
   const fullPath = currentPath
     ? `${currentPath}/${parentPage?.slug}`
     : parentPage?.slug;
+
+  const isOpen = openMenus[level] === parentPage?.id;
 
   if (childPages.length === 0) {
     return (
@@ -36,7 +44,26 @@ const RenderMenu = ({
 
   return (
     <motion.li key={parentPage!.id} variants={itemVariants}>
-      <details className="group">
+      <details
+        className="group"
+        open={isOpen}
+        onClick={(e) => {
+          e.stopPropagation();
+          e.preventDefault();
+
+          const newOpenMenus = { ...openMenus };
+
+          if (isOpen) {
+            for (let i = level; i <= Object.keys(newOpenMenus).length; i++) {
+              delete newOpenMenus[i];
+            }
+          } else {
+            newOpenMenus[level] = parentPage!.id;
+          }
+
+          setOpenMenus(newOpenMenus);
+        }}
+      >
         <summary className="flex items-center justify-between cursor-pointer text-nowrap">
           <Link
             href={`/${fullPath}`}
@@ -53,6 +80,9 @@ const RenderMenu = ({
               parentPage={page}
               pages={pages}
               currentPath={fullPath}
+              level={level + 1}
+              openMenus={openMenus}
+              setOpenMenus={setOpenMenus}
             />
           ))}
         </ul>
@@ -68,7 +98,9 @@ const NavbarMenu = () => {
   const { isDesktop, containerRef, visibleItems, overflowItems } =
     useResponsiveNavbarMenu(pages, pathName);
 
-  if (isLoadingNavbar) return <div className="skeleton  h-14 w-full"></div>;
+  const [openMenus, setOpenMenus] = useState<Record<number, string | null>>({});
+
+  if (isLoadingNavbar) return <div className="skeleton h-14 w-full"></div>;
 
   const parentPages = pages?.filter((page) => page.ParentPage === null) || [];
 
@@ -96,6 +128,9 @@ const NavbarMenu = () => {
                   parentPage={page}
                   pages={pages || []}
                   currentPath="page"
+                  level={0}
+                  openMenus={openMenus}
+                  setOpenMenus={setOpenMenus}
                 />
               ))}
 
@@ -110,6 +145,9 @@ const NavbarMenu = () => {
                           parentPage={page}
                           pages={pages || []}
                           currentPath="page"
+                          level={0}
+                          openMenus={openMenus}
+                          setOpenMenus={setOpenMenus}
                         />
                       ))}
                     </ul>
@@ -125,6 +163,9 @@ const NavbarMenu = () => {
                   parentPage={page}
                   pages={pages || []}
                   currentPath="page"
+                  level={0}
+                  openMenus={openMenus}
+                  setOpenMenus={setOpenMenus}
                 />
               ))}
             </>
@@ -134,5 +175,4 @@ const NavbarMenu = () => {
     </nav>
   );
 };
-
 export default NavbarMenu;
