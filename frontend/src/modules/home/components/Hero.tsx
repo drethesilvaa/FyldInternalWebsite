@@ -82,12 +82,10 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
               >
-                <Image
-                  src={`${strapiUrl}${logo?.url}`}
-                  alt={logo?.alt || ""}
-                  width={600}
-                  height={111}
-                  className="object-cover h-full rounded-md"
+                <img
+                  src={logo?.url || ""}
+                  alt={logo?.alt || "Logo"}
+                  className="w-[600px] object-cover h-full rounded-md"
                 />
               </motion.div>
             )}
