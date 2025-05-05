@@ -100,7 +100,8 @@ const NavbarMenu = () => {
 
   const [openMenus, setOpenMenus] = useState<Record<number, string | null>>({});
 
-  if (isLoadingNavbar) return <div className="skeleton h-14 w-full"></div>;
+  if (isLoadingNavbar)
+    return <div className="skeleton bg-primary h-14 w-full"></div>;
 
   const parentPages = pages?.filter((page) => page.ParentPage === null) || [];
 

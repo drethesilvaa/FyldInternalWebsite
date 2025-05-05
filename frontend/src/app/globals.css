@@ -112,3 +112,7 @@ button {
 .custom-container {
   @apply mx-auto w-[90%];
 }
+
+.menu :where(li ul):before{
+  background-color:white
+}
