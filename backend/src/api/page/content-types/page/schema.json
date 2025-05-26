@@ -34,7 +34,8 @@
         "ui.carousel",
         "ui.cards",
         "ui.spacer",
-        "ui.links-group"
+        "ui.links-group",
+        "ui.tree"
       ],
       "required": false
     },

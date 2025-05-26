@@ -194,6 +194,17 @@ export interface UiSpacer extends Struct.ComponentSchema {
   };
 }
 
+export interface UiTree extends Struct.ComponentSchema {
+  collectionName: 'components_ui_trees';
+  info: {
+    displayName: 'Tree';
+    icon: 'apps';
+  };
+  attributes: {
+    data: Schema.Attribute.JSON & Schema.Attribute.Required;
+  };
+}
+
 export interface UtilList extends Struct.ComponentSchema {
   collectionName: 'components_util_lists';
   info: {
@@ -206,6 +217,22 @@ export interface UtilList extends Struct.ComponentSchema {
       ['Website', 'Instagram', 'Facebook', 'Spotify', 'Linkedin']
     > &
       Schema.Attribute.Required;
+  };
+}
+
+export interface UtilPerson extends Struct.ComponentSchema {
+  collectionName: 'components_util_people';
+  info: {
+    description: '';
+    displayName: 'Person';
+    icon: 'user';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images'>;
+    name: Schema.Attribute.String & Schema.Attribute.Required;
+    role: Schema.Attribute.String & Schema.Attribute.Required;
+    type: Schema.Attribute.Enumeration<['person', 'department', 'title']> &
+      Schema.Attribute.DefaultTo<'person'>;
   };
 }
 
@@ -266,7 +293,9 @@ declare module '@strapi/strapi' {
       'ui.links-group': UiLinksGroup;
       'ui.rich-text-block': UiRichTextBlock;
       'ui.spacer': UiSpacer;
+      'ui.tree': UiTree;
       'util.list': UtilList;
+      'util.person': UtilPerson;
       'util.title-content': UtilTitleContent;
       'util.titulo': UtilTitulo;
     }

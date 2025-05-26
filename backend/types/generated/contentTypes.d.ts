@@ -485,6 +485,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'ui.cards',
         'ui.spacer',
         'ui.links-group',
+        'ui.tree',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;

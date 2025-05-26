@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_util_people",
+  "info": {
+    "displayName": "Person",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "person",
+        "department",
+        "title"
+      ],
+      "default": "person"
+    }
+  }
+}

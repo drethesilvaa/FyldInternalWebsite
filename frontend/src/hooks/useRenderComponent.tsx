@@ -6,6 +6,7 @@ import { Cards } from "@/components/Cards";
 import { Accordion } from "@/components/Accordion";
 import { Spacer } from "@/components/Spacer";
 import { GroupLinks } from "@/components/GroupLinks";
+import OrgTree from "@/components/OrgTree";
 
 interface ComponentData {
   Content?: any[];
@@ -28,7 +29,8 @@ const componentMapping: ComponentMapping = {
   ComponentUiCards: Cards,
   ComponentUiAccordion: Accordion,
   ComponentUiSpacer: Spacer,
-  ComponentUiLinksGroup: GroupLinks
+  ComponentUiLinksGroup: GroupLinks,
+  ComponentUiTree: OrgTree
 };
 
 export const useRenderComponent = (

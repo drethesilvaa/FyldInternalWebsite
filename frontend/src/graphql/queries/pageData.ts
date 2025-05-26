@@ -76,7 +76,13 @@ export const GET_PAGE_DATA = gql`
     }
     __typename
   }
-    
+
+  fragment Tree on ComponentUiTree {
+    id
+    data
+    __typename
+  }
+
   fragment ErrorFragment on Error {
     code
     message
@@ -100,6 +106,7 @@ export const GET_PAGE_DATA = gql`
           ...Accordion
           ...SpacerComponent
           ...LinksGroup
+          ...Tree
           ...ErrorFragment
         }
       }
