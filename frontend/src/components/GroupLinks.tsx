@@ -41,14 +41,14 @@ export const GroupLinks: React.FC<GroupLinkProps> = ({ links }) => {
 
 
 
-  return <div className="grid grid-cols-2 gap-4">
+  return <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
     {links.map((link, i) => (
       <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
         variants={cardVariants}
-        className="card lg:card-side bg-base-100 shadow-sm"
+        className="card lg:card-side bg-base-100 shadow-sm lg:max-h-52"
         key={i}
       >
         <figure className="aspect-video">
