@@ -138,6 +138,31 @@ export interface UiGridSection extends Struct.ComponentSchema {
   };
 }
 
+export interface UiLinks extends Struct.ComponentSchema {
+  collectionName: 'components_ui_links';
+  info: {
+    description: '';
+    displayName: 'Link';
+    icon: 'link';
+  };
+  attributes: {
+    linkTitle: Schema.Attribute.String & Schema.Attribute.Required;
+    page: Schema.Attribute.Relation<'oneToOne', 'api::page.page'>;
+  };
+}
+
+export interface UiLinksGroup extends Struct.ComponentSchema {
+  collectionName: 'components_ui_links_groups';
+  info: {
+    displayName: 'LinksGroup';
+    icon: 'link';
+  };
+  attributes: {
+    links: Schema.Attribute.Component<'ui.links', true> &
+      Schema.Attribute.Required;
+  };
+}
+
 export interface UiRichTextBlock extends Struct.ComponentSchema {
   collectionName: 'components_ui_rich_text_blocks';
   info: {
@@ -237,6 +262,8 @@ declare module '@strapi/strapi' {
       'ui.cards': UiCards;
       'ui.carousel': UiCarousel;
       'ui.grid-section': UiGridSection;
+      'ui.links': UiLinks;
+      'ui.links-group': UiLinksGroup;
       'ui.rich-text-block': UiRichTextBlock;
       'ui.spacer': UiSpacer;
       'util.list': UtilList;

@@ -59,6 +59,24 @@ export const GET_PAGE_DATA = gql`
     __typename
   }
 
+  fragment LinksGroup on ComponentUiLinksGroup {
+    id
+    links {
+      linkTitle
+      page {
+        slug
+        pageBanner {
+          alternativeText
+          url
+        }
+        ParentPage {
+          slug
+        }
+      }
+    }
+    __typename
+  }
+    
   fragment ErrorFragment on Error {
     code
     message
@@ -81,6 +99,7 @@ export const GET_PAGE_DATA = gql`
           ...CardsV2
           ...Accordion
           ...SpacerComponent
+          ...LinksGroup
           ...ErrorFragment
         }
       }

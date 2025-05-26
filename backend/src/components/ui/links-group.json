@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_links_groups",
+  "info": {
+    "displayName": "LinksGroup",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.links",
+      "required": true
+    }
+  }
+}

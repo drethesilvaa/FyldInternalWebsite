@@ -5,6 +5,7 @@ import { Carousel } from "@/components/Carousel";
 import { Cards } from "@/components/Cards";
 import { Accordion } from "@/components/Accordion";
 import { Spacer } from "@/components/Spacer";
+import { GroupLinks } from "@/components/GroupLinks";
 
 interface ComponentData {
   Content?: any[];
@@ -27,6 +28,7 @@ const componentMapping: ComponentMapping = {
   ComponentUiCards: Cards,
   ComponentUiAccordion: Accordion,
   ComponentUiSpacer: Spacer,
+  ComponentUiLinksGroup: GroupLinks
 };
 
 export const useRenderComponent = (

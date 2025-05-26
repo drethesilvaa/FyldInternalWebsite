@@ -33,7 +33,8 @@
         "ui.grid-section",
         "ui.carousel",
         "ui.cards",
-        "ui.spacer"
+        "ui.spacer",
+        "ui.links-group"
       ],
       "required": false
     },
