@@ -1,95 +1,112 @@
-import React from "react";
-import { Tree, TreeNode } from "react-organizational-chart";
+import React from 'react';
 
-interface PersonNode {
+export interface OrgPerson {
     label: string;
-    image: string;
-    role: string;
-    children?: TreeData[];
+    labelType?: string;
+    image?: string;
+    role?: string;
+    children?: OrgNode[];
 }
 
-interface GroupNode {
-    people: PersonNode[];
-    children?: TreeData[];
+export interface OrgGroup {
+    type?: 'group';
+    people?: OrgPerson[];
+    children?: OrgNode[];
+    label?: string;
+    labelType?: string;
+    role?: string;
 }
 
-interface BasicNode {
-    label: string;
-    children?: TreeData[];
+export type OrgNode = OrgPerson | OrgGroup;
+
+interface OrgChartProps {
+    data: OrgPerson;
 }
 
-type TreeData = PersonNode | GroupNode | BasicNode;
+const getTextFormat = (size: string) => {
+    switch (size) {
+        case "xx-large":
+            return "text-2xl font-semibold mx-auto bg-primary text-white md:w-1/3 p-2 rounded-sm uppercase"
+            break;
+        case "x-large":
+            return "text-xl bg-secondary p-1 rounded-xl mx-auto md:w-2/3 font-bold text-white"
+            break;
+        case "large":
+            return "text-lg font-semibold"
+            break;
 
-interface OrgTreeProps {
-    data: TreeData;
+        default:
+            return ""
+            break;
+    }
 }
 
-const isGroupNode = (node: TreeData): node is GroupNode => {
-    return (node as GroupNode).people !== undefined;
-};
+const getContainerFormat = (size: string) => {
+    switch (size) {
+        case "xx-large":
+            return "border-xx-large"
+            break;
+        case "x-large":
+            return "border-x-large"
+            break;
+        case "large":
+            return ""
+            break;
 
-const isPersonNode = (node: TreeData): node is PersonNode => {
-    return (node as PersonNode).image !== undefined && (node as PersonNode).role !== undefined;
-};
+        default:
+            return ""
+            break;
+    }
+}
 
-const renderPerson = (person: PersonNode) => (
-    <div style={{ textAlign: "center" }}>
-        <div>{person.label}</div>
-        <div style={{ fontSize: "0.75rem", color: "#555" }}>{person.role}</div>
+const PersonNode: React.FC<{ person: OrgPerson }> = ({ person }) => (
+    <div className="person-node">
+        <div className="info">
+            <strong>{person.label}</strong>
+            <div>{person.role}</div>
+        </div>
     </div>
 );
 
-// Recursive rendering
-const renderNode = (node: TreeData) => {
-    if (isGroupNode(node)) {
-        return (
-            <TreeNode
-                key={node.people.map((p) => p.label).join("-")}
-                label={
-                    <div className="flex gap-2 justify-center">
-                        {node.people.map((person) => renderPerson(person))}
+const OrgNodeComponent: React.FC<{ node: OrgNode }> = ({ node }) => {
+    const isPerson = 'label' in node && 'role' in node;
+
+    return (
+        <>
+            <div className={`org-node-container ${getContainerFormat(node.labelType || "")}`}>
+                {(!node.role || isPerson) && (
+                    <div className="org-node">
+
+                        {!node.role && <div className={`${getTextFormat(node.labelType || "")}`}>{node.label}</div>}
+                        {isPerson && <PersonNode person={node as OrgPerson} />}
+
                     </div>
-                }
-            >
-                {node.children?.map((child) => renderNode(child))}
-            </TreeNode>
-        );
-    }
+                )}
+                {'people' in node && node.people && (
+                    <div className="children-group ">
+                        {node.people.map((person, index) => (
+                            <OrgNodeComponent key={index} node={person} />
+                        ))}
+                    </div>
+                )}
 
-    if (isPersonNode(node)) {
-        return (
-            <TreeNode label={renderPerson(node)} key={node.label}>
-                {node.children?.map((child) => renderNode(child))}
-            </TreeNode>
-        );
-    }
-
-    return (
-        <TreeNode label={<div>{node.label}</div>} key={node.label}>
-            {node.children?.map((child) => renderNode(child))}
-        </TreeNode>
+                {'children' in node && node.children && (
+                    <div className="children-group ">
+                        {node.children.map((child, index) => (
+                            <OrgNodeComponent key={index} node={child} />
+                        ))}
+                    </div>
+                )}
+            </div>
+        </>
     );
 };
 
-
-
-
-const OrgTree: React.FC<OrgTreeProps> = ({ data }) => {
-    const topNode = isPersonNode(data) ? renderPerson(data) : <div>{data.label}</div>;
-
-    return (
-        <div className="overflow-auto">
-            <Tree
-                label={topNode}
-                lineWidth="2px"
-                lineColor="#ccc"
-                lineBorderRadius="4px"
-            >
-                {data.children?.map((child) => renderNode(child))}
-            </Tree>
-
-        </div>
-    );
-};
+const OrgTree: React.FC<OrgChartProps> = ({ data }) => (
+    <div className="org-chart-container">
+        <OrgNodeComponent node={data} />
+    </div>
+);
 
 export default OrgTree;
+
