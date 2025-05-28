@@ -83,7 +83,7 @@ const OrgNodeComponent: React.FC<{ node: OrgNode }> = ({ node }) => {
                     </div>
                 )}
                 {'people' in node && node.people && (
-                    <div className="children-group ">
+                    <div className="children-group">
                         {node.people.map((person, index) => (
                             <OrgNodeComponent key={index} node={person} />
                         ))}
@@ -91,7 +91,7 @@ const OrgNodeComponent: React.FC<{ node: OrgNode }> = ({ node }) => {
                 )}
 
                 {'children' in node && node.children && (
-                    <div className="children-group ">
+                    <div className="children-group">
                         {node.children.map((child, index) => (
                             <OrgNodeComponent key={index} node={child} />
                         ))}

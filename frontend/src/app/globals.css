@@ -125,7 +125,6 @@ button {
 
 .org-node {
   text-align: center;
-  margin: 10px;
 }
 
 .person-node {
@@ -151,10 +150,10 @@ button {
 
 .children-group {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
   margin-top: 12px;
+  flex-wrap: wrap;
 }
 
 .org-node-container {
@@ -188,4 +187,13 @@ button {
   pointer-events: none;   
   box-sizing: border-box;
   z-index: -1;              
+}
+
+.org-node-container.border-xx-large > .children-group{
+  flex-wrap: nowrap;
+
+}
+
+.org-node-container.border-xx-large > .children-group > .org-node-container.border-x-large > .children-group{
+  @apply md:flex-nowrap
 }
