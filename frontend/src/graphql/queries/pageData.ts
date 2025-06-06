@@ -100,6 +100,20 @@ export const GET_PAGE_DATA = gql`
     __typename
   }
 
+  fragment ContactCarroussel on ComponentUiContactsCarrousel {
+    __typename
+    title
+    contacts {
+      email
+      name
+      role
+      photo {
+        alternativeText
+        url
+      }
+    }
+  }
+
   fragment ErrorFragment on Error {
     code
     message
@@ -125,6 +139,7 @@ export const GET_PAGE_DATA = gql`
           ...LinksGroup
           ...Tree
           ...BentoGrid
+          ...ContactCarroussel
           ...ErrorFragment
         }
       }

@@ -487,6 +487,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'ui.links-group',
         'ui.tree',
         'ui.bento-grid',
+        'ui.contacts-carrousel',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;

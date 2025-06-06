@@ -8,6 +8,7 @@ import { Spacer } from "@/components/Spacer";
 import { GroupLinks } from "@/components/GroupLinks";
 import OrgTree from "@/components/OrgTree";
 import { BentoGrid } from "@/components/BentoGrid";
+import { ContactsCarrousel } from "@/components/ContactsCarrousel";
 
 interface ComponentData {
   Content?: any[];
@@ -32,7 +33,9 @@ const componentMapping: ComponentMapping = {
   ComponentUiSpacer: Spacer,
   ComponentUiLinksGroup: GroupLinks,
   ComponentUiTree: OrgTree,
-  ComponentUiBentoGrid: BentoGrid
+  ComponentUiBentoGrid: BentoGrid,
+  ComponentUiContactsCarrousel: ContactsCarrousel
+
 };
 
 export const useRenderComponent = (

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_contacts_carrousels",
+  "info": {
+    "displayName": "Contacts Carrousel"
+  },
+  "options": {},
+  "attributes": {
+    "contacts": {
+      "displayName": "Contact Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "util.contact-card"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

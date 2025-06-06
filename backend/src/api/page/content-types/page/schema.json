@@ -36,7 +36,8 @@
         "ui.spacer",
         "ui.links-group",
         "ui.tree",
-        "ui.bento-grid"
+        "ui.bento-grid",
+        "ui.contacts-carrousel"
       ],
       "required": false
     },

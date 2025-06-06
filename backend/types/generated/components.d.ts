@@ -133,6 +133,17 @@ export interface UiCarousel extends Struct.ComponentSchema {
   };
 }
 
+export interface UiContactsCarrousel extends Struct.ComponentSchema {
+  collectionName: 'components_ui_contacts_carrousels';
+  info: {
+    displayName: 'Contacts Carrousel';
+  };
+  attributes: {
+    contacts: Schema.Attribute.Component<'util.contact-card', true>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface UiGridSection extends Struct.ComponentSchema {
   collectionName: 'components_ui_grid_sections';
   info: {
@@ -222,6 +233,19 @@ export interface UiTree extends Struct.ComponentSchema {
   };
 }
 
+export interface UtilContactCard extends Struct.ComponentSchema {
+  collectionName: 'components_util_contact_cards';
+  info: {
+    displayName: 'Contact Card';
+  };
+  attributes: {
+    email: Schema.Attribute.String & Schema.Attribute.Required;
+    name: Schema.Attribute.String & Schema.Attribute.Required;
+    photo: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    role: Schema.Attribute.String;
+  };
+}
+
 export interface UtilList extends Struct.ComponentSchema {
   collectionName: 'components_util_lists';
   info: {
@@ -306,12 +330,14 @@ declare module '@strapi/strapi' {
       'ui.card-item': UiCardItem;
       'ui.cards': UiCards;
       'ui.carousel': UiCarousel;
+      'ui.contacts-carrousel': UiContactsCarrousel;
       'ui.grid-section': UiGridSection;
       'ui.links': UiLinks;
       'ui.links-group': UiLinksGroup;
       'ui.rich-text-block': UiRichTextBlock;
       'ui.spacer': UiSpacer;
       'ui.tree': UiTree;
+      'util.contact-card': UtilContactCard;
       'util.list': UtilList;
       'util.person': UtilPerson;
       'util.title-content': UtilTitleContent;
