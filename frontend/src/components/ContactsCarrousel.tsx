@@ -56,13 +56,12 @@ export const ContactsCarrousel = ({ title, contacts }: ContactsCarrouselProps) =
               >
                 <div className="flex items-center gap-4 mb-3">
                   <div className="avatar">
-                    <div className="w-16 h-16 rounded-full overflow-hidden">
+                    <div className="w-16 h-16 rounded-full overflow-hidden relative">
                       <Image
                         src={contact.photo?.url || "/placeholder.jpg"}
                         alt={contact.photo?.alternativeText || contact.name}
-                        width={64}
-                        height={64}
-                        className="object-cover w-full h-full"
+                        fill
+                        className="object-cover"
                       />
                     </div>
                   </div>

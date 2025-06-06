@@ -28,41 +28,14 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
         cards: typeof BentoItems.cardsItems,
         orientation: "left" | "right"
     ) => {
-        const left: typeof cards = [];
-        const right: typeof cards = [];
-
-        if (cards.length === 3 || cards.length === 2) {
-            if (orientation !== "left") right.push(...cards);
-            else { right.push(...cards); }
-            return { left, right };
-        }
-
-
-
-        // General case: alternate groups of 2 starting with orientation
-        let isLeftTurn = orientation === "left";
-        let i = 0;
-
-        while (i < cards.length) {
-            const target = isLeftTurn ? right : left;
-            const slice = cards.slice(i, i + 2);
-
-            // Special case: if only 1 card left and other column is empty, keep it with the current column
-            if (slice.length === 1 && left.length === 0 && right.length === 0) {
-                (orientation === "left" ? right : left).push(...slice);
-                break;
-            }
-
-            target.push(...slice);
-            i += 2;
-            isLeftTurn = !isLeftTurn;
-        }
-
-        return { left, right };
+        return orientation === "left"
+            ? { left: [], right: cards }
+            : { left: cards, right: [] };
     };
 
 
     const { left: leftColumnCards, right: rightColumnCards } = distributeCards(cards, orientation);
+
 
     const colorVariants: { [hex: string]: string } = {
         hex004858: "bg-[#004858]",
@@ -75,15 +48,17 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
         transition: { duration: 0.5, delay },
     });
 
-    const TitleBlockAndLeftCards = (
-        <div className="flex flex-col gap-4">
-            <motion.div
-                className={`text-white p-6 rounded-sm shadow-lg ${colorVariants[Color]}`}
-                {...fadeInProps(0)}
-            >
-                <h2 className="text-3xl font-bold">{Title}</h2>
-            </motion.div>
+    const TitleBlock = (
+        <motion.div
+            className={`text-white p-6 rounded-sm shadow-lg ${colorVariants[Color]} sticky top-5`}
+            {...fadeInProps(0)}
+        >
+            <h2 className="text-3xl font-bold">{Title}</h2>
+        </motion.div>
+    )
 
+    const LeftCardsGrid = (
+        <div className="flex flex-col gap-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
                 {leftColumnCards.map((member, index) => (
                     <TiltCard key={index}>
@@ -99,7 +74,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                                 alt={member.Imagem?.alt || "Image"}
                                 width={400}
                                 height={256}
-                                className="w-full h-64 object-cover rounded-md mb-3"
+                                className="w-full h-64 object-cover rounded-md mb-3 aspect-[4/3]"
                                 style={{ width: "100%", height: "auto" }}
                             />
                             <RichTextBlock Content={member.Content} />
@@ -126,7 +101,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                             alt={member.Imagem?.alt || "Image"}
                             width={400}
                             height={256}
-                            className="w-full h-64 object-cover rounded-md mb-3"
+                            className="w-full h-64 object-cover rounded-md mb-3 aspect-[4/3]"
                             style={{ width: "100%", height: "auto" }}
                         />
                         <RichTextBlock Content={member.Content} />
@@ -166,7 +141,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                                     alt={member.Imagem?.alt || "Image"}
                                     width={400}
                                     height={256}
-                                    className="w-full h-64 object-cover rounded-md mb-3"
+                                    className="w-full h-64 object-cover rounded-md mb-3 aspect-[4/3]"
                                     style={{ width: "100%", height: "auto" }}
                                 />
                                 <RichTextBlock Content={member.Content} />
@@ -187,16 +162,17 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
             <div className="hidden md:grid grid-cols-1 md:grid-cols-2 gap-6 py-8 items-start">
                 {orientation === 'left' ? (
                     <>
-                        {TitleBlockAndLeftCards}
+                        {TitleBlock}
                         {RightCardsGrid}
                     </>
                 ) : (
                     <>
-                        {RightCardsGrid}
-                        {TitleBlockAndLeftCards}
+                        {LeftCardsGrid}
+                        {TitleBlock}
                     </>
                 )}
             </div>
+
         </>
     );
 

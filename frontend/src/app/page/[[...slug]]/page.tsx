@@ -20,7 +20,7 @@ export default function Page({ params }: PageProps) {
   const renderComponent = (section: any, typename: any) =>
     useRenderComponent(section, typename);
 
-  
+
 
   return (
     <PagesLayout
@@ -28,8 +28,8 @@ export default function Page({ params }: PageProps) {
       title={page?.Title}
       isLoading={isLoading}
     >
-      {page?.Content.map((section: any) => (
-        <Fragment key={section.id}>
+      {page?.Content.map((section: any, key: number) => (
+        <Fragment key={key}>
           {renderComponent(section, section.__typename)}
         </Fragment>
       ))}
