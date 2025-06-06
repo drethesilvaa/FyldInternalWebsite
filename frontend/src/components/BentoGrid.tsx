@@ -23,8 +23,46 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
 }) => {
     const cards = BentoItems?.cardsItems || [];
 
-    const rightColumnCards = cards.slice(0, Math.ceil(cards.length / 3));
-    const leftColumnCards = cards.slice(Math.ceil(cards.length / 3));
+    const distributeCards = (
+        cards: typeof BentoItems.cardsItems,
+        orientation: "left" | "right"
+    ) => {
+        const left: typeof cards = [];
+        const right: typeof cards = [];
+
+        if (cards.length === 3) {
+            if (orientation !== "left") right.push(...cards);
+            else { right.push(...cards); }
+            return { left, right };
+        }
+
+
+
+        // General case: alternate groups of 2 starting with orientation
+        let isLeftTurn = orientation === "left";
+        let i = 0;
+
+        while (i < cards.length) {
+            const target = isLeftTurn ? right : left;
+            const slice = cards.slice(i, i + 2);
+
+            // Special case: if only 1 card left and other column is empty, keep it with the current column
+            if (slice.length === 1 && left.length === 0 && right.length === 0) {
+                (orientation === "left" ? right : left).push(...slice);
+                break;
+            }
+
+            target.push(...slice);
+            i += 2;
+            isLeftTurn = !isLeftTurn;
+        }
+
+        return { left, right };
+    };
+
+
+    const { left: leftColumnCards, right: rightColumnCards } = distributeCards(cards, orientation);
+    console.log(leftColumnCards)
 
     const colorVariants: { [hex: string]: string } = {
         hex004858: "bg-[#004858]",
@@ -134,7 +172,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
 
     return (
         <>
-         
+
             {MobileCarousel}
 
             <div className="hidden md:grid grid-cols-1 md:grid-cols-2 gap-6 py-8 items-start">
