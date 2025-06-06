@@ -60,7 +60,7 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
           case "h5":
             return (
               <h5
-                className="heading-3xl font-extrabold text-primary"
+                className="heading-2xl font-extrabold text-primary"
                 style={parseStyle(attribs?.style)}
               >
                 {domToReact(children as DOMNode[], options)}{" "}
@@ -69,7 +69,7 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
           case "h6":
             return (
               <h6
-                className="heading-2xl font-extrabold text-neutral"
+                className="heading-xl font-extrabold text-neutral"
                 style={parseStyle(attribs?.style)}
               >
                 {domToReact(children as DOMNode[], options)}{" "}

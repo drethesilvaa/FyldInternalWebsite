@@ -62,7 +62,6 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
 
 
     const { left: leftColumnCards, right: rightColumnCards } = distributeCards(cards, orientation);
-    console.log(leftColumnCards)
 
     const colorVariants: { [hex: string]: string } = {
         hex004858: "bg-[#004858]",
