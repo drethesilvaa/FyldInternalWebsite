@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import Image from "next/image";
 
 
 interface BentoGridProps {
@@ -29,7 +30,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
     ) => {
         const left: typeof cards = [];
         const right: typeof cards = [];
-        
+
         if (cards.length === 3 || cards.length === 2) {
             if (orientation !== "left") right.push(...cards);
             else { right.push(...cards); }
@@ -93,10 +94,13 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                             viewport={{ once: true, amount: 0.2 }}
                             transition={{ delay: 0.1 + index * 0.1, duration: 0.6 }}
                         >
-                            <img
-                                src={member.Imagem?.url}
-                                alt={member.Imagem?.alt}
+                            <Image
+                                src={member.Imagem?.url || "/placeholder.jpg"}
+                                alt={member.Imagem?.alt || "Image"}
+                                width={400}
+                                height={256}
                                 className="w-full h-64 object-cover rounded-md mb-3"
+                                style={{ width: "100%", height: "auto" }}
                             />
                             <RichTextBlock Content={member.Content} />
                         </motion.div>
@@ -117,10 +121,13 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                         viewport={{ once: true, amount: 0.2 }}
                         transition={{ delay: 0.1 + index * 0.1, duration: 0.6 }}
                     >
-                        <img
-                            src={member.Imagem?.url}
-                            alt={member.Imagem?.alt}
+                        <Image
+                            src={member.Imagem?.url || "/placeholder.jpg"}
+                            alt={member.Imagem?.alt || "Image"}
+                            width={400}
+                            height={256}
                             className="w-full h-64 object-cover rounded-md mb-3"
+                            style={{ width: "100%", height: "auto" }}
                         />
                         <RichTextBlock Content={member.Content} />
                     </motion.div>
@@ -146,7 +153,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
             >
                 {cards.map((member, index) => (
                     <SwiperSlide key={index}>
-                        <TiltCard>
+                        <TiltCard key={index}>
                             <motion.div
                                 className="bg-white rounded-sm shadow-sm text-center pb-2 h-full"
                                 initial={{ opacity: 0, y: 30 }}
@@ -154,10 +161,13 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                                 viewport={{ once: true, amount: 0.2 }}
                                 transition={{ delay: 0.1 + index * 0.1, duration: 0.6 }}
                             >
-                                <img
-                                    src={member.Imagem?.url}
-                                    alt={member.Imagem?.alt}
+                                <Image
+                                    src={member.Imagem?.url || "/placeholder.jpg"}
+                                    alt={member.Imagem?.alt || "Image"}
+                                    width={400}
+                                    height={256}
                                     className="w-full h-64 object-cover rounded-md mb-3"
+                                    style={{ width: "100%", height: "auto" }}
                                 />
                                 <RichTextBlock Content={member.Content} />
                             </motion.div>

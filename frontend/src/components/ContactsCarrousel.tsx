@@ -5,6 +5,8 @@ import "swiper/css/pagination";
 import { motion } from "framer-motion";
 import { Clipboard } from "@phosphor-icons/react/dist/ssr";
 import { MagneticCard } from "./Magnetic Card/MagneticCard";
+import Image from "next/image";
+
 
 interface ContactsCarrouselProps {
   title: string;
@@ -54,10 +56,13 @@ export const ContactsCarrousel = ({ title, contacts }: ContactsCarrouselProps) =
               >
                 <div className="flex items-center gap-4 mb-3">
                   <div className="avatar">
-                    <div className="w-16 rounded-full">
-                      <img
+                    <div className="w-16 h-16 rounded-full overflow-hidden">
+                      <Image
                         src={contact.photo?.url || "/placeholder.jpg"}
                         alt={contact.photo?.alternativeText || contact.name}
+                        width={64}
+                        height={64}
+                        className="object-cover w-full h-full"
                       />
                     </div>
                   </div>
