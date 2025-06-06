@@ -7,6 +7,7 @@ import { Accordion } from "@/components/Accordion";
 import { Spacer } from "@/components/Spacer";
 import { GroupLinks } from "@/components/GroupLinks";
 import OrgTree from "@/components/OrgTree";
+import { BentoGrid } from "@/components/BentoGrid";
 
 interface ComponentData {
   Content?: any[];
@@ -30,7 +31,8 @@ const componentMapping: ComponentMapping = {
   ComponentUiAccordion: Accordion,
   ComponentUiSpacer: Spacer,
   ComponentUiLinksGroup: GroupLinks,
-  ComponentUiTree: OrgTree
+  ComponentUiTree: OrgTree,
+  ComponentUiBentoGrid: BentoGrid
 };
 
 export const useRenderComponent = (

@@ -40,6 +40,23 @@ export interface UiAccordion extends Struct.ComponentSchema {
   };
 }
 
+export interface UiBentoGrid extends Struct.ComponentSchema {
+  collectionName: 'components_ui_bento_grids';
+  info: {
+    description: '';
+    displayName: 'Bento Grid';
+    icon: 'apps';
+  };
+  attributes: {
+    Color: Schema.Attribute.Enumeration<['hex004858', 'hex295B79']>;
+    items: Schema.Attribute.Component<'ui.cards', false> &
+      Schema.Attribute.Required;
+    orientation: Schema.Attribute.Enumeration<['left', 'right']> &
+      Schema.Attribute.DefaultTo<'left'>;
+    Title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface UiCardItem extends Struct.ComponentSchema {
   collectionName: 'components_ui_card_items';
   info: {
@@ -285,6 +302,7 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'grid.items': GridItems;
       'ui.accordion': UiAccordion;
+      'ui.bento-grid': UiBentoGrid;
       'ui.card-item': UiCardItem;
       'ui.cards': UiCards;
       'ui.carousel': UiCarousel;

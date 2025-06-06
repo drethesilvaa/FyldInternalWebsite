@@ -83,6 +83,23 @@ export const GET_PAGE_DATA = gql`
     __typename
   }
 
+  fragment BentoGrid on ComponentUiBentoGrid {
+    id
+    Title
+    Color
+    orientation
+    BentoItems: items {
+      cardsItems: Items {
+        Imagem {
+          alternativeText
+          url
+        }
+        Content
+      }
+    }
+    __typename
+  }
+
   fragment ErrorFragment on Error {
     code
     message
@@ -107,6 +124,7 @@ export const GET_PAGE_DATA = gql`
           ...SpacerComponent
           ...LinksGroup
           ...Tree
+          ...BentoGrid
           ...ErrorFragment
         }
       }

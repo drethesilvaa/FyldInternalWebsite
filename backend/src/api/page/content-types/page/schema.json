@@ -35,7 +35,8 @@
         "ui.cards",
         "ui.spacer",
         "ui.links-group",
-        "ui.tree"
+        "ui.tree",
+        "ui.bento-grid"
       ],
       "required": false
     },

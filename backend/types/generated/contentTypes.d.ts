@@ -486,6 +486,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'ui.spacer',
         'ui.links-group',
         'ui.tree',
+        'ui.bento-grid',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;

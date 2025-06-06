@@ -5,7 +5,7 @@ import { RichTextBlock } from "./RichTextBlock";
 import { motion } from "framer-motion";
 import { strapiUrl } from "@/data/strapiUrl";
 
-interface CardsProps {
+export interface CardsProps {
   Horizontal: boolean;
   colunas: number;
   padding: PaddingSize;

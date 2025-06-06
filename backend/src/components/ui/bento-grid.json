@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_ui_bento_grids",
+  "info": {
+    "displayName": "Bento Grid",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Color": {
+      "type": "enumeration",
+      "enum": [
+        "hex004858",
+        "hex295B79"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.cards",
+      "required": true
+    },
+    "orientation": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    }
+  }
+}
