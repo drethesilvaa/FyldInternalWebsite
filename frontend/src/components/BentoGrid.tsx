@@ -29,8 +29,8 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
     ) => {
         const left: typeof cards = [];
         const right: typeof cards = [];
-
-        if (cards.length === 3) {
+        
+        if (cards.length === 3 || cards.length === 2) {
             if (orientation !== "left") right.push(...cards);
             else { right.push(...cards); }
             return { left, right };
