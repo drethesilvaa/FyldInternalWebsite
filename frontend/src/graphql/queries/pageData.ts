@@ -9,7 +9,7 @@ export const GET_PAGE_DATA = gql`
   fragment GridSectionV2 on ComponentUiGridSection {
     id
     Colunas
-    Item {
+    Item(pagination: { limit: -1 }) {
       Content
       Colunas
     }
