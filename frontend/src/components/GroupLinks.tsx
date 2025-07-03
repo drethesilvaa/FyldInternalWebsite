@@ -49,7 +49,7 @@ export const GroupLinks: React.FC<GroupLinkProps> = ({ links }) => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
         variants={cardVariants}
-        className="card bg-[#f5faf9] card-md shadow-sm lg:max-h-52 hover:-translate-y-1.5 transition-transform"
+        className="card bg-[#dbddde] card-md shadow-sm lg:max-h-52 hover:-translate-y-1.5 transition-transform"
         key={i}
       >
         <div className="card-body">

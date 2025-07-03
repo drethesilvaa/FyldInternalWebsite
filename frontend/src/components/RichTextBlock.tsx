@@ -160,7 +160,7 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
           }
           case "thead":
             return (
-              <thead className="bg-[#e8f6e3] text-neutral">
+              <thead className="bg-[#b7bbbe] text-neutral">
                 {domToReact(children as DOMNode[], options)}
               </thead>
             );

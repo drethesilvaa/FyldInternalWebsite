@@ -34,7 +34,7 @@ export const HomePage = () => {
           ))}
         </div>
 
-        <div className="bg-[#e8f6e3] my-11 py-16">
+        <div className="bg-[#b7bbbe] my-11 py-16">
           <div className="custom-container">
             {home?.TyFyld?.map((section: any) => (
               <div key={section.id}>

@@ -38,8 +38,8 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
 
 
     const colorVariants: { [hex: string]: string } = {
-        hex004858: "bg-[#004858]",
-        hex295B79: "bg-[#295B79]",
+        hex004858: "bg-[#323439]",
+        hex295B79: "bg-[#4d575e]",
     };
 
     const fadeInProps = (delay: number) => ({

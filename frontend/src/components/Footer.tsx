@@ -26,7 +26,7 @@ export const Footer = () => {
     size: 40,
     color: "var(--color-neutral)",
   };
-  
+
 
   const renderSocialLink = (socialMedia: SocialMedias, link: string) => {
     switch (socialMedia) {
@@ -66,7 +66,7 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="mt-20 bg-[#CFEAE1] py-14 text-center">
+    <footer className="mt-20 bg-[#BCBCBD] py-14 text-center">
       <div className="custom-container">
         <RichTextBlock
           Content={footer?.address || ""}
@@ -86,7 +86,7 @@ export const Footer = () => {
                   </div>
                 );
               }
-              return null; 
+              return null;
             })}
         </div>
 
