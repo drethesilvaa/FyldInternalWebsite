@@ -4,10 +4,15 @@
 name: Build and deploy Node.js app to Azure Web App - fld-int-backend
 
 on:
-  push:
-    branches:
-      - master
   workflow_dispatch:
+    inputs:
+      deploy_reason:
+        description: "Reason for backend deployment"
+        required: false
+        default: "Manual deployment"
+      confirm_deploy:
+        description: 'Type "deploy" to confirm'
+        required: true
 
 jobs:
   build:
@@ -21,7 +26,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
+          node-version: "20.x"
 
       - name: npm install, build, and test
         run: |
@@ -39,18 +44,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    
+
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: node-app
-      
-      - name: 'Deploy to Azure Web App'
+
+      - name: "Deploy to Azure Web App"
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'fld-int-backend'
-          slot-name: 'Production'
+          app-name: "fld-int-backend"
+          slot-name: "Production"
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DEF5A525A9E141E6BC3D22D11313A535 }}
