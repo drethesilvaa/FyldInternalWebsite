@@ -36,7 +36,7 @@ jobs:
         run: |
           cd frontend
           npm install
-          npm run nextbuild -- --no-lint
+          npm run build -- --no-lint
           cp -r public .next/standalone/public
           cp -r .next/static .next/standalone/.next/static
 
