@@ -47,7 +47,7 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           TRANSFER_TOKEN_SALT: ${{ secrets.TRANSFER_TOKEN_SALT }}
         run: |
-          npm ci
+          npm install
           npm run build --if-present
           # npm prune --production
 
