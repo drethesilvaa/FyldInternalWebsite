@@ -4,12 +4,13 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "node ./node_modules/@strapi/strapi/bin/strapi.js build",
+    "build": "strapi build",
     "console": "strapi console",
     "deploy": "strapi deploy",
     "dev": "strapi develop",
-    "develop": "node ./node_modules/@strapi/strapi/bin/strapi.js develop",
-    "start": "node ./node_modules/@strapi/strapi/bin/strapi.js start",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "stapi-start": "node node_modules/@strapi/strapi/bin/strapi.js start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
