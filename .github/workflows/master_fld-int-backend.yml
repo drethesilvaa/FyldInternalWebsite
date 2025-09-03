@@ -15,14 +15,19 @@ concurrency:
   group: backend-deploy
   cancel-in-progress: true
 
+env:
+  WORKDIR: backend
+
 jobs:
   build:
     if: ${{ github.event.inputs.confirm_deploy == 'deploy' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
@@ -33,7 +38,8 @@ jobs:
           cache: "npm"
           cache-dependency-path: backend/package-lock.json
 
-      - name: Install, build, prune
+      - name: Install deps
+        working-directory: ${{ env.WORKDIR }}
         env:
           ADMIN_JWT_SECRET: ${{ secrets.ADMIN_JWT_SECRET }}
           API_TOKEN_SALT: ${{ secrets.API_TOKEN_SALT }}
@@ -46,19 +52,38 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           TRANSFER_TOKEN_SALT: ${{ secrets.TRANSFER_TOKEN_SALT }}
         run: |
-          cd backend
-          npm install
-          npm run build --if-present
-          # npm prune --production
+          # Use CI-friendly install for reproducibility
+          npm ci
 
-      - name: Create deployment zip
+      - name: Build Strapi
+        working-directory: ${{ env.WORKDIR }}
+        env:
+          NODE_ENV: production
+          ADMIN_JWT_SECRET: ${{ secrets.ADMIN_JWT_SECRET }}
+          API_TOKEN_SALT: ${{ secrets.API_TOKEN_SALT }}
+          APP_KEYS: ${{ secrets.APP_KEYS }}
+          CLOUDINARY_KEY: ${{ secrets.CLOUDINARY_KEY }}
+          CLOUDINARY_NAME: ${{ secrets.CLOUDINARY_NAME }}
+          CLOUDINARY_SECRET: ${{ secrets.CLOUDINARY_SECRET }}
+          DATABASE_CLIENT: ${{ secrets.DATABASE_CLIENT }}
+          DATABASE_SSL: ${{ secrets.DATABASE_SSL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          TRANSFER_TOKEN_SALT: ${{ secrets.TRANSFER_TOKEN_SALT }}
         run: |
-          cd backend
-          mkdir -p ../artifact
-          zip -q -r ../artifact/app.zip . \
-            -x "*/.git/*" "*/.github/*" "*/tests/*" "*/test/*" \
-              "*/coverage/*" "*/node_modules/.cache/*" "*.log"
+          npm run build --if-present
 
+      - name: Prune devDependencies (keep runtime deps)
+        working-directory: ${{ env.WORKDIR }}
+        run: |
+          npm prune --omit=dev
+
+      - name: Create deployment zip (backend only)
+        run: |
+          mkdir -p artifact
+          # Zip contents of backend/ into app.zip root
+          (cd "$WORKDIR" && zip -q -r ../artifact/app.zip . \
+            -x "**/.git/**" "**/.github/**" "**/tests/**" "**/test/**" \
+               "**/coverage/**" "**/node_modules/.cache/**" "*.log")
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -69,6 +94,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
