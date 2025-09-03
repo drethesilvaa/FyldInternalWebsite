@@ -1,33 +1,33 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Pipeline backend v2
+
+name: PIpeline backend v2
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
   workflow_dispatch:
 
 concurrency:
   group: fld-int-backend
   cancel-in-progress: false
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: read #This is required for actions/checkout
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Node.js version
+        uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '20.x'
 
-      - name: Install & build (prod)
-        working-directory: backend
+      - name: npm install, build, and test
         env:
           NODE_ENV: production
           ADMIN_JWT_SECRET: ${{ secrets.ADMIN_JWT_SECRET }}
@@ -40,38 +40,37 @@ jobs:
           DATABASE_SSL: ${{ secrets.DATABASE_SSL }}
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           TRANSFER_TOKEN_SALT: ${{ secrets.TRANSFER_TOKEN_SALT }}
-        run: |
-          npm ci
-          npm run build --if-present --no-lint
-          npm prune --omit=dev
 
-      - name: Package deployable zip
         run: |
           cd backend
-          # include only what the app needs at runtime; adjust excludes as appropriate
-          zip -r ../backend.zip . \
-            -x "**/.git/**" "**/.github/**" "**/tests/**" "**/test/**" "**/node_modules/.cache/**"
+          npm install
+          npm run build --if-present --no-lint
+          npm run test --if-present
 
-      - name: Upload artifact
+      - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: backend.zip
+          path: backend  
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    
     steps:
-      - name: Download artifact
+      - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: node-app
-          path: .
-
-      - name: Deploy to Azure Web App
+          path: ./backend 
+      
+      - name: 'Deploy to Azure Web App'
+        id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'fld-int-backend'
-          package: backend.zip
-          # slot-name: 'Production'  # optional; omit for the default production slot
+          slot-name: 'Production'
+          package: ./backend
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_921B2D17A64C419791D5335854864FB8 }}
+
+
