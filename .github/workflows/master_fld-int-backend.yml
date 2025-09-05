@@ -93,4 +93,4 @@ jobs:
           package: ./deploy-dir/app.zip
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DEF5A525A9E141E6BC3D22D11313A535 }}
           clean: true
-
+          deployment-polling-timeout: 1800
