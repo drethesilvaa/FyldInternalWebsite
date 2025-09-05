@@ -47,7 +47,7 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           TRANSFER_TOKEN_SALT: ${{ secrets.TRANSFER_TOKEN_SALT }}
         run: |
-          npm ci
+          npm ci --omit=dev
           npm run build --if-present
 
       - name: Remove Yarn artifacts (force npm on App Service)
@@ -59,11 +59,10 @@ jobs:
       - name: Create deployment zip
         working-directory: backend
         run: |
-          mkdir -p ../artifact
-          zip -q -r ../artifact/app.zip . \
-            -x "node_modules/**" "*/node_modules/**" \
-               "*/.git/*" "*/.github/*" "*/tests/*" "*/test/*" \
-               "*/coverage/*" "*/node_modules/.cache/*" "*.log"
+           mkdir -p ../artifact
+            zip -q -r ../artifact/app.zip . \
+            -x "*/.git/*" "*/.github/*" "*/tests/*" "*/test/*" \
+               "*/coverage/*" "*.log"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
