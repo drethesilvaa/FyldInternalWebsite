@@ -59,10 +59,11 @@ jobs:
       - name: Create deployment zip
         working-directory: backend
         run: |
-           mkdir -p ../artifact
-            zip -q -r ../artifact/app.zip . \
+          rm -f oryx-manifest.toml node_modules.tar.gz
+          mkdir -p ../artifact
+          zip -q -r ../artifact/app.zip . \
             -x "*/.git/*" "*/.github/*" "*/tests/*" "*/test/*" \
-               "*/coverage/*" "*.log"
+              "*/coverage/*" "*.log"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -84,25 +85,12 @@ jobs:
       - name: Cooldown before deploy
         run: sleep 20
 
-      - name: Deploy to Azure Web App (attempt 1)
-        id: deploy1
+      - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
           app-name: "fld-int-backend"
           slot-name: "Production"
           package: ./deploy-dir/app.zip
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DEF5A525A9E141E6BC3D22D11313A535 }}
+          clean: true
 
-      # Retry once if the first attempt failed (e.g., due to SCM restart)
-      - name: Wait before retry
-        if: failure() && steps.deploy1.outcome == 'failure'
-        run: sleep 30
-
-      - name: Deploy to Azure Web App (attempt 2)
-        if: failure() && steps.deploy1.outcome == 'failure'
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: "fld-int-backend"
-          slot-name: "Production"
-          package: ./deploy-dir/app.zip
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DEF5A525A9E141E6BC3D22D11313A535 }}
