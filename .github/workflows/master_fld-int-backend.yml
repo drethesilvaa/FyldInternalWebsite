@@ -62,8 +62,8 @@ jobs:
           rm -f oryx-manifest.toml node_modules.tar.gz
           mkdir -p ../artifact
           zip -q -r ../artifact/app.zip . \
-            -x "*/.git/*" "*/.github/*" "*/tests/*" "*/test/*" \
-              "*/coverage/*" "*.log"
+            -x "*/node_modules/*" "*/.git/*" "*/.github/*" "*/tests/*" "*/test/*" \
+               "*/coverage/*" "*.log"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
