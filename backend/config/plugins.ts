@@ -1,17 +1,14 @@
 export default ({ env }) => ({
   upload: {
     config: {
-      provider: "cloudinary",
+      provider: "strapi-provider-upload-azure-storage",
       providerOptions: {
-        cloud_name: env("CLOUDINARY_NAME"),
-        api_key: env("CLOUDINARY_KEY"),
-        api_secret: env("CLOUDINARY_SECRET"),
-        secure: true, 
-      },
-      actionOptions: {
-        upload: {},
-        uploadStream: {}, 
-        delete: {},
+        account: env("AZURE_STORAGE_ACCOUNT"),
+        accountKey: env("AZURE_STORAGE_ACCOUNT_KEY"), // or SAS token
+        serviceBaseURL: env("AZURE_STORAGE_BASEURL", undefined), // optional custom domain
+        containerName: env("AZURE_STORAGE_CONTAINER", "uploads"),
+        defaultPath: "assets",
+        cdnBaseURL: env("AZURE_CDN_URL", undefined),
       },
     },
   },
