@@ -48,19 +48,19 @@ jobs:
           path: strapi-release.zip
           retention-days: 7
 
-deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: strapi-release
-          path: .
+  deploy:
+      needs: build
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/download-artifact@v4
+          with:
+            name: strapi-release
+            path: .
 
-      - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: "fld-int-backend"
-          slot-name: "Production"
-          package: strapi-release.zip
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A1985CDD098C488DB3E8DD6AD6D10E1B }}
+        - name: Deploy to Azure Web App
+          uses: azure/webapps-deploy@v3
+          with:
+            app-name: "fld-int-backend"
+            slot-name: "Production"
+            package: strapi-release.zip
+            publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A1985CDD098C488DB3E8DD6AD6D10E1B }}
