@@ -1,11 +1,12 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
 name: Deploy Strapi to Azure App Service
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
+
+defaults:
+  run:
+    working-directory: backend # all run steps execute in backend/
 
 jobs:
   build-and-deploy:
@@ -13,24 +14,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'yarn'
+          node-version: "18"
+          cache: "yarn"
+          # IMPORTANT: path is from repo root, not the working-directory
+          cache-dependency-path: backend/yarn.lock
 
-      - run: yarn install --frozen-lockfile
-      - run: yarn build
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
 
-      # Zip the repo (including .cache/.dist build output)
-      - run: |
+      - name: Build Strapi
+        run: yarn build
+
+      - name: Prepare production package
+        run: |
           rm -rf node_modules
           yarn install --production --frozen-lockfile
-          zip -r release.zip . -x "*.git*"
+          zip -r ../release.zip . -x "*.git*"
 
-      # Publish to App Service
-      - uses: azure/webapps-deploy@v3
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v3
         with:
-          app-name: 'fld-int-backend'
-          slot-name: 'Production'
-          package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A1985CDD098C488DB3E8DD6AD6D10E1B }}
+          app-name: YOUR_WEB_APP_NAME
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          package: release.zip
