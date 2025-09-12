@@ -1,13 +1,4 @@
-name: Deploy Strapi to Azure App Service
-
-on:
-  push:
-    branches: [master]
-
-defaults:
-  run:
-    working-directory: backend # all run steps execute in backend/
-
+# ...
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -17,18 +8,20 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
-          cache: "yarn"
-          # IMPORTANT: path is from repo root, not the working-directory
+          node-version: '20'           # <-- upgrade to Node 20 LTS
+          cache: 'yarn'
           cache-dependency-path: backend/yarn.lock
 
       - name: Install dependencies
+        working-directory: backend
         run: yarn install --frozen-lockfile
 
       - name: Build Strapi
+        working-directory: backend
         run: yarn build
 
       - name: Prepare production package
+        working-directory: backend
         run: |
           rm -rf node_modules
           yarn install --production --frozen-lockfile
@@ -37,6 +30,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: YOUR_WEB_APP_NAME
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
-          package: release.zip
+          app-name: 'fld-int-backend'
+          slot-name: 'Production'
+          package: .
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A1985CDD098C488DB3E8DD6AD6D10E1B }}
