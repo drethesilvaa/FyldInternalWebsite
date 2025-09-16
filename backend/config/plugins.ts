@@ -2,7 +2,7 @@
 export default ({ env }) => ({
   upload: {
     config: {
-      provider: "azure-storage", // or the TS variant from the Market
+      provider: "strapi-provider-upload-azure-storage", // or the TS variant from the Market
       providerOptions: {
         // If using connection string:
         connectionString: env("AZURE_STORAGE_CONNECTION_STRING"),
