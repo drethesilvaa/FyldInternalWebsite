@@ -32,10 +32,6 @@ export default ({ env }) => {
       connection: {
         connectionString: env("DATABASE_URL"),
         host: env("DATABASE_HOST", "localhost"),
-        port: env.int("DATABASE_PORT", 5432),
-        database: env("DATABASE_NAME", "strapi"),
-        user: env("DATABASE_USERNAME", "strapi"),
-        password: env("DATABASE_PASSWORD", "strapi"),
         ssl: env.bool("DATABASE_SSL", false) && {
           key: env("DATABASE_SSL_KEY", undefined),
           cert: env("DATABASE_SSL_CERT", undefined),
@@ -49,10 +45,12 @@ export default ({ env }) => {
         },
         schema: env("DATABASE_SCHEMA", "public"),
         pool: {
-          min: 2,
-          max: 10, // Increase max if necessary
+          min: 0,
+          max: env.int("DB_POOL_MAX", 5),
+          acquireTimeoutMillis: env.int("DB_ACQUIRE_TIMEOUT", 60000),
+          idleTimeoutMillis: env.int("DB_IDLE_TIMEOUT", 30000),
         },
-        acquireConnectionTimeout: 10000,
+        acquireConnectionTimeout: env.int("DB_ACQUIRE_TIMEOUT", 60000),
         debug: true,
       },
       pool: {
