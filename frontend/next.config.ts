@@ -22,6 +22,12 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+        {
+        protocol: "https",
+        hostname: "strapiapp53v247xmd6ogksa.blob.core.windows.net",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
   eslint: {

@@ -197,3 +197,8 @@ button {
 .org-node-container.border-xx-large > .children-group > .org-node-container.border-x-large > .children-group{
   @apply md:flex-nowrap
 }
+
+
+.swiper-pagination-bullet-active{
+  background: var(--color-accent) !important;
+}
