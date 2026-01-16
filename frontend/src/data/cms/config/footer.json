@@ -1,0 +1,26 @@
+{
+  "documentId": "f05d2szruqm0u37qs6umwjv6",
+  "address": "<p style=\"text-align:center;\">Lisboa</p><p style=\"text-align:center;\">Avenida Casal Ribeiro nº14, 2ºDrt&nbsp;</p><p style=\"text-align:center;\">1000-092 Lisboa</p>",
+  "SocialLinks": [
+    {
+      "id": 13,
+      "link": "https://www.fyld.pt/",
+      "SocialMedia": "Website"
+    },
+    {
+      "id": 14,
+      "link": "https://www.instagram.com/mainfyld/",
+      "SocialMedia": "Instagram"
+    },
+    {
+      "id": 15,
+      "link": "https://www.facebook.com/Mainfyld/?locale=pt_PT",
+      "SocialMedia": "Facebook"
+    },
+    {
+      "id": 16,
+      "link": "https://open.spotify.com/show/4kwxvRSQ0t2Q55a0A8ZsMa?si=88a013f0d69f4f79",
+      "SocialMedia": "Spotify"
+    }
+  ]
+}

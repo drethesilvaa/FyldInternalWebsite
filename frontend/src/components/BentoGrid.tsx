@@ -12,20 +12,20 @@ import Image from "next/image";
 interface BentoGridProps {
     Color: string;
     Title: string;
-    BentoItems: CardsProps;
+    items: CardsProps;
     orientation: "left" | "right";
 }
 
 export const BentoGrid: React.FC<BentoGridProps> = ({
     Color,
     Title,
-    BentoItems,
+    items,
     orientation,
 }) => {
-    const cards = BentoItems?.cardsItems || [];
+    const cards = items?.Items || [];
 
     const distributeCards = (
-        cards: typeof BentoItems.cardsItems,
+        cards: typeof items.Items,
         orientation: "left" | "right"
     ) => {
         return orientation === "left"

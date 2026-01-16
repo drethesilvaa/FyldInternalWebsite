@@ -1,0 +1,518 @@
+{
+  "documentId": "izdp1pduaos8kqz0a0braslm",
+  "Title": "Benefícios e Parcerias",
+  "slug": "beneficios-fyld",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.grid-section",
+      "id": 120,
+      "Colunas": 2,
+      "Item": [
+        {
+          "id": 416,
+          "Colunas": 1,
+          "Content": "<figure class=\"image\"><img style=\"aspect-ratio:593/797;\" src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176776/fatura_Fyld_813f152b22.jpg\" alt=\"faturaFyld.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176778/thumbnail_fatura_Fyld_813f152b22.jpg 116w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176777/small_fatura_Fyld_813f152b22.jpg 372w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176778/medium_fatura_Fyld_813f152b22.jpg 558w,\" sizes=\"100vw\" width=\"593\" height=\"797\"></figure>"
+        },
+        {
+          "id": 417,
+          "Colunas": 1,
+          "Content": "<p>A FYLD oferece, como benefício transversal a todos os colaboradores, um seguro de saúde completo (inclui consultas gerais, consultas de especialidade, estomatologia, exames, entre outros).&nbsp;</p><p>O cartão de seguro de saúde é enviado para o endereço que indicares no processo de adesão ao seguro.</p><p>Após receberes o cartão, podes registar-te na plataforma Médis e ter acesso a toda a informação relacionada com a sua utilização, políticas e condições.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.medis.pt/login \">https://www.medis.pt/login&nbsp;</a></p>"
+        }
+      ]
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 197,
+      "tamanho": "px96"
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 344,
+      "Content": "<h5>Joyn 4 Discounts</h5>"
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 345,
+      "Content": "<p>Estamos muito dedicados a garantir a tua felicidade e bem-estar, por isso aqui estão as nossas incríveis parcerias, para que possas beneficiar plenamente de tudo o que temos à tua disposição. Desde ginásio a descontos em hotéis, há oportunidades ilimitadas para te ajudar a passar um bom bocado.&nbsp;</p><p>&nbsp;</p><p>Na Fyld, valorizamos o bem-estar e felicidade da nossa equipa. Por isso, criámos parcerias incríveis pensadas especialmente na nossa equipa!<br>Quer estejas à procura de manter a forma, relaxar num hotel de sonho ou simplesmente aproveitar descontos em experiências do dia a dia, temos tudo o que precisas para tornar os teus momentos ainda mais especiais.</p><p>Através da plataforma Joyn4Discounts, tens acesso exclusivo a uma vasta seleção de vantagens e descontos em diversas áreas — desde bem-estar, lazer, viagens, tecnologia e muito mais!</p><p>Regista-te e começa a explorar todas as oportunidades disponíveis para ti:</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://joyn4discounts.contigomais.com/pt-PT/pages/index\">https://joyn4discounts.contigomais.com/pt-PT/pages/index</a></p>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 198,
+      "tamanho": "px96"
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 346,
+      "Content": "<h4>Parcerias</h4>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 199,
+      "tamanho": null
+    },
+    {
+      "__component": "ui.cards",
+      "id": 127,
+      "Horizontal": true,
+      "colunas": 1,
+      "padding": null,
+      "Items": [
+        {
+          "id": 717,
+          "Content": "<h5>Consultas de Psicologia Clínica</h5><p>SGPsicologia Clínica:<br>Formato presencial e/ou online:</p><ul><li><strong>Dra Inês Lopes</strong>: 910007178</li><li><strong>Dr\" Ana Conceição</strong>: 914049292</li><li><strong>Contacto Geral</strong>: <a href=\"mailto:psicologiaclinica@saraguelha.pt\">psicologiaclinica@saraguelha.pt</a></li><li><strong>Morada</strong>: Rua Prista Monteiro, no 20 A, 1600-253 Lisboa<br>&nbsp;</li></ul><p>As consultas podem ser agendadas através de e-mail ou contacto telefónico.<br><strong>Consultas: 30€</strong> (extensível ao agregado familiar), periodicidade semanal ou quinzenal. <strong>*Em caso de falta sem aviso prévio de 24h antes da sessão, a mesma é cobrada e só há lugar a novo agendamento mediante pagamento da falta.</strong></p>",
+          "aspectRatio": "Standard",
+          "Imagem": {
+            "id": 71,
+            "documentId": "erq9xrr2p2qshaho8ab01xfk",
+            "name": "psicologia.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 5926,
+            "height": 3951,
+            "formats": {
+              "large": {
+                "ext": ".png",
+                "url": "/cms-media/large_psicologia_7ad72bc4ac.jpg",
+                "hash": "large_psicologia_7ad72bc4ac",
+                "mime": "image/jpeg",
+                "name": "large_psicologia.png",
+                "path": null,
+                "size": 107.82,
+                "width": 1000,
+                "height": 666,
+                "sizeInBytes": 107819,
+                "provider_metadata": {
+                  "public_id": "large_psicologia_7ad72bc4ac",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".png",
+                "url": "/cms-media/small_psicologia_7ad72bc4ac.jpg",
+                "hash": "small_psicologia_7ad72bc4ac",
+                "mime": "image/jpeg",
+                "name": "small_psicologia.png",
+                "path": null,
+                "size": 33.32,
+                "width": 500,
+                "height": 333,
+                "sizeInBytes": 33323,
+                "provider_metadata": {
+                  "public_id": "small_psicologia_7ad72bc4ac",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".png",
+                "url": "/cms-media/medium_psicologia_7ad72bc4ac.jpg",
+                "hash": "medium_psicologia_7ad72bc4ac",
+                "mime": "image/jpeg",
+                "name": "medium_psicologia.png",
+                "path": null,
+                "size": 67.11,
+                "width": 750,
+                "height": 500,
+                "sizeInBytes": 67105,
+                "provider_metadata": {
+                  "public_id": "medium_psicologia_7ad72bc4ac",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/cms-media/thumbnail_psicologia_7ad72bc4ac.jpg",
+                "hash": "thumbnail_psicologia_7ad72bc4ac",
+                "mime": "image/jpeg",
+                "name": "thumbnail_psicologia.png",
+                "path": null,
+                "size": 9.67,
+                "width": 234,
+                "height": 156,
+                "sizeInBytes": 9674,
+                "provider_metadata": {
+                  "public_id": "thumbnail_psicologia_7ad72bc4ac",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "psicologia_7ad72bc4ac",
+            "ext": ".png",
+            "mime": "image/jpeg",
+            "size": 1773.49,
+            "url": "/cms-media/psicologia_7ad72bc4ac.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "psicologia_7ad72bc4ac",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-22T17:23:39.373Z",
+            "updatedAt": "2025-06-02T16:24:47.570Z",
+            "publishedAt": "2025-04-22T17:23:39.374Z"
+          }
+        },
+        {
+          "id": 718,
+          "Content": "<h5>Pestana Hotel Group - Cartão Pestana Corporate Elite Plus</h5><p>VANTAGENS ASSOCIADAS:</p><ul><li>Acesso a área de cliente, em pestana.com, para gestão de conta Pestana Guest Club, dados pessoais e reservas</li><li>15% desconto em estadias via pestana.com e Pestana call center</li><li>10% desconto em Bares e Restaurante</li><li>15% desconto em tratamentos MagicSpa by Pestana</li><li>10% de Desconto nos Experience Vouchers de Estadia (através da linha de atendimento +351 210 158 100 ou vouchers@pestana.com indicando o seu no de PGC)</li><li>1 Garrafa de água por noite</li><li>30% desconto no Check in antecipado e 50% desconto no Check out tardio (mediante disponibilidade)</li><li>Upgrade de quarto gratuito (para a próxima tipologia de quarto e mediante disponibilidade)</li><li>Entrega de serviço de quarto gratuita</li><li>15 pontos ganhos por € gasto (isento de impostos) em reservas efetuadas em pestana.com e Pestana call center</li><li>Troca de pontos por noites gratuitas ou por uma das nossas tarifas Cash&amp;Points</li></ul>",
+          "aspectRatio": "Square",
+          "Imagem": {
+            "id": 76,
+            "documentId": "hy45xy1ehhkc6hbmv67heaik",
+            "name": "Pestana.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 747,
+            "height": 747,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/cms-media/small_Pestana_d53d909ec1.png",
+                "hash": "small_Pestana_d53d909ec1",
+                "mime": "image/png",
+                "name": "small_Pestana.png",
+                "path": null,
+                "size": 169.61,
+                "width": 500,
+                "height": 500,
+                "sizeInBytes": 169611,
+                "provider_metadata": {
+                  "public_id": "small_Pestana_d53d909ec1",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/cms-media/thumbnail_Pestana_d53d909ec1.png",
+                "hash": "thumbnail_Pestana_d53d909ec1",
+                "mime": "image/png",
+                "name": "thumbnail_Pestana.png",
+                "path": null,
+                "size": 26.18,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 26183,
+                "provider_metadata": {
+                  "public_id": "thumbnail_Pestana_d53d909ec1",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "Pestana_d53d909ec1",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 79.07,
+            "url": "/cms-media/Pestana_d53d909ec1.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "Pestana_d53d909ec1",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-22T17:23:41.791Z",
+            "updatedAt": "2025-06-02T16:43:53.016Z",
+            "publishedAt": "2025-04-22T17:23:41.792Z"
+          }
+        },
+        {
+          "id": 719,
+          "Content": "<h5>Fitness Hut</h5><p>Através da FYLD consegues ter desconto na tua mensalidade no Fitness Hut.<br>Para teres acesso a este benefício deverás<br>apresentar um comprovativo que faça referência à entidade patronal (Ex: cabeçalho do recibo de vencimento, cartão refeição, envio de e-mail corporativo, etc.)&nbsp;</p>",
+          "aspectRatio": "Square",
+          "Imagem": {
+            "id": 73,
+            "documentId": "vvc3vvtptagkod7rglyebkfc",
+            "name": "FitnessHut.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 712,
+            "height": 705,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/cms-media/small_Fitness_Hut_a5dc1ed3f0.png",
+                "hash": "small_Fitness_Hut_a5dc1ed3f0",
+                "mime": "image/png",
+                "name": "small_FitnessHut.png",
+                "path": null,
+                "size": 234.33,
+                "width": 500,
+                "height": 495,
+                "sizeInBytes": 234331,
+                "provider_metadata": {
+                  "public_id": "small_Fitness_Hut_a5dc1ed3f0",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/cms-media/thumbnail_Fitness_Hut_a5dc1ed3f0.png",
+                "hash": "thumbnail_Fitness_Hut_a5dc1ed3f0",
+                "mime": "image/png",
+                "name": "thumbnail_FitnessHut.png",
+                "path": null,
+                "size": 38.13,
+                "width": 158,
+                "height": 156,
+                "sizeInBytes": 38126,
+                "provider_metadata": {
+                  "public_id": "thumbnail_Fitness_Hut_a5dc1ed3f0",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "Fitness_Hut_a5dc1ed3f0",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 86.37,
+            "url": "/cms-media/Fitness_Hut_a5dc1ed3f0.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "Fitness_Hut_a5dc1ed3f0",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-22T17:23:39.866Z",
+            "updatedAt": "2025-06-02T16:30:40.493Z",
+            "publishedAt": "2025-04-22T17:23:39.866Z"
+          }
+        },
+        {
+          "id": 720,
+          "Content": "<h5>Farmácia Confiança</h5><p>A Farmácia Confiança disponibiliza um serviço de proximidade em que levam o farmacêutico até nós, para que possa prestar todos os serviços farmacêuticos, como entregas de medicamentos, administração de vacinas e medicamentos injetáveis e medições de<br>parâmetros bioquímicos e fisiológicos.</p><p><br><strong>Vantagens:</strong></p><ul><li>Aconselhamento personalizado;</li><li>Entregas efetuadas na sede da empresa;</li><li>Desconto de 5% em todos os artigos, mesmo os sujeitos a receita médica;</li><li>Campanha extensível a familiares.</li></ul><p><strong>Procedimento</strong>:<br>Pedidos deverão ser efetuados por Whatsapp, onde poderão enviar a digitalização das receitas (deve ser a via preferencial). Em alternativa, poderão efetuar os pedidos através do site. Pedidos efetuados no dia \"D\", são entregues no dia seguinte \"D+1\"</p><p><br><strong>Entregas efetuadas nas sedes das empresas pertencentes ao distrito de Lisboa:</strong></p><ul><li>Rua do Proletariado No7 (Lote 1), 2794-076 Carnaxide</li><li>Avenida da República No57, 4o, 1050-189 Lisboa </li><li>Avenida Casal Ribeiro No14, 20, 1000-092 Lisboa</li></ul>",
+          "aspectRatio": "Square",
+          "Imagem": {
+            "id": 74,
+            "documentId": "sldsy7yj81shci0kodvromu7",
+            "name": "FarmaciaConfianca.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 683,
+            "height": 683,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "/cms-media/small_Farmacia_Confianca_62f5013a4d.png",
+                "hash": "small_Farmacia_Confianca_62f5013a4d",
+                "mime": "image/png",
+                "name": "small_FarmaciaConfianca.png",
+                "path": null,
+                "size": 146.58,
+                "width": 500,
+                "height": 500,
+                "sizeInBytes": 146577,
+                "provider_metadata": {
+                  "public_id": "small_Farmacia_Confianca_62f5013a4d",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/cms-media/thumbnail_Farmacia_Confianca_62f5013a4d.png",
+                "hash": "thumbnail_Farmacia_Confianca_62f5013a4d",
+                "mime": "image/png",
+                "name": "thumbnail_FarmaciaConfianca.png",
+                "path": null,
+                "size": 19.4,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 19398,
+                "provider_metadata": {
+                  "public_id": "thumbnail_Farmacia_Confianca_62f5013a4d",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "Farmacia_Confianca_62f5013a4d",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 49.89,
+            "url": "/cms-media/Farmacia_Confianca_62f5013a4d.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "Farmacia_Confianca_62f5013a4d",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-22T17:23:41.367Z",
+            "updatedAt": "2025-06-02T16:39:23.797Z",
+            "publishedAt": "2025-04-22T17:23:41.367Z"
+          }
+        },
+        {
+          "id": 721,
+          "Content": "<h5>Curso Excel-Excel Express</h5><p>✓ Acesso ao minicurso completo do Excel Express (Onze módulos com aulas gravadas) - €37<br>✓ Videos Bónus! - €7<br>✓eBook Excel Express - €11<br>✓ Apoio durante e após a conclusão do curso - €77</p><p>&nbsp;</p><p><s>132€</s></p><p><span style=\"font-size:20px;\"><strong>12€</strong></span></p><p>Formadora: Ana Morais</p><p><br>Link Fyld: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://excelexpress.systeme.io/excelexpress fyld \">https://excelexpress.systeme.io/excelexpress fyld&nbsp;</a></p><p>Apresentação do curso: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://anamorais.me/excel-express/\">http://anamorais.me/excel-express/</a></p>",
+          "aspectRatio": "Medium Format",
+          "Imagem": {
+            "id": 75,
+            "documentId": "fi5rccrncrndrktuvzvafel0",
+            "name": "ExcelAnaMorais.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 5000,
+            "height": 4185,
+            "formats": {
+              "large": {
+                "ext": ".png",
+                "url": "/cms-media/large_Excel_Ana_Morais_91ef89318d.jpg",
+                "hash": "large_Excel_Ana_Morais_91ef89318d",
+                "mime": "image/jpeg",
+                "name": "large_ExcelAnaMorais.png",
+                "path": null,
+                "size": 106.64,
+                "width": 1000,
+                "height": 837,
+                "sizeInBytes": 106642,
+                "provider_metadata": {
+                  "public_id": "large_Excel_Ana_Morais_91ef89318d",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".png",
+                "url": "/cms-media/small_Excel_Ana_Morais_91ef89318d.jpg",
+                "hash": "small_Excel_Ana_Morais_91ef89318d",
+                "mime": "image/jpeg",
+                "name": "small_ExcelAnaMorais.png",
+                "path": null,
+                "size": 34.8,
+                "width": 500,
+                "height": 418,
+                "sizeInBytes": 34801,
+                "provider_metadata": {
+                  "public_id": "small_Excel_Ana_Morais_91ef89318d",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".png",
+                "url": "/cms-media/medium_Excel_Ana_Morais_91ef89318d.jpg",
+                "hash": "medium_Excel_Ana_Morais_91ef89318d",
+                "mime": "image/jpeg",
+                "name": "medium_ExcelAnaMorais.png",
+                "path": null,
+                "size": 66.39,
+                "width": 750,
+                "height": 628,
+                "sizeInBytes": 66385,
+                "provider_metadata": {
+                  "public_id": "medium_Excel_Ana_Morais_91ef89318d",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/cms-media/thumbnail_Excel_Ana_Morais_91ef89318d.jpg",
+                "hash": "thumbnail_Excel_Ana_Morais_91ef89318d",
+                "mime": "image/jpeg",
+                "name": "thumbnail_ExcelAnaMorais.png",
+                "path": null,
+                "size": 7.4,
+                "width": 186,
+                "height": 156,
+                "sizeInBytes": 7399,
+                "provider_metadata": {
+                  "public_id": "thumbnail_Excel_Ana_Morais_91ef89318d",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "Excel_Ana_Morais_91ef89318d",
+            "ext": ".png",
+            "mime": "image/jpeg",
+            "size": 1150.54,
+            "url": "/cms-media/Excel_Ana_Morais_91ef89318d.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "Excel_Ana_Morais_91ef89318d",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-22T17:23:41.558Z",
+            "updatedAt": "2025-06-02T16:27:17.570Z",
+            "publishedAt": "2025-04-22T17:23:41.559Z"
+          }
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 298,
+    "documentId": "sdw90jfnarn0gl1nz2zntout",
+    "Title": "Iniciativas Fyld",
+    "slug": "iniciativas-fyld",
+    "createdAt": "2025-04-17T11:23:34.679Z",
+    "updatedAt": "2025-05-26T16:13:38.576Z",
+    "publishedAt": "2025-05-26T16:13:39.000Z"
+  },
+  "createdAt": "2025-04-17T15:02:32.038Z",
+  "updatedAt": "2025-07-03T17:06:24.187Z"
+}

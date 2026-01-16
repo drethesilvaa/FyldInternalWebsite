@@ -1,0 +1,93 @@
+{
+  "documentId": "z8toa5dke9y8ui3j1gtmg3w1",
+  "Title": "Política de Teletrabalho",
+  "slug": "politica-de-teletrabalho",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 178,
+      "Content": "<p>Um acordo de teletrabalho é um acordo voluntário entre a organização e o empregado. Normalmente, implica que o empregado trabalhe a partir de casa, numa área separada do seu alojamento, quer se trate de uma casa, apartamento ou outro tipo de residência doméstica.<br>A introdução de um regime de teletrabalho, quando gerido de forma eficaz, tem o potencial de beneficiar tanto o indivíduo como a organização. O indivíduo ganhará maior flexibilidade na organização do trabalho e possivelmente evitará uma longa deslocação de e para o escritório. A organização pode reter pessoal qualificado e experiente cujas circunstâncias se adequam ao teletrabalho e possivelmente poupar dinheiro no aluguer, arrendamento ou compra de espaço de escritório.<br>Esta política define os principais elementos relacionados com a segurança da informação que devem ser considerados aquando da aprovação de um acordo de teletrabalho. Garante que todas as questões necessárias são abordadas e que os activos de informação da organização são protegidos.</p><p>&nbsp;</p><h6>Implementação de um regime de teletrabalho</h6><p>Do ponto de vista da segurança da informação, há vários aspectos que devem ser considerados em cada regime de teletrabalho e a política da organização nestas áreas é apresentada nas secções seguintes.<br>Aqui no topo estão algumas directrizes práticas. Elas são o resultado das políticas abaixo. Estão aqui no topo porque é muito importante ser pragmático e prático em relação à segurança:</p><ol style=\"list-style-type:decimal;\"><li>Evita trabalhar em hotspots Wi-Fi públicos, como cafés, aeroportos ou hotéis. Se for necessário utilizar uma rede Wi-Fi pública, ligue-se através de uma VPN segura para proteger os seus dados e as informações da empresa.</li><li>Quando viajares ou trabalhares em espaços públicos, utiliza uma película de privacidade no teu computador portátil para evitar que pessoas não autorizadas vejam informações sensíveis no teu ecrã.</li><li>Nunca deixes o teu telemóvel, computador portátil ou outros dispositivos sem vigilância. Se precisares de se afastar, guarde os seus dispositivos numa gaveta ou armário fechado à chave ou leva-os contigo.</li><li>Permitir a autenticação multifactor (MFA) em todas as contas e dispositivos para proporcionar uma camada adicional de segurança, especialmente para aceder a sistemas ou dados sensíveis.</li><li>Mantem os teus dispositivos actualizados com os mais recentes patches de segurança e software antivírus para te proteger contra potenciais ameaças e vulnerabilidades.</li><li>Utiliza palavras-passe fortes e únicas para todas as contas e dispositivos e evita utilizar a mesma palavra-passe para várias contas. Utiliza um gestor de palavras-passe para ajudar a gerir e armazenar as tuas palavras-passe de forma segura.</li><li>Evite discutir informações sensíveis ou partilhar documentos confidenciais em áreas públicas, como durante chamadas telefónicas ou videoconferências, onde outras pessoas possam ouvir ou ver o seu ecrã.</li><li>Nunca utilizes serviços pessoais de armazenamento na nuvem, como o Dropbox, para armazenar informações empresariais. Utiliza sempre o armazenamento na nuvem aprovado pela empresa ou dispositivos de armazenamento externo para armazenar dados relacionados com o trabalho.</li><li>Não utilizes computadores portáteis ou dispositivos móveis pessoais em casa se tiver sido fornecido um dispositivo da empresa para o teu trabalho. Para manter a segurança e a conformidade, utilize sempre os dispositivos fornecidos pela empresa para tarefas relacionadas com o trabalho.</li><li>Comunica imediatamente quaisquer incidentes de segurança, suspeitas de violações ou dispositivos perdidos ou roubados ao teu departamento de TI ou de segurança para minimizar potenciais danos e iniciar as medidas de resposta adequadas.</li></ol><h6><br>Avaliação inicial dos riscos</h6><p>Antes de se poder iniciar um regime de teletrabalho, será efetuada uma avaliação inicial dos riscos do ambiente proposto e da natureza do trabalho a realizar, tendo em consideração os seguintes factores:</p><ol style=\"list-style-type:decimal;\"><li>Segurança física dos locais de trabalho à distância:<ul style=\"list-style-type:disc;\"><li>Acesso não autorizado a dispositivos e informações confidenciais</li><li>Armazenamento seguro de dispositivos e documentos quando não estão a ser utilizados</li><li>Privacidade do espaço de trabalho, incluindo a utilização de ecrãs de privacidade</li></ul></li><li>Segurança de dispositivos e terminais:<ul><li>Utilização de dispositivos emitidos ou aprovados pela empresa com medidas de segurança adequadas</li><li>Actualizações regulares de segurança e patches para sistemas operativos e software</li><li>Encriptação de dispositivos e armazenamento de dados, incluindo suportes amovíveis</li></ul></li><li>Segurança da rede e controlo de acesso:<ul><li>Utilização de ligações VPN seguras para acesso remoto aos sistemas da empresa</li><li>Implementação da autenticação multi-fator para aceder a sistemas e dados sensíveis</li><li>Monitorização e registo da atividade de acesso remoto para detetar potenciais ameaças ou violações</li></ul></li><li>Segurança e privacidade dos dados:<ul><li>Encriptação de dados sensíveis durante a transmissão e o armazenamento</li><li>Eliminação segura de dados electrónicos e físicos quando já não são necessários</li><li>Cumprimento dos regulamentos de proteção de dados e das políticas de privacidade da empresa</li></ul></li><li>Factores humanos e sensibilização:<ul><li>Formação sobre práticas de teletrabalho seguras e políticas de segurança da empresa</li><li>Orientações claras sobre a comunicação de incidentes de segurança ou suspeitas de infração</li><li>Reforço da importância de manter um ambiente de trabalho remoto seguro</li></ul></li><li>Riscos de terceiros e da cadeia de abastecimento:<ul><li>Avaliar a postura de segurança de vendedores e fornecedores terceiros</li><li>Assegurar que os empregados remotos cumprem as políticas da empresa quando trabalham com terceiros</li><li>Monitorizar e gerir os riscos associados ao acesso de terceiros aos sistemas e dados da empresa</li></ul></li><li>Planeamento da continuidade das actividades e da resposta a incidentes:<ul><li>Garantir que os funcionários remotos tenham acesso aos recursos e ao apoio necessários durante emergências ou interrupções</li><li>Testes regulares e atualização dos planos de continuidade das actividades e de resposta a incidentes</li><li>Canais de comunicação claros para funcionários remotos durante incidentes</li></ul></li><li>Conformidade legal e regulamentar:<ul><li>Assegurar que as políticas e práticas de teletrabalho estão em conformidade com a legislação e regulamentação pertinentes</li><li>Resolver potenciais problemas de transferência de dados transfronteiriços, nomeadamente para os trabalhadores remotos em diferentes jurisdições</li><li>Revisões e actualizações regulares das políticas de teletrabalho para manter a conformidade com a evolução da regulamentação</li></ul></li><li>Natureza do trabalho e riscos associados:<ul><li>Avaliar a sensibilidade e o carácter crítico das tarefas executadas remotamente, bem como os dados que estão a ser tratados</li><li>Identificação de quaisquer requisitos específicos de segurança ou privacidade com base na natureza do trabalho (por exemplo, tratamento de informações pessoais, propriedade intelectual, dados financeiros ou informações sensíveis de clientes)</li><li>Implementação de controlos de segurança, procedimentos ou formação adicionais adaptados aos riscos únicos associados ao trabalho específico realizado remotamente</li></ul></li></ol><h6><br>Apoio técnico</h6><p>A assistência técnica de todo o equipamento fornecido será prestada pelo serviço de apoio informático.</p><p>&nbsp;</p><h6>Rescisão do acordo</h6><p>Se o acordo de teletrabalho for rescindido por qualquer motivo, todo o equipamento fornecido como parte do acordo deve ser devolvido ao Serviço de Apoio Informático o mais rapidamente possível.</p><p>&nbsp;</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T15:56:03.858Z",
+  "updatedAt": "2025-05-05T09:41:17.663Z"
+}

@@ -1,0 +1,93 @@
+{
+  "documentId": "yv7q1dnr81caml0dnaqxs5iy",
+  "Title": "Ferramentas de Trabalho",
+  "slug": "ferramentas-de-trabalho",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 142,
+      "Content": "<p>Um <strong>portátil </strong>é atribuído a todos os colaboradores da Fyld, se o cliente não fornecer um. Esta informação será fornecida pelo teu Manager, de acordo com o projecto em que serás inserido. Este equipamento será entregue no primeiro dia de funções e deverá ser devolvido (em caso de término de funções) até 24h após o término das mesmas.<br>O portátil não é considerado um benefício da empresa, e como tal deves cuidar dele, mantê-lo funcional e em bom estado. Os colaboradores são responsáveis pelo seu material de trabalho e, como tal, responsáveis por quaisquer danos que resultem da sua má utilização.<br>No caso de qualquer avaria, deves informar imediatamente o teu Manager, para que o processo de substituição possa ser realizado o mais rapidamente possível.<br>Em caso de roubo, deves denunciá-lo à polícia, guardar uma cópia da queixa e entregar aos Recursos Humanos.</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 372,
+    "documentId": "px4yc8eilkt8utva1bcj8fc0",
+    "Title": "Procedimentos ",
+    "slug": "procedimentos",
+    "createdAt": "2025-04-17T11:21:13.545Z",
+    "updatedAt": "2025-07-03T17:13:50.222Z",
+    "publishedAt": "2025-07-03T17:13:50.641Z"
+  },
+  "createdAt": "2025-04-22T15:52:17.984Z",
+  "updatedAt": "2025-04-23T17:46:42.089Z"
+}

@@ -83,8 +83,8 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
               >
                 <img
-                  src={logo?.url || ""}
-                  alt={logo?.alt || "Logo"}
+                  src={typeof logo === 'string' ? logo : (logo?.url || "")}
+                  alt={typeof logo === 'string' ? "Logo" : (logo?.alt || "Logo")}
                   className="w-[600px] object-cover h-full rounded-md"
                 />
               </motion.div>

@@ -1,0 +1,129 @@
+{
+  "documentId": "zhhyum8sutgqg0c1gc4t9ot6",
+  "Title": "Processo de Inserção de Faturas",
+  "slug": "processo-de-insercao-de-faturas",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.accordion",
+      "id": 64,
+      "Items": [
+        {
+          "id": 240,
+          "Titulo": "1) Inserir horas",
+          "content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746482897/1_Inserir_Horas_58de3d3219.png\" alt=\"1InserirHoras.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746482898/thumbnail_1_Inserir_Horas_58de3d3219.png 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482898/small_1_Inserir_Horas_58de3d3219.png 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482898/medium_1_Inserir_Horas_58de3d3219.png 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482898/large_1_Inserir_Horas_58de3d3219.png 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"819\"></p>"
+        },
+        {
+          "id": 241,
+          "Titulo": "2) Criação de uma Fatura",
+          "content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746482928/2_Criarfatura_5140174239.png\" alt=\"2Criarfatura.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746482928/thumbnail_2_Criarfatura_5140174239.png 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482929/small_2_Criarfatura_5140174239.png 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482929/medium_2_Criarfatura_5140174239.png 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482929/large_2_Criarfatura_5140174239.png 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"819\"></p><p>Os campos “Valor dia”, “Valor estimado (antes dos impostos)”, “Extras” e “Dias a faturar” serão automaticamente gerados.</p><p>Depois de ser criada a fatura, irás receber um email para inserir o ficheiro da mesma (com exemplo mais abaixo).</p>"
+        },
+        {
+          "id": 242,
+          "Titulo": "3) A tua fatura irá aparecer no ecrã",
+          "content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746482959/3faturanoecra_60af0d3dca.png\" alt=\"3faturanoecra.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746482959/thumbnail_3faturanoecra_60af0d3dca.png 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482960/small_3faturanoecra_60af0d3dca.png 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482960/medium_3faturanoecra_60af0d3dca.png 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482960/large_3faturanoecra_60af0d3dca.png 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"819\"></p><p>A fatura só pode ser aprovada quando for inserido o respetivo ficheiro.<br>&nbsp;</p>"
+        },
+        {
+          "id": 243,
+          "Titulo": "4) De seguida, irás receber o respetivo email, que deves responder com o ficheiro",
+          "content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746482984/4respondercomficheiro_fc21c2beb3.png\" alt=\"4respondercomficheiro.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746482984/thumbnail_4respondercomficheiro_fc21c2beb3.png 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482985/small_4respondercomficheiro_fc21c2beb3.png 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482985/medium_4respondercomficheiro_fc21c2beb3.png 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746482985/large_4respondercomficheiro_fc21c2beb3.png 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"845\"></p>"
+        },
+        {
+          "id": 244,
+          "Titulo": "5) Se o ficheiro for inserido antes da data limite irá receber dois emails",
+          "content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483026/5_1aviso_40f1882fd5.jpg\" alt=\"5_1aviso.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483026/thumbnail_5_1aviso_40f1882fd5.jpg 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483027/small_5_1aviso_40f1882fd5.jpg 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483027/medium_5_1aviso_40f1882fd5.jpg 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483027/large_5_1aviso_40f1882fd5.jpg 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"402\"><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483034/5_2aviso_fc93c3da42.jpg\" alt=\"5_2aviso.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483034/thumbnail_5_2aviso_fc93c3da42.jpg 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483034/small_5_2aviso_fc93c3da42.jpg 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483034/medium_5_2aviso_fc93c3da42.jpg 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483034/large_5_2aviso_fc93c3da42.jpg 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"468\"></p>"
+        },
+        {
+          "id": 245,
+          "Titulo": "6) Depois de enviares o ficheiro via email, poderás editar ou apagar a tua fatura antes de ser aprovada",
+          "content": "<p>Só no registo de atividade é que a fatura pode ser editada ou apagada:<br><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483064/6_1image_217cde4fb6.png\" alt=\"6_1image.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483065/thumbnail_6_1image_217cde4fb6.png 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483066/small_6_1image_217cde4fb6.png 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483066/medium_6_1image_217cde4fb6.png 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483066/large_6_1image_217cde4fb6.png 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"845\"><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483079/6_2imagem_5b1065e47e.png\" alt=\"6_2imagem.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483079/thumbnail_6_2imagem_5b1065e47e.png 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483080/small_6_2imagem_5b1065e47e.png 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483080/medium_6_2imagem_5b1065e47e.png 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483080/large_6_2imagem_5b1065e47e.png 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"845\"></p>"
+        },
+        {
+          "id": 246,
+          "Titulo": "7) Quando a fatura for aprovada ou rejeitada, irás receber um email",
+          "content": "<p>(Os exemplos que se seguem não estão relacionados com o mesmo colaborador):<br>&nbsp;<img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483120/7email_Fatura1_d67b7efda0.jpg\" alt=\"7emailFatura1.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483120/thumbnail_7email_Fatura1_d67b7efda0.jpg 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483120/small_7email_Fatura1_d67b7efda0.jpg 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483120/medium_7email_Fatura1_d67b7efda0.jpg 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483120/large_7email_Fatura1_d67b7efda0.jpg 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"390\"><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483131/7_emailfatura2_3478117563.jpg\" alt=\"7_emailfatura2.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746483131/thumbnail_7_emailfatura2_3478117563.jpg 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483131/small_7_emailfatura2_3478117563.jpg 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483131/medium_7_emailfatura2_3478117563.jpg 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746483131/large_7_emailfatura2_3478117563.jpg 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"375\"></p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 329,
+    "documentId": "waxz21w0ckw2qmvd7t4n9xa1",
+    "Title": "Jin - Joyn Internal Network",
+    "slug": "jin-joyn-internal-network",
+    "createdAt": "2025-04-22T15:50:01.391Z",
+    "updatedAt": "2025-06-04T15:48:59.857Z",
+    "publishedAt": "2025-06-04T15:49:00.360Z"
+  },
+  "createdAt": "2025-04-22T15:50:25.709Z",
+  "updatedAt": "2025-05-05T22:12:28.787Z"
+}

@@ -1,0 +1,93 @@
+{
+  "documentId": "i9y2f78ixi4x4n41o3zfihmy",
+  "Title": "Seguros de saúde",
+  "slug": "seguros-de-saude",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 240,
+      "Content": "<h6>Como solicitar reembolso de despesas médicas fora da rede credenciada</h6><p>Se realizares uma consulta, exame ou outro procedimento com um profissional ou clínica que não faz parte da rede credenciada Medis, é possível solicitar o reembolso ao seu plano de saúde (seguro médico), desde que o plano permita essa opção.</p><p><br>Veja o passo a passo:</p><p>Passo a passo para solicitar o reembolso<br>&nbsp;</p><ol style=\"list-style-type:decimal;\"><li>Guarda toda a documentação<br>Após o atendimento, deves guardar:<br>o Fatura ou recibo em nome do titular ou dependente do plano<br>o Comprovativo de pagamento (com data, valor e forma de pagamento)<br>o Relatório médico (ou pedido médico) com informações sobre o atendimento realizado (se aplicável)<br>o Nome completo, CPF e CRM do profissional de saúde (se aplicável)</li><li>Preenche o formulário de reembolso<br>o Acede ao site ou app do seu seguro de saúde (ex: Médis, Multicare, AdvanceCare, etc.)<br>o Procura pela seção de Reembolsos ou Pedidos de Reembolso<br>o Preenche o formulário online ou transfere o formulário físico (caso precise enviar por correio)</li><li>Anexe os documentos<br>o Digitaliza ou tira fotos legíveis dos documentos necessários<br>o Anexa ao formulário online ou envia fisicamente, conforme indicado pela seguradora</li><li>Envia o pedido<br>o Se for pelo site ou app, basta submeter o pedido<br>o Se for por correio, envia para o endereço indicado no site da seguradora</li><li>Acompanha o processo<br>o Poderás acompanhar o status do reembolso no site, app ou pelo telefone da seguradora<br>o O prazo para resposta costuma ser de 5 a 15 dias úteis, dependendo da seguradora</li><li>Recebe o valor reembolsado<br>o Se aprovado, o valor será depositado na conta bancária registada<br>o Atenção: o valor reembolsado pode não ser 100% do que foi pago; depende das condições do teu plano</li></ol>"
+    }
+  ],
+  "ParentPage": {
+    "id": 366,
+    "documentId": "izdp1pduaos8kqz0a0braslm",
+    "Title": "Benefícios e Parcerias",
+    "slug": "beneficios-fyld",
+    "createdAt": "2025-04-17T15:02:32.038Z",
+    "updatedAt": "2025-07-03T17:06:24.187Z",
+    "publishedAt": "2025-07-03T17:06:24.841Z"
+  },
+  "createdAt": "2025-05-20T14:30:36.151Z",
+  "updatedAt": "2025-05-20T14:33:16.140Z"
+}

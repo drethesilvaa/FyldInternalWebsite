@@ -1,0 +1,105 @@
+{
+  "documentId": "zceq6vtygoz0nqskgd4hhccg",
+  "Title": "Podcast",
+  "slug": "podcast",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.grid-section",
+      "id": 102,
+      "Colunas": 5,
+      "Item": [
+        {
+          "id": 297,
+          "Colunas": 2,
+          "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1749056503/podcast_db97a76434.jpg\" alt=\"podcast.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1749056503/thumbnail_podcast_db97a76434.jpg 234w,https://res.cloudinary.com/dqgschgs7/image/upload/v1749056504/small_podcast_db97a76434.jpg 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1749056504/medium_podcast_db97a76434.jpg 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1749056504/large_podcast_db97a76434.jpg 1000w,\" sizes=\"100vw\" width=\"5642\" height=\"3761\"></p>"
+        },
+        {
+          "id": 298,
+          "Colunas": 3,
+          "Content": "<p>Na FYLD gostamos de comunicar com verdade, criatividade e, acima de tudo, proximidade. É por isso que, além da nossa newsletter interna mensal — onde partilhamos eventos, aniversários, curiosidades e muito mais — temos também o Podcast FYLD!</p><p>Mais do que um simples podcast, é a tua janela para o que se vive por dentro. Conversas autênticas, momentos inesperados, vozes conhecidas e histórias que te vão fazer rir, pensar e, acima de tudo, sentir-te ainda mais ligado à nossa cultura</p><p>Já ouviste o último episódio?<br>Traz os auriculares, dá o play e junta-te à conversa. Podes ouvi-lo onde e quando quiseres — no caminho para o trabalho, na pausa do café ou enquanto dás um passeio.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://open.spotify.com/show/4kwxvRSQ0t2Q55a0A8ZsMa?si=88a013f0d69f4f79\">Spotify</a></p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 298,
+    "documentId": "sdw90jfnarn0gl1nz2zntout",
+    "Title": "Iniciativas Fyld",
+    "slug": "iniciativas-fyld",
+    "createdAt": "2025-04-17T11:23:34.679Z",
+    "updatedAt": "2025-05-26T16:13:38.576Z",
+    "publishedAt": "2025-05-26T16:13:39.000Z"
+  },
+  "createdAt": "2025-05-12T16:22:16.186Z",
+  "updatedAt": "2025-06-04T17:02:09.697Z"
+}

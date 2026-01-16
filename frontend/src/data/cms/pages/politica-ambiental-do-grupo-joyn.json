@@ -1,0 +1,93 @@
+{
+  "documentId": "ix42d3dconiupttg80aprvcp",
+  "Title": "Política Ambiental do Grupo JOYN",
+  "slug": "politica-ambiental-do-grupo-joyn",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 194,
+      "Content": "<p>A Política Ambiental do Grupo JOYN reflete o seu compromisso na promoção de práticas ambientais responsáveis e sustentáveis em todas as suas operações.<br>O Grupo JOYN, representado pela Administração, compromete-se a:</p><ol style=\"list-style-type:decimal;\"><li>Assegurar o cumprimento de todas as leis e regulamentos ambientais aplicáveis.</li><li>Procurar melhorias contínuas no desempenho ambiental, implementando programas de redução, reutilização e reciclagem de resíduos.</li><li>Reduzir a geração de resíduos e emissões, monitorizando as emissões de gases de efeito estufa e outros poluentes e implementando práticas para prevenir a poluição do ar, água e solo.</li><li>Promover a eficiência no uso de energia, água e outros recursos, investindo em tecnologias e práticas de eficiência energética e promovendo o uso de fontes de energia renováveis sempre que possível.</li><li>Envolver e consciencializar colaboradores, fornecedores e outras partes interessadas sobre a importância da responsabilidade ambiental, priorizando a aquisição de produtos e serviços que tenham maior impacto positivo no ambiente e cooperando com fornecedores que compartilhem o nosso compromisso com a sustentabilidade.</li><li>Comunicar abertamente as nossas políticas, práticas e desempenhos ambientais. Esta política ambiental será publicada e disponibilizada a todos os colaboradores e partes interessadas, refletindo o nosso compromisso com a responsabilidade ambiental.</li></ol>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T16:03:34.199Z",
+  "updatedAt": "2025-05-05T14:49:47.876Z"
+}

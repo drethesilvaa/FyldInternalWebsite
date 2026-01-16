@@ -1,0 +1,109 @@
+{
+  "documentId": "gvywe6frwzzvd97t3yg11xqv",
+  "Title": "Código de Ética e Conduta Grupo Joyn",
+  "slug": "codigo-de-etica-e-conduta-grupo-joyn",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.accordion",
+      "id": 59,
+      "Items": [
+        {
+          "id": 217,
+          "Titulo": "1. Enquadramento",
+          "content": "<p><strong>1.1 Introdução</strong><br>Este Código de Ética e Conduta tem o objetivo de orientar a conduta de todos os colaboradores do Grupo Joyn. Estabelece princípios e valores fundamentais que devem ser adotados por todos, incluindo fornecedores, clientes e outras partes interessadas, promovendo um ambiente de confiança, agilidade, flexibilidade, inovação, competência e compromisso.<br><strong>1.2 Missão e Visão</strong><br>O Grupo Joyn é um grupo de empresas de IT dedicado a fornecer serviços e soluções que simplificam as operações das empresas, maximizando a eficiência e o retorno do investimento. A nossa visão é ser reconhecida pela excelência e inovação no setor de TI, promovendo o crescimento sustentável para os nossos clientes e a sociedade.<br><strong>1.3 Valores</strong><br>Os valores que guiam as nossas operações incluem:</p><ul><li>Compromisso: Cumprir com prazos e metas de qualidade para garantir a satisfação de clientes internos e externos.</li><li>Agilidade: Tomar decisões rapidamente e de forma informada para responder às mudanças.</li><li>Flexibilidade: Adaptar as soluções às necessidades específicas dos clientes, valorizando a diversidade de ideias e perspetivas.</li><li>Inovação: Desenvolver novos produtos, serviços e processos que criem valor.</li><li>Competência: Manter um alto nível de conhecimento técnico e operacional para maximizar os resultados.</li></ul>"
+        },
+        {
+          "id": 218,
+          "Titulo": "2. Código de Conduta",
+          "content": "<p><strong>2.1 Âmbito</strong><br>Este Código aplica-se a todos os colaboradores do Grupo Joyn, incluindo membros da direção, quadros, trabalhadores e colaboradores temporários. A sua observância é essencial para o cumprimento das nossas responsabilidades legais e éticas.<br>&nbsp;</p><p><strong>2.2 Valores e Princípios Gerais</strong><br>Todos os colaboradores do Grupo Joyn devem respeitar os seguintes princípios:<br>&nbsp;</p><p><strong>2.2.1 Autonomia e liberdade individual</strong><br>Respeitar as opiniões de todos, sem interferências ou constrangimentos.<br>&nbsp;</p><p><strong>2.2.2 Igualdade de tratamento e não discriminação</strong><br>Os colaboradores do Grupo Joyn não devem adotar comportamentos discriminatórios com base na raça, sexo, idade, incapacidade física, orientação sexual, opiniões políticas ou convicções religiosas, respeitando o artigo 13.º da Constituição da República Portuguesa.<br>O Grupo Joyn e os seus colaboradores comprometem-se a atuar com integridade e dignidade, denunciando qualquer prática que viole os princípios de igualdade e respeito.<br>&nbsp;</p><p><strong>2.2.3 Não tolerância ao assédio, ameaças ou intimidação</strong><br>O Grupo Joyn não admite qualquer tipo de assédio, comportamento abusivo ou contacto físico inadequado entre colaboradores, clientes, parceiros ou fornecedores, conforme estipulado no Art. 29.º da Lei nº 73/2017, de 16 de Agosto.<br>Os colaboradores que violarem essa norma estão sujeitos a sanções disciplinares, independentemente de onde ocorra o comportamento.<br>&nbsp;</p><p><strong>2.2.4 Diligência, eficiência e responsabilidade</strong><br>Todos os colaboradores devem cumprir as suas funções com zelo, eficiência e responsabilidade.<br>O desempenho será avaliado com base no mérito e nos resultados, considerando o cumprimento dos objetivos e das responsabilidades de cada colaborador.</p><p><strong>2.3 Relacionamento com o Exterior</strong><br>Os colaboradores devem:</p><ul><li>Manter confidencialidade sobre informações de clientes e projetos.</li><li>Abster-se de emitir declarações públicas que possam afetar a imagem do Grupo Joyn.</li><li>Evitar conflitos de interesse e comunicar qualquer situação que possa afetar a imparcialidade das suas decisões.</li></ul><p><strong>2.4 Relações Internas</strong></p><p>Nas relações entre colaboradores, o Grupo Joyn promove:</p><ul><li>Respeito e Colaboração: Um ambiente de trabalho colaborativo, onde a partilha de conhecimento é incentivada.</li><li>Desenvolvimento Profissional: Incentivo à formação contínua para melhorar as competências individuais e coletivas.</li><li>Utilização Responsável de Recursos: Uso criterioso de todos os bens e recursos da empresa.</li></ul>"
+        },
+        {
+          "id": 219,
+          "Titulo": "3. Aplicação",
+          "content": "<p><strong>3.1 Compromisso de Cumprimento</strong><br>Todos os colaboradores devem respeitar e fazer cumprir este Código. Violações podem resultar em sanções disciplinares, incluindo a cessação do contrato de trabalho.<br><strong>3.2 Comunicação de Irregularidades</strong><br>Eventuais infrações ao Código devem ser comunicadas por escrito para o e-mail people@joyn-group.com. A gestão do Grupo Joyn compromete-se a investigar todas as denúncias de forma justa e rigorosa.<br><strong>3.3 Aplicação e Acompanhamento</strong><br>Este Código entra em vigor imediatamente após a sua aprovação e divulgação. Em caso de dúvidas, os colaboradores devem consultar os seus superiores hierárquicos.<br>&nbsp;</p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T16:01:56.775Z",
+  "updatedAt": "2025-05-05T14:38:52.598Z"
+}

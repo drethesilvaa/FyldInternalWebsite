@@ -1,0 +1,109 @@
+{
+  "documentId": "tzkxg4ml5a93cqatnsw88h6e",
+  "Title": "Política de Responsabilidade Social Empresarial ",
+  "slug": "politica-de-responsabilidade-social-empresarial",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.accordion",
+      "id": 61,
+      "Items": [
+        {
+          "id": 223,
+          "Titulo": "1. Introdução",
+          "content": "<p>A Fyld, empresa especializada em outsourcing de TI, reconhece a importância de adotar práticas de responsabilidade social que contribuam positivamente para o meio ambiente, a comunidade, os colaboradores e os negócios. Alinhados com os nossos valores de inovação, qualidade e compromisso com os clientes, integramos a RSE na nossa estratégia corporativa para criar impacto positivo e sustentável.</p>"
+        },
+        {
+          "id": 224,
+          "Titulo": "2. Áreas de Atuação ",
+          "content": "<p><strong>2.1. Meio Ambiente</strong><br>Embora a Fyld opere predominantemente no setor de TI, reconhecemos que todos os sectores têm um papel crucial na preservação ambiental. Comprometemo-nos a:<br>• Reduzir a pegada de carbono através da otimização da frota de carros 100% elétrica.<br>• Promover o uso de tecnologias verdes, incentivando os clientes a adotar soluções sustentáveis de TI que minimizem o impacto ambiental, como a virtualização de servidores e a computação em nuvem.<br>• Iniciativas de reciclagem, garantindo a gestão responsável de resíduos eletrónicos e outros materiais utilizados.<br><strong>2.2. Comunidade</strong><br>A Fyld entende que o desenvolvimento social é essencial para um futuro próspero. Estamos comprometidos em:<br>• Desenvolver e apoiar programas educacionais voltados para a formação de jovens em áreas tecnológicas, especialmente em comunidades carenciadas.<br>• Voluntariado corporativo, incentivando os nossos colaboradores a dedicarem tempo e conhecimento em projetos sociais e tecnológicos que visem a inclusão digital.<br>• Parcerias com ONGs e outras instituições que promovam o acesso a oportunidades e o desenvolvimento social sustentável.<br><strong>2.3. Ética e Governança</strong><br>Manter os mais elevados padrões de ética nos negócios é fundamental para a Fyld. Comprometemo-nos a:<br>• Promover a transparência em todos os nossos processos e relações comerciais.<br>• Garantir o cumprimento rigoroso de todas as legislações e normas que regem o nosso sector de atuação, tanto a nível nacional como internacional.<br>• Adotar práticas anticorrupção, implementando políticas internas que previnam e combatam quaisquer práticas ilícitas.<br><strong>2.4. Colaboradores</strong><br>Os colaboradores são o coração da Fyld. Investimos no bem-estar e no desenvolvimento contínuo dos nossos profissionais para assegurar que estejam capacitados e motivados. Para tal, garantimos:<br>• Formação contínua e desenvolvimento de carreira, oferecendo oportunidades de aprimoramento em competências técnicas e comportamentais.<br>• Ambiente de trabalho inclusivo, onde a diversidade é valorizada e onde todos se sintam respeitados e ouvidos, independentemente de género, raça, orientação sexual ou qualquer outra característica.<br>• Bem-estar e equilíbrio entre trabalho e vida pessoal, promovendo políticas de trabalho flexíveis e incentivando uma cultura de apoio à saúde mental e física.</p>"
+        },
+        {
+          "id": 225,
+          "Titulo": "3. Compromisso com o Futuro",
+          "content": "<p>A Fyld está continuamente a avaliar e a aprimorar as suas práticas de responsabilidade social empresarial. Reconhecemos que, como uma empresa de tecnologia, temos uma oportunidade única de usar a inovação para gerar impacto positivo em todas as dimensões da nossa atuação. Estamos<br>comprometidos em trabalhar de forma colaborativa com os nossos parceiros, clientes e comunidade para criar soluções sustentáveis e inovadoras que contribuam para um mundo melhor.</p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T16:02:12.415Z",
+  "updatedAt": "2025-05-05T14:47:01.198Z"
+}

@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { request } from "graphql-request";
-import { GRAPHQL_ENDPOINT, GRAPHQL_HEADERS } from "@/lib/apiConfig";
-import { GET_PAGE_DATA } from "@/graphql/queries/pageData";
+import { getPageBySlug } from "@/lib/cmsLoader";
 
 export async function GET(
   req: NextRequest,
@@ -10,14 +8,16 @@ export async function GET(
   const { slug } = await params;
 
   try {
-    const data: any = await request(
-      GRAPHQL_ENDPOINT,
-      GET_PAGE_DATA,
-      { slug },
-      GRAPHQL_HEADERS
-    );
+    const pageData = await getPageBySlug(slug);
 
-    return NextResponse.json(data.pages_connection?.nodes[0]);
+    if (!pageData) {
+      return NextResponse.json(
+        { error: "Page not found" },
+        { status: 404 }
+      );
+    }
+
+    return NextResponse.json(pageData);
   } catch (error) {
     console.error(error);
     return NextResponse.json(

@@ -1,17 +1,19 @@
 import { NextResponse } from "next/server";
-import { request } from "graphql-request";
-import { GRAPHQL_ENDPOINT, GRAPHQL_HEADERS } from "@/lib/apiConfig";
-import { GET_FOOTER_DATA } from "@/graphql/queries/footerData";
+import { getFooterData } from "@/lib/cmsLoader";
 
 export async function GET() {
   try {
-    const data = await request(
-      GRAPHQL_ENDPOINT,
-      GET_FOOTER_DATA,
-      GRAPHQL_HEADERS
-    );
+    const footerData = await getFooterData();
 
-    return NextResponse.json(data);
+    if (!footerData) {
+      return NextResponse.json(
+        { error: "Footer data not found" },
+        { status: 404 }
+      );
+    }
+
+    // Return wrapped in 'footer' key to match what useFooterData expects
+    return NextResponse.json({ footer: footerData });
   } catch (err) {
     return NextResponse.json(
       { error: "Failed to fetch footer", err },

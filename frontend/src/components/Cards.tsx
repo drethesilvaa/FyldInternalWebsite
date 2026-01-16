@@ -9,7 +9,7 @@ export interface CardsProps {
   Horizontal: boolean;
   colunas: number;
   padding: PaddingSize;
-  cardsItems: {
+  Items: {
     Content: string;
     Imagem: { url: string; alt: string } | null;
     aspectRatio: AspectRatio;
@@ -65,7 +65,7 @@ export const Cards = ({
   Horizontal,
   colunas,
   padding,
-  cardsItems,
+  Items,
 }: CardsProps) => {
   const colVariants: { [key: number]: string } = {
     1: "grid-cols-1 lg:grid-cols-1",
@@ -88,7 +88,7 @@ export const Cards = ({
         padding ? paddingMap[padding] : ""
       } my-6`}
     >
-      {cardsItems.map((item, index) => (
+      {Items.map((item, index) => (
         <motion.div
           key={index}
           className={`card bg-base-100 shadow-sm ${

@@ -1,0 +1,289 @@
+{
+  "documentId": "b0le0dwvt03lni70e7wx23ny",
+  "Title": "Centros de Competência ",
+  "slug": "centros-de-competencia",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.grid-section",
+      "id": 117,
+      "Colunas": 6,
+      "Item": [
+        {
+          "id": 408,
+          "Colunas": 2,
+          "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176824/pc_Wallpaper_82220c04c9.jpg\" alt=\"pcWallpaper.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176828/thumbnail_pc_Wallpaper_82220c04c9.jpg 234w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176825/small_pc_Wallpaper_82220c04c9.jpg 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176827/medium_pc_Wallpaper_82220c04c9.jpg 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176825/large_pc_Wallpaper_82220c04c9.jpg 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"1068\"></p><p>&nbsp;</p>"
+        },
+        {
+          "id": 409,
+          "Colunas": 4,
+          "Content": "<p>Os Centros de Competência são núcleos estratégicos que servem para potenciar o conhecimento técnico, promover a colaboração e posicionar-nos como líderes no mercado. E as boas notícias? Os primeiros dois Centros de Competência vão ser nas áreas de <strong>Dados </strong>e <strong>.NET</strong><br>&nbsp;</p>"
+        }
+      ]
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 192,
+      "tamanho": "px32"
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 340,
+      "Content": "<h5 style=\"text-align:center;\">Centro de Competência em Dados&nbsp;</h5><p><strong>Visão</strong><br>Queremos que o Centro de Competência em Dados seja uma referência, utilizando dados de forma inovadora para melhorar decisões, transformar operações e criar valor para os nossos clientes</p><p><strong>Objetivos Principais</strong></p><ol style=\"list-style-type:decimal;\"><li>Desenvolver Competências: Vais ter acesso a formações contínuas em big data, machine learning, análise e visualização de dados, e ferramentas como SQL, Python e R</li><li>Fomentar a Inovação: Participa em hackathons e desafios onde podes explorar novas ideias e soluções</li><li>Certificar-te: Incentivamos-te a obter certificações reconhecidas, como AWS Data Analytics ou Google Data Analytics</li><li>Assegurar Ética e Governança: Vamos garantir que as práticas em dados sejam éticas e estejam em conformidade com as regras, como o RGPD</li><li>Colaborar e Partilhar: Meetups, workshops e grupos de estudo para troca de ideias e crescimento em conjunto</li></ol><p><strong>Actividades-Chave</strong></p><ul><li>Hackathons para resolver problemas reais em dados</li><li>Repositório de boas práticas e metodologias</li><li>Parcerias estratégicas para te oferecer mais recursos e oportunidades<br><br>&nbsp;</li></ul>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 193,
+      "tamanho": "px24"
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 341,
+      "Content": "<h5 style=\"text-align:center;\">Centro de Competência em .NET</h5><p><strong>Visão</strong><br>O nosso objectivo é que o centro promova a excelência no desenvolvimento de soluções .NET, colocando-nos na linha da frente da tecnologia.&nbsp;</p><p><strong>Objetivos Principais</strong></p><ol><li>Atingir Excelência Técnica: Vais aprender e trabalhar com as últimas tecnologias, como .NET Core, Blazor, e Clean Architecture</li><li>Colaborar em Equipa: Participa em workshops, meetups e sessões de codificação em pares</li><li>Certificar-te em .NET: Vamos ajudar-te a conquistar certificações como ASP.NET Core, Azure e Blazor</li><li>Inovar em .NET: Experimenta ferramentas emergentes, como .NET MAUI e soluções cloud-native com Azure</li><li>Garantir Qualidade e Segurança: Implementamos padrões de design e práticas de desenvolvimento seguras</li></ol><p><strong>Actividades-Chave</strong></p><ul><li>Hackathons para criar APIs e soluções inovadoras com Azure</li><li>Repositório com templates e guidelines de codificação</li><li>Programas de mentoria para que possas crescer rapidamente<br>&nbsp;</li></ul>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 194,
+      "tamanho": "px32"
+    },
+    {
+      "__component": "ui.cards",
+      "id": 126,
+      "Horizontal": false,
+      "colunas": 2,
+      "padding": null,
+      "Items": [
+        {
+          "id": 715,
+          "Content": "<h6 style=\"text-align:center;\">O que ganhas ao participar?</h6><ul><li>Tens acesso a formações exclusivas para desenvolveres as tuas competências.</li><li>Podes integrar comunidades de prática e aprender com os teus colegas.</li><li>O teu crescimento vai ser reconhecido através de certificações e resultados alcançados.</li><li>Vais trabalhar num ambiente de colaboração e inovação constante.</li></ul>",
+          "aspectRatio": "Cinemascope Panoramic",
+          "Imagem": {
+            "id": 83,
+            "documentId": "eldta466apx0to6klpfdlh2p",
+            "name": "pc.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1600,
+            "height": 1003,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/cms-media/large_pc_b883533921.jpg",
+                "hash": "large_pc_b883533921",
+                "mime": "image/jpeg",
+                "name": "large_pc.jpg",
+                "path": null,
+                "size": 33.14,
+                "width": 1000,
+                "height": 627,
+                "sizeInBytes": 33142
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/cms-media/small_pc_b883533921.jpg",
+                "hash": "small_pc_b883533921",
+                "mime": "image/jpeg",
+                "name": "small_pc.jpg",
+                "path": null,
+                "size": 11.46,
+                "width": 500,
+                "height": 313,
+                "sizeInBytes": 11464
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/cms-media/medium_pc_b883533921.jpg",
+                "hash": "medium_pc_b883533921",
+                "mime": "image/jpeg",
+                "name": "medium_pc.jpg",
+                "path": null,
+                "size": 20.87,
+                "width": 750,
+                "height": 470,
+                "sizeInBytes": 20866
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/cms-media/thumbnail_pc_b883533921.jpg",
+                "hash": "thumbnail_pc_b883533921",
+                "mime": "image/jpeg",
+                "name": "thumbnail_pc.jpg",
+                "path": null,
+                "size": 4.34,
+                "width": 245,
+                "height": 153,
+                "sizeInBytes": 4341
+              }
+            },
+            "hash": "pc_b883533921",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 68.07,
+            "url": "/cms-media/pc_b883533921.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": null,
+            "createdAt": "2025-04-23T16:08:03.268Z",
+            "updatedAt": "2025-04-23T16:08:03.268Z",
+            "publishedAt": "2025-04-23T16:08:03.269Z"
+          }
+        },
+        {
+          "id": 716,
+          "Content": "<h6 style=\"text-align:center;\">Próximos Passos</h6><ul><li>Em breve, vamos lançar oficialmente os Centros de Competência.</li><li>Fica atento ao calendário com as primeiras actividades, como workshops e hackathons.</li><li>Vamos criar canais internos para te manteres sempre informado e partilhares as tuas ideias.<br>&nbsp;</li></ul>",
+          "aspectRatio": "Cinemascope Panoramic",
+          "Imagem": {
+            "id": 82,
+            "documentId": "juk2tgf7zavy2h60k4tioji8",
+            "name": "laptop.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 1600,
+            "height": 1059,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/cms-media/large_laptop_335eb84bd2.jpg",
+                "hash": "large_laptop_335eb84bd2",
+                "mime": "image/jpeg",
+                "name": "large_laptop.jpg",
+                "path": null,
+                "size": 61.1,
+                "width": 1000,
+                "height": 662,
+                "sizeInBytes": 61104
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/cms-media/small_laptop_335eb84bd2.jpg",
+                "hash": "small_laptop_335eb84bd2",
+                "mime": "image/jpeg",
+                "name": "small_laptop.jpg",
+                "path": null,
+                "size": 20.32,
+                "width": 500,
+                "height": 331,
+                "sizeInBytes": 20323
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/cms-media/medium_laptop_335eb84bd2.jpg",
+                "hash": "medium_laptop_335eb84bd2",
+                "mime": "image/jpeg",
+                "name": "medium_laptop.jpg",
+                "path": null,
+                "size": 38.11,
+                "width": 750,
+                "height": 496,
+                "sizeInBytes": 38106
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/cms-media/thumbnail_laptop_335eb84bd2.jpg",
+                "hash": "thumbnail_laptop_335eb84bd2",
+                "mime": "image/jpeg",
+                "name": "thumbnail_laptop.jpg",
+                "path": null,
+                "size": 6.65,
+                "width": 236,
+                "height": 156,
+                "sizeInBytes": 6651
+              }
+            },
+            "hash": "laptop_335eb84bd2",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 133.27,
+            "url": "/cms-media/laptop_335eb84bd2.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": null,
+            "createdAt": "2025-04-23T16:08:02.877Z",
+            "updatedAt": "2025-04-23T16:08:02.877Z",
+            "publishedAt": "2025-04-23T16:08:02.881Z"
+          }
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 362,
+    "documentId": "gyicytmk9anuzs3cnqof26o8",
+    "Title": "Desenvolvimento profissional",
+    "slug": "desenvolvimento-profissional",
+    "createdAt": "2025-04-17T11:16:51.048Z",
+    "updatedAt": "2025-07-03T16:44:29.375Z",
+    "publishedAt": "2025-07-03T16:44:29.944Z"
+  },
+  "createdAt": "2025-04-22T15:48:28.433Z",
+  "updatedAt": "2025-07-03T17:01:59.707Z"
+}

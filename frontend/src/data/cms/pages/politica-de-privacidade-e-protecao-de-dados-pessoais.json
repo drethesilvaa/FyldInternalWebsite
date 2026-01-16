@@ -1,0 +1,93 @@
+{
+  "documentId": "h5yp3ei10tbt6t4z8fvrakpq",
+  "Title": "Política de Privacidade e Proteção de Dados Pessoais",
+  "slug": "politica-de-privacidade-e-protecao-de-dados-pessoais",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 181,
+      "Content": "<p>A Mainfyld Unipessoal, Lda. está empenhada em garantir a privacidade e a proteção dos dados pessoais dos seus colaboradores, clientes e outras partes interessadas. Esta Política de Privacidade e Proteção de Dados Pessoais aplica-se especificamente aos nossos colaboradores e descreve as nossas práticas de recolha, utilização, armazenamento e divulgação de dados pessoais no contexto de uma empresa de outsourcing de TI.</p><h6><br>Política de privacidade e de proteção dos dados pessoais</h6><p>Informações que recolhemos<br>Enquanto empresa de externalização de TI, podemos recolher vários tipos de dados pessoais, incluindo, entre outros, os seguintes:<br>a. Dados dos funcionários: Dados pessoais dos nossos funcionários, tais como nome, informações de contacto, cargo, histórico de emprego, avaliações de desempenho, dados sobre salários e benefícios e outras informações relevantes.<br>b. Dados dos clientes: Dados pessoais dos nossos clientes, incluindo informações de contacto, detalhes de faturação, especificações do projeto e outras informações relevantes.<br>c. Dados de terceiros: Dados pessoais de outras partes interessadas, tais como fornecedores, subcontratantes e parceiros.<br>d. Dados técnicos: Informações relacionadas com os dispositivos, sistemas e redes utilizados pelos nossos funcionários e clientes, tais como endereços IP, dados de registo e informações de utilização.</p><h6><br>Como utilizamos as suas informações</h6><p>Utilizamos os dados pessoais recolhidos para vários fins, incluindo:<br>a. Gerir as relações com os trabalhadores, incluindo o recrutamento, as avaliações de desempenho e a concessão de benefícios aos trabalhadores.<br>b. Prestar serviços de externalização de TI aos nossos clientes e gerir as relações com os mesmos.<br>c. Para comunicar com terceiros, tais como fornecedores, subcontratantes e parceiros, no contexto das nossas operações comerciais.<br>d. Para manter e proteger a nossa infraestrutura de TI, incluindo a monitorização e análise do desempenho do sistema e a resolução de ameaças à segurança.<br>e. Para cumprir obrigações legais e aplicar as políticas e acordos da nossa empresa.</p><p>&nbsp;</p><h6>Partilha e divulgação de informações</h6><p>Podemos partilhar dados pessoais com terceiros nas seguintes circunstâncias:<br>a. Com o seu consentimento ou sob a sua direção.<br>b. Com os nossos clientes, fornecedores, subcontratantes e parceiros, conforme necessário para prestar os nossos serviços de externalização de TI.<br>c. Quando exigido por lei, regulamento ou processo legal, ou para proteger os direitos, propriedade ou segurança dos nossos funcionários, clientes e outras partes interessadas.<br>d. Em caso de fusão, aquisição ou venda dos nossos activos, caso em que os dados pessoais podem ser transferidos para a entidade adquirente.</p><p>&nbsp;</p><h6>Partilha e divulgação de informações</h6><p>Implementamos medidas técnicas e organizacionais adequadas para proteger os dados pessoais contra o acesso não autorizado, alteração, divulgação ou destruição. No entanto, nenhum método de transmissão ou armazenamento de dados é completamente seguro e não podemos garantir a segurança absoluta dos dados pessoais.<br>Conservamos os dados pessoais durante o tempo necessário para cumprir as finalidades descritas na presente política, exceto se for exigido ou permitido por lei um período de conservação mais longo.</p><h6><br>Responsabilidades dos trabalhadores</h6><p>Como colaborador da Mainfyld Unipessoal, Lda., é responsável por aderir a esta Política e tomar as medidas adequadas para salvaguardar os dados pessoais na sua posse ou controlo. Isto inclui:<br>a. Apenas aceder, utilizar e divulgar dados pessoais com base na necessidade de conhecimento e para fins comerciais legítimos.<br>b. Garantir que os dados pessoais são armazenados e transmitidos de forma segura, utilizando a cifragem e outras tecnologias de segurança, conforme adequado.<br>c. Comunicar quaisquer violações de dados ou incidentes de segurança, reais ou suspeitas, ao representante adequado da empresa.</p><h6><br>Alterações a esta política</h6><p>Podemos atualizar esta Política ocasionalmente. Notificá-lo-emos de quaisquer alterações significativas, publicando a Política actualizada nos nossos canais de comunicação interna, como a intranet da empresa ou por correio eletrónico. É da tua responsabilidade rever e familiarizar-se com quaisquer actualizações a esta Política.</p><p>&nbsp;</p><h6>Informações de contacto</h6><p>Em caso de dúvida, deve ser enviada para drh@fyld.pt</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T15:58:33.496Z",
+  "updatedAt": "2025-05-05T09:52:43.183Z"
+}

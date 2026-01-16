@@ -1,0 +1,134 @@
+{
+  "documentId": "waxz21w0ckw2qmvd7t4n9xa1",
+  "Title": "Jin - Joyn Internal Network",
+  "slug": "jin-joyn-internal-network",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.links-group",
+      "id": 13
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 161,
+      "tamanho": "px96"
+    },
+    {
+      "__component": "ui.grid-section",
+      "id": 95,
+      "Colunas": 7,
+      "Item": [
+        {
+          "id": 271,
+          "Colunas": 3,
+          "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746457099/jin_Calendar_1a3b02558f.jpg\" alt=\"jinCalendar.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746457099/thumbnail_jin_Calendar_1a3b02558f.jpg 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746457099/small_jin_Calendar_1a3b02558f.jpg 500w,\" sizes=\"100vw\" width=\"566\" height=\"216\"></p>"
+        },
+        {
+          "id": 272,
+          "Colunas": 3,
+          "Content": "<p><strong>Registo de Atividade (ausências):</strong></p><ul><li>Registo de todas as ausências, inclusive por motivo de férias;</li><li>Alteração de períodos de ausência;</li><li>Desmarcação de ausências (no limite até à data da ocorrência da mesma, caso contrário será considerado como dias gozados).</li></ul><p><br>Além do registo na plataforma, as ausências que não estejam já comunicadas na mesma ou que sejam imprevistas, devem ser comunicadas de imediato ao respetivo Manager ou aos Recursos Humanos.</p>"
+        },
+        {
+          "id": 273,
+          "Colunas": 3,
+          "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746457140/jin_Calendar2_1bf0277f1c.jpg\" alt=\"jinCalendar2.jpg\" width=\"442\" height=\"236\"></p>"
+        },
+        {
+          "id": 274,
+          "Colunas": 3,
+          "Content": "<p><strong>Registo de Atividade (horas trabalhadas)</strong></p><ul><li>Registo de horas trabalhadas;</li><li>As horas devem ser imputadas no respetivo mês, até dia 15.<br>- De 01 a 14 – preenchimento de acordo com realidade (8h)<br>- De 15 até fim do mês – preenchimento de acordo com previsão de trabalho/ausências;</li><li>Deve ser preenchido o campo “Projeto” com a primeira opção que aparecer e as “Horas” com o respetivo número (8h). Depois, é só guardares, conforme exemplo da imagem.</li></ul><p>* É de extrema importância que os dias sejam registados e &nbsp;que sejam respeitadas as datas para o fazer.</p>"
+        },
+        {
+          "id": 275,
+          "Colunas": 3,
+          "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176841/jin_e9d6714143.png\" alt=\"jin.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176843/thumbnail_jin_e9d6714143.png 111w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176841/small_jin_e9d6714143.png 356w,\" sizes=\"100vw\" width=\"384\" height=\"540\"></p>"
+        },
+        {
+          "id": 276,
+          "Colunas": 3,
+          "Content": "<p><strong>Aqui estão algumas notas importantes a ter em conta:</strong></p><ul><li>O teu mapa de férias precisa de ser submetido para aprovação no Jin até 31 de Março de cada ano;</li><li>Se integrares a nossa equipa depois de 31 de Março, deverás submeter o teu mapa de férias o mais depressa possível;</li><li>É necessário registar as horas e ausências na plataforma mensalmente até dia 14;</li><li>Qualquer questão relacionada com a tua integração na FYLD, contacta-nos através do seguinte email: drh@fyld.pt</li></ul><p>Vamos saber como funciona, na prática, o Jin?</p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 372,
+    "documentId": "px4yc8eilkt8utva1bcj8fc0",
+    "Title": "Procedimentos ",
+    "slug": "procedimentos",
+    "createdAt": "2025-04-17T11:21:13.545Z",
+    "updatedAt": "2025-07-03T17:13:50.222Z",
+    "publishedAt": "2025-07-03T17:13:50.641Z"
+  },
+  "createdAt": "2025-04-22T15:50:01.391Z",
+  "updatedAt": "2025-06-04T15:48:59.857Z"
+}

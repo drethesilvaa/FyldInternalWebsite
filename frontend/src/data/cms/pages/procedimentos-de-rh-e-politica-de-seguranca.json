@@ -1,0 +1,93 @@
+{
+  "documentId": "nalp2qs98apmivz936wfyy2w",
+  "Title": "Procedimentos de RH e Política de Segurança",
+  "slug": "procedimentos-de-rh-e-politica-de-seguranca",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 176,
+      "Content": "<p>No mundo da subcontratação de TI, as empresas partilham frequentemente informações sensíveis com fornecedores terceiros que podem não ter as mesmas normas de segurança que a própria empresa. Uma política de segurança de RH é um conjunto de directrizes e procedimentos que define as responsabilidades dos empregados na garantia da segurança e privacidade da informação da empresa. A política abrange uma série de tópicos, incluindo confidencialidade, controlo de acesso, utilização aceitável, proteção de dados, gestão de incidentes, formação e sensibilização, e conformidade. Ao implementar uma política de segurança de RH, as empresas de outsourcing de TI podem garantir que os seus colaboradores estão cientes das suas responsabilidades de segurança e tomam as medidas adequadas para proteger informações sensíveis, reduzindo o risco de violações de dados e outros incidentes de segurança.&nbsp;</p><p><br><strong>A nossa política baseia-se em sete pilares:</strong></p><ol style=\"list-style-type:decimal;\"><li><strong>Confidencialidade</strong>: Todos os funcionários da empresa são obrigados a manter a confidencialidade das informações dos clientes e de quaisquer outras informações sensíveis com que se deparem durante o seu trabalho. Os funcionários não devem divulgar qualquer informação confidencial a qualquer pessoa que não esteja autorizada a recebê-la.</li><li><strong>Controlo de acesso</strong>: O acesso aos sistemas, redes e instalações físicas da empresa deve ser restrito apenas ao pessoal autorizado. Os controlos de acesso, tais como palavras-passe, biometria e cartões inteligentes, devem ser utilizados para impedir o acesso não autorizado a informações sensíveis.</li><li><strong>Utilização aceitável</strong>: Os recursos de TI da empresa, incluindo computadores, redes e software, devem ser utilizados apenas para fins comerciais legítimos. Os funcionários não devem utilizar os recursos da empresa para uso pessoal, actividades ilegais ou qualquer outro fim não autorizado.</li><li><strong>Proteção de dados</strong>: Os funcionários são responsáveis por garantir que as informações sensíveis são protegidas contra o acesso não autorizado, roubo, perda ou danos. Isto inclui a adoção de medidas adequadas para proteger os dados em trânsito e em repouso, tais como a utilização de encriptação e métodos de armazenamento seguros.</li><li><strong>Gestão de incidentes</strong>: Os empregados devem comunicar imediatamente quaisquer incidentes de segurança, incluindo violações de dados suspeitas ou efectivas, ao seu supervisor ou ao responsável pela segurança designado. A empresa deve ter um plano claro de resposta a incidentes para lidar com eles.</li><li><strong>Formação e sensibilização</strong>: Todos os funcionários devem receber regularmente formação em segurança e programas de sensibilização para garantir que compreendem as suas responsabilidades em matéria de segurança e que estão a par das últimas ameaças à segurança e das melhores práticas.</li><li><strong>Conformidade</strong>: A empresa tem de cumprir todas as leis, regulamentos e normas do sector aplicáveis relacionados com a segurança e privacidade da informação. Os funcionários devem cumprir todas as políticas, procedimentos e directrizes da empresa relacionados com a segurança e a privacidade.</li></ol><h6><br>Controlo de antecedentes</h6><p>O nosso controlo de antecedentes começa logo no momento em que pedimos os dados do candidato para redigir o contrato de trabalho.<br>Pedimos o seu registo criminal, as suas qualificações e certificados de trabalho.<br>Só após o envio desta documentação é que elaboramos o Contrato de Trabalho. Esta validação é efectuada pelos Recursos Humanos.</p><p>&nbsp;</p><h6>Contratos de trabalho</h6><p>Os contratos de trabalho, incluindo os contratos com pessoal contratado, devem especificar os requisitos relevantes para a segurança da informação, incluindo o compromisso de cumprir as políticas da Mainfyld Unipessoal Lda. neste domínio. As funções que têm acesso a informações classificadas também serão obrigadas a assinar um Acordo de Confidencialidade.<br>Sensibilização para a segurança da informação<br>Será ministrada formação de sensibilização para a segurança da informação a todos os funcionários. Esta formação incluirá informações sobre as políticas e procedimentos da Mainfyld Unipessoal Lda. e os riscos e ameaças específicos relevantes para a área de trabalho do funcionário ou contratante.<br>A formação de sensibilização será ministrada no âmbito da formação de novos funcionários e as actualizações das informações pertinentes serão comunicadas a todos os funcionários sempre que necessário e em tempo útil.</p><p>&nbsp;</p><h6>Processo disciplinar</h6><p>O nosso processo disciplinar baseia-se no que está estipulado no Código do Trabalho português.<br>Mais concretamente, nos seguintes artigos:<br><strong>Artigo 328º</strong> - Sanções disciplinares;<br><strong>Artigo 329º</strong> - Processo disciplinar e prescrição;<br><strong>Artigo 330º</strong> - Critérios de decisão e de aplicação de uma sanção disciplinar;<br><strong>Artigo 331º</strong> - Sanções abusivas;<br>Estas informações estão presentes no nosso site interno, ao qual todos os colaboradores têm acesso desde o momento da sua entrada.</p><p>&nbsp;</p><h6>Rescisão</h6><p>Quando um colaborador rescinde o seu contrato de trabalho com a Fyld, existe um processo implementado pelos Recursos Humanos que segue o seguinte modelo:</p><ol style=\"list-style-type:decimal;\"><li>Envio da carta de rescisão pelo trabalhador ao Departamento de Recursos Humanos;</li><li>Os Recursos Humanos arquivam a carta de rescisão no M-Files;</li><li>Pedido de encerramento de contas aos Shared Services pelos Recursos Humanos;</li><li>Agendamento do fecho de contas com o empregado;</li><li>No momento do Encerramento de Contas o Trabalhador volta a assinar o Acordo de Confidencialidade que assinou aquando da sua entrada na Mainfyld.</li></ol>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T15:55:30.254Z",
+  "updatedAt": "2025-05-05T09:34:36.482Z"
+}

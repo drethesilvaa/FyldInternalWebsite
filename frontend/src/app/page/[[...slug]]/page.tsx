@@ -30,7 +30,7 @@ export default function Page({ params }: PageProps) {
     >
       {page?.Content.map((section: any, key: number) => (
         <Fragment key={key}>
-          {renderComponent(section, section.__typename)}
+          {renderComponent(section, section.__component)}
         </Fragment>
       ))}
     </PagesLayout>

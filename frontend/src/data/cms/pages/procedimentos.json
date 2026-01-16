@@ -1,0 +1,123 @@
+{
+  "documentId": "px4yc8eilkt8utva1bcj8fc0",
+  "Title": "Procedimentos ",
+  "slug": "procedimentos",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 362,
+      "Content": "<p style=\"text-align:center;\">Aqui podes encontrar<strong> todos os procedimentos que terás de seguir na Fyld</strong>, contudo podes sempre contar com a equipa de Recursos Humanos para esclarecer qualquer questão!&nbsp;</p>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 216,
+      "tamanho": "px32"
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 363,
+      "Content": "<h5>Procedimentos mais procurados:</h5>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 217,
+      "tamanho": "px24"
+    },
+    {
+      "__component": "ui.links-group",
+      "id": 27
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 218,
+      "tamanho": "px32"
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 364,
+      "Content": "<h5>Outros:</h5>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 219,
+      "tamanho": "px24"
+    },
+    {
+      "__component": "ui.links-group",
+      "id": 28
+    }
+  ],
+  "ParentPage": null,
+  "createdAt": "2025-04-17T11:21:13.545Z",
+  "updatedAt": "2025-07-03T17:13:50.222Z"
+}
