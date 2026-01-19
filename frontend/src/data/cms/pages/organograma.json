@@ -12,7 +12,6 @@
     "height": 4004,
     "formats": {
       "large": {
-        "ext": ".jpg",
         "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "large_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
@@ -127,7 +126,7 @@
                             "label": "National Team",
                             "children": [
                               {
-                                "role": "Business Manager",
+                                "role": "Senior Business Manager",
                                 "image": "path/to/joana.jpg",
                                 "label": "Joana Gonçalves"
                               },
@@ -137,7 +136,7 @@
                                 "label": "Marta Alves"
                               },
                               {
-                                "role": "Business Manager",
+                                "role": "Senior Business Manager",
                                 "image": "path/to/ruben.jpg",
                                 "label": "Rúben Cunha"
                               },
@@ -147,19 +146,9 @@
                                 "label": "Diogo Martinho"
                               },
                               {
-                                "role": "Business Manager",
+                                "role": "Senior Business Manager",
                                 "image": "path/to/goncalo.jpg",
                                 "label": "Gonçalo Guerreiro"
-                              },
-                              {
-                                "role": "Business Manager",
-                                "image": "path/to/goncalo.jpg",
-                                "label": "João Camilo"
-                              },
-                              {
-                                "role": "Business Manager",
-                                "image": "path/to/goncalo.jpg",
-                                "label": "Pedro Dias"
                               }
                             ],
                             "labelType": "large"
@@ -176,24 +165,19 @@
                             "label": "Catarina Almeida",
                             "children": [
                               {
-                                "role": "Senior Talent Acquisition",
-                                "image": "path/to/sara.jpg",
-                                "label": "Sara Espirito Santo"
-                              },
-                              {
                                 "role": "Talent Acquisition",
                                 "image": "path/to/daniela.jpg",
                                 "label": "Daniela Vito"
                               },
                               {
-                                "role": "Talent Acquisition",
+                                "role": "Senior Talent Acquisition",
                                 "image": "path/to/samuel.jpg",
                                 "label": "Samuel Rodrigues"
                               },
                               {
                                 "role": "Talent Acquisition",
-                                "image": "path/to/beatriz.jpg",
-                                "label": "Beatriz Pires"
+                                "image": "path/to/sara.jpg",
+                                "label": "Sara Sequeira"
                               },
                               {
                                 "role": "Talent Acquisition",
@@ -217,7 +201,14 @@
                           {
                             "role": "Head of Billing & Collection ",
                             "image": "path/to/catia_godinho.jpg",
-                            "label": "Cátia Godinho"
+                            "label": "Cátia Godinho",
+                            "children": [
+                              {
+                                "role": "Financial Controller",
+                                "image": "path/to/luislucas.jpg",
+                                "label": "Luis Lucas"
+                              }
+                            ]
                           }
                         ],
                         "labelType": "x-large"
@@ -262,7 +253,21 @@
                               {
                                 "role": "HR Administrative Assistant",
                                 "image": "path/to/sofia.jpg",
-                                "label": "Joana Oliveira"
+                                "label": "Joana Oliveira",
+                                "children": [
+                                  {
+                                    "role": "Talent Manager",
+                                    "image": "path/to/beatriz.jpg",
+                                    "label": "Daniela Quental",
+                                    "children": [
+                                      {
+                                        "role": "Talent Manager",
+                                        "image": "path/to/beatriz.jpg",
+                                        "label": "Beatriz Pires"
+                                      }
+                                    ]
+                                  }
+                                ]
                               }
                             ]
                           }
@@ -304,4 +309,3 @@
   "createdAt": "2025-04-22T15:44:11.166Z",
   "updatedAt": "2025-06-03T11:21:43.026Z"
 }
-
