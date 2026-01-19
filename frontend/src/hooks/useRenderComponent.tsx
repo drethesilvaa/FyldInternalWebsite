@@ -44,6 +44,8 @@ export const useRenderComponent = (
 
   const Component = componentMapping[typename];
 
+  console.log(componentData)
+
   if (Component) {
     return <Component {...componentData} />;
   }

@@ -2,7 +2,7 @@ import { RichTextBlock } from "./RichTextBlock";
 import { motion } from "framer-motion";
 
 interface AccordionProps {
-  items: {
+  Items: {
     Titulo: string;
     content: string;
   }[];
@@ -21,10 +21,11 @@ const accordionItemVariants = {
   }),
 };
 
-export const Accordion = ({ items }: AccordionProps) => {
+export const Accordion = ({ Items }: AccordionProps) => {
+
   return (
     <div>
-      {items.map((item, index) => (
+      {Items.map((item, index) => (
         <motion.div
           key={index}
           custom={index}

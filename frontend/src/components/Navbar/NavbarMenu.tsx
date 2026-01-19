@@ -1,11 +1,11 @@
 "use client";
+import React, { useState } from "react";
 import { useCurrentPage } from "@/hooks/useCurrentPage";
 import { usePages, Page } from "@/providers/PagesProvider";
 import Link from "next/link";
 import { useResponsiveNavbarMenu } from "@/hooks/navbar/useResponsiveNavbarMenu";
 import { motion } from "framer-motion";
 import { itemVariants, listVariants } from "./constants";
-import { useState } from "react";
 
 const RenderMenu = ({
   parentPage,
@@ -22,9 +22,9 @@ const RenderMenu = ({
   openMenus: Record<number, string | null>;
   setOpenMenus: (value: Record<number, string | null>) => void;
 }) => {
-  const childPages = pages.filter(
-    (page) => page.ParentPage?.slug === parentPage?.slug
-  );
+  const childPages = pages
+    .filter((page) => page.ParentPage?.slug === parentPage?.slug)
+    .sort((a, b) => a.Title.localeCompare(b.Title));
 
   const fullPath = currentPath
     ? `${currentPath}/${parentPage?.slug}`
@@ -46,19 +46,15 @@ const RenderMenu = ({
     <motion.li key={parentPage!.id} variants={itemVariants}>
       <details
         className="group"
-        open={isOpen}
-        onClick={(e) => {
-          e.stopPropagation();
-          e.preventDefault();
-
+        onToggle={(e) => {
           const newOpenMenus = { ...openMenus };
 
-          if (isOpen) {
+          if (e.currentTarget.open) {
+            newOpenMenus[level] = parentPage!.id;
+          } else {
             for (let i = level; i <= Object.keys(newOpenMenus).length; i++) {
               delete newOpenMenus[i];
             }
-          } else {
-            newOpenMenus[level] = parentPage!.id;
           }
 
           setOpenMenus(newOpenMenus);
@@ -76,7 +72,7 @@ const RenderMenu = ({
         <ul className="menu bg-primary rounded-box z-50 mt-2">
           {childPages.map((page) => (
             <RenderMenu
-              key={page.id}
+              key={page.slug}
               parentPage={page}
               pages={pages}
               currentPath={fullPath}
@@ -117,15 +113,15 @@ const NavbarMenu = () => {
           animate="visible"
           variants={listVariants}
         >
-          <motion.li variants={itemVariants}>
+          <motion.li key="home" variants={itemVariants}>
             <Link href="/">Home</Link>
           </motion.li>
 
           {isDesktop ? (
-            <>
-              {visibleItems.map((page) => (
+            <React.Fragment key="desktop">
+              {[...visibleItems].sort((a, b) => a.Title.localeCompare(b.Title)).map((page) => (
                 <RenderMenu
-                  key={page.id}
+                  key={page.slug}
                   parentPage={page}
                   pages={pages || []}
                   currentPath="page"
@@ -136,13 +132,13 @@ const NavbarMenu = () => {
               ))}
 
               {overflowItems.length > 0 && (
-                <motion.li variants={itemVariants}>
+                <motion.li key="mais" variants={itemVariants}>
                   <details>
                     <summary className="text-nowrap">Mais</summary>
                     <ul className="absolute right-0 bg-primary menu rounded-box z-50">
-                      {overflowItems.map((page) => (
+                      {[...overflowItems].sort((a, b) => a.Title.localeCompare(b.Title)).map((page) => (
                         <RenderMenu
-                          key={page.id}
+                          key={page.slug}
                           parentPage={page}
                           pages={pages || []}
                           currentPath="page"
@@ -155,12 +151,12 @@ const NavbarMenu = () => {
                   </details>
                 </motion.li>
               )}
-            </>
+            </React.Fragment>
           ) : (
-            <>
-              {parentPages.map((page) => (
+            <React.Fragment key="mobile">
+              {[...parentPages].sort((a, b) => a.Title.localeCompare(b.Title)).map((page) => (
                 <RenderMenu
-                  key={page.id}
+                  key={page.slug}
                   parentPage={page}
                   pages={pages || []}
                   currentPath="page"
@@ -169,7 +165,7 @@ const NavbarMenu = () => {
                   setOpenMenus={setOpenMenus}
                 />
               ))}
-            </>
+            </React.Fragment>
           )}
         </motion.ul>
       </div>

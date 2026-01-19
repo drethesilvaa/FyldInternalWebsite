@@ -13,7 +13,7 @@
     "formats": {
       "large": {
         "ext": ".jpg",
-        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "large_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "large_pexels-fauxels-3184434.jpg",
@@ -25,7 +25,7 @@
       },
       "small": {
         "ext": ".jpg",
-        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "small_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "small_pexels-fauxels-3184434.jpg",
@@ -37,7 +37,7 @@
       },
       "medium": {
         "ext": ".jpg",
-        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "medium_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "medium_pexels-fauxels-3184434.jpg",
@@ -49,7 +49,7 @@
       },
       "thumbnail": {
         "ext": ".jpg",
-        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "thumbnail_pexels-fauxels-3184434.jpg",
@@ -137,7 +137,7 @@
             "formats": {
               "large": {
                 "ext": ".jpg",
-                "url": "/cms-media/large_pc_b883533921.jpg",
+                "url": "/cms-media/pc_b883533921.jpg",
                 "hash": "large_pc_b883533921",
                 "mime": "image/jpeg",
                 "name": "large_pc.jpg",
@@ -149,7 +149,7 @@
               },
               "small": {
                 "ext": ".jpg",
-                "url": "/cms-media/small_pc_b883533921.jpg",
+                "url": "/cms-media/pc_b883533921.jpg",
                 "hash": "small_pc_b883533921",
                 "mime": "image/jpeg",
                 "name": "small_pc.jpg",
@@ -161,7 +161,7 @@
               },
               "medium": {
                 "ext": ".jpg",
-                "url": "/cms-media/medium_pc_b883533921.jpg",
+                "url": "/cms-media/pc_b883533921.jpg",
                 "hash": "medium_pc_b883533921",
                 "mime": "image/jpeg",
                 "name": "medium_pc.jpg",
@@ -173,7 +173,7 @@
               },
               "thumbnail": {
                 "ext": ".jpg",
-                "url": "/cms-media/thumbnail_pc_b883533921.jpg",
+                "url": "/cms-media/pc_b883533921.jpg",
                 "hash": "thumbnail_pc_b883533921",
                 "mime": "image/jpeg",
                 "name": "thumbnail_pc.jpg",
@@ -212,7 +212,7 @@
             "formats": {
               "large": {
                 "ext": ".jpg",
-                "url": "/cms-media/large_laptop_335eb84bd2.jpg",
+                "url": "/cms-media/laptop_335eb84bd2.jpg",
                 "hash": "large_laptop_335eb84bd2",
                 "mime": "image/jpeg",
                 "name": "large_laptop.jpg",
@@ -224,7 +224,7 @@
               },
               "small": {
                 "ext": ".jpg",
-                "url": "/cms-media/small_laptop_335eb84bd2.jpg",
+                "url": "/cms-media/laptop_335eb84bd2.jpg",
                 "hash": "small_laptop_335eb84bd2",
                 "mime": "image/jpeg",
                 "name": "small_laptop.jpg",
@@ -236,7 +236,7 @@
               },
               "medium": {
                 "ext": ".jpg",
-                "url": "/cms-media/medium_laptop_335eb84bd2.jpg",
+                "url": "/cms-media/laptop_335eb84bd2.jpg",
                 "hash": "medium_laptop_335eb84bd2",
                 "mime": "image/jpeg",
                 "name": "medium_laptop.jpg",
@@ -248,7 +248,7 @@
               },
               "thumbnail": {
                 "ext": ".jpg",
-                "url": "/cms-media/thumbnail_laptop_335eb84bd2.jpg",
+                "url": "/cms-media/laptop_335eb84bd2.jpg",
                 "hash": "thumbnail_laptop_335eb84bd2",
                 "mime": "image/jpeg",
                 "name": "thumbnail_laptop.jpg",
@@ -287,3 +287,4 @@
   "createdAt": "2025-04-22T15:48:28.433Z",
   "updatedAt": "2025-07-03T17:01:59.707Z"
 }
+

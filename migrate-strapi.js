@@ -150,7 +150,7 @@ async function fetchFromStrapiREST(endpoint) {
     
     if (endpoint === "pages") {
       // For pages, get all fields including nested component data
-      url += "&populate=pageBanner&populate=Content&populate=Content.items&populate=Content.items.Items&populate=Content.items.Items.Imagem&populate=Content.Item&populate=Content.Item.Imagem&populate=Content.Items&populate=Content.Items.Imagem&populate=Content.Imagem&populate=ParentPage";
+      url += "&populate=pageBanner&populate=Content&populate=Content.items&populate=Content.items.Items&populate=Content.items.Items.Imagem&populate=Content.Item&populate=Content.Item.Imagem&populate=Content.Items&populate=Content.Items.Imagem&populate=Content.Imagem&populate=Content.contacts&populate=Content.contacts.photo&populate=ParentPage";
     } else if (endpoint === "home") {
       url += "&populate=placeholderImage&populate=FyldIcon&populate=Empresa&populate=Empresa.Item&populate=Empresa.Item.Imagem&populate=TyFyld&populate=TyFyld.Items&populate=TyFyld.Items.Imagem&populate=ParteDaFyld&populate=ParteDaFyld.Items&populate=ParteDaFyld.Items.Imagem";
     } else if (endpoint === "footer") {

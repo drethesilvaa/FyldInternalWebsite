@@ -13,7 +13,7 @@
     "formats": {
       "large": {
         "ext": ".jpg",
-        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "large_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "large_pexels-fauxels-3184434.jpg",
@@ -25,7 +25,7 @@
       },
       "small": {
         "ext": ".jpg",
-        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "small_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "small_pexels-fauxels-3184434.jpg",
@@ -37,7 +37,7 @@
       },
       "medium": {
         "ext": ".jpg",
-        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "medium_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "medium_pexels-fauxels-3184434.jpg",
@@ -49,7 +49,7 @@
       },
       "thumbnail": {
         "ext": ".jpg",
-        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "thumbnail_pexels-fauxels-3184434.jpg",
@@ -91,3 +91,4 @@
   "createdAt": "2025-05-20T14:30:36.151Z",
   "updatedAt": "2025-05-20T14:33:16.140Z"
 }
+

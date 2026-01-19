@@ -7,6 +7,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Image from "next/image";
+import { optimizeImage } from "@/util/optimizeImage";
 
 
 interface BentoGridProps {
@@ -70,7 +71,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                             transition={{ delay: 0.1 + index * 0.1, duration: 0.6 }}
                         >
                             <Image
-                                src={member.Imagem?.url || "/placeholder.jpg"}
+                                src={member.Imagem?.url ? optimizeImage(member.Imagem.url) : "/placeholder.jpg"}
                                 alt={member.Imagem?.alt || "Image"}
                                 width={400}
                                 height={256}
@@ -97,7 +98,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                         transition={{ delay: 0.1 + index * 0.1, duration: 0.6 }}
                     >
                         <Image
-                            src={member.Imagem?.url || "/placeholder.jpg"}
+                            src={member.Imagem?.url ? optimizeImage(member.Imagem.url) : "/placeholder.jpg"}
                             alt={member.Imagem?.alt || "Image"}
                             width={400}
                             height={256}
@@ -137,7 +138,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
                                 transition={{ delay: 0.1 + index * 0.1, duration: 0.6 }}
                             >
                                 <Image
-                                    src={member.Imagem?.url || "/placeholder.jpg"}
+                                    src={member.Imagem?.url ? optimizeImage(member.Imagem.url) : "/placeholder.jpg"}
                                     alt={member.Imagem?.alt || "Image"}
                                     width={400}
                                     height={256}

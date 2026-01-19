@@ -13,7 +13,7 @@
     "formats": {
       "large": {
         "ext": ".jpg",
-        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "large_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "large_pexels-fauxels-3184434.jpg",
@@ -25,7 +25,7 @@
       },
       "small": {
         "ext": ".jpg",
-        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "small_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "small_pexels-fauxels-3184434.jpg",
@@ -37,7 +37,7 @@
       },
       "medium": {
         "ext": ".jpg",
-        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "medium_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "medium_pexels-fauxels-3184434.jpg",
@@ -49,7 +49,7 @@
       },
       "thumbnail": {
         "ext": ".jpg",
-        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "thumbnail_pexels-fauxels-3184434.jpg",
@@ -110,7 +110,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Filipa_Sequeira_b52eaa2159.jpg",
+                  "url": "/cms-media/Filipa_Sequeira_b52eaa2159.jpg",
                   "hash": "large_Filipa_Sequeira_b52eaa2159",
                   "mime": "image/jpeg",
                   "name": "large_Filipa Sequeira.jpg",
@@ -122,7 +122,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Filipa_Sequeira_b52eaa2159.jpg",
+                  "url": "/cms-media/Filipa_Sequeira_b52eaa2159.jpg",
                   "hash": "small_Filipa_Sequeira_b52eaa2159",
                   "mime": "image/jpeg",
                   "name": "small_Filipa Sequeira.jpg",
@@ -134,7 +134,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Filipa_Sequeira_b52eaa2159.jpg",
+                  "url": "/cms-media/Filipa_Sequeira_b52eaa2159.jpg",
                   "hash": "medium_Filipa_Sequeira_b52eaa2159",
                   "mime": "image/jpeg",
                   "name": "medium_Filipa Sequeira.jpg",
@@ -146,7 +146,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Filipa_Sequeira_b52eaa2159.jpg",
+                  "url": "/cms-media/Filipa_Sequeira_b52eaa2159.jpg",
                   "hash": "thumbnail_Filipa_Sequeira_b52eaa2159",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Filipa Sequeira.jpg",
@@ -185,7 +185,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Hugo_Teles_Pereira_4cbcfbb7ee.jpg",
+                  "url": "/cms-media/Hugo_Teles_Pereira_4cbcfbb7ee.jpg",
                   "hash": "large_Hugo_Teles_Pereira_4cbcfbb7ee",
                   "mime": "image/jpeg",
                   "name": "large_Hugo Teles Pereira.jpg",
@@ -197,7 +197,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Hugo_Teles_Pereira_4cbcfbb7ee.jpg",
+                  "url": "/cms-media/Hugo_Teles_Pereira_4cbcfbb7ee.jpg",
                   "hash": "small_Hugo_Teles_Pereira_4cbcfbb7ee",
                   "mime": "image/jpeg",
                   "name": "small_Hugo Teles Pereira.jpg",
@@ -209,7 +209,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Hugo_Teles_Pereira_4cbcfbb7ee.jpg",
+                  "url": "/cms-media/Hugo_Teles_Pereira_4cbcfbb7ee.jpg",
                   "hash": "medium_Hugo_Teles_Pereira_4cbcfbb7ee",
                   "mime": "image/jpeg",
                   "name": "medium_Hugo Teles Pereira.jpg",
@@ -221,7 +221,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Hugo_Teles_Pereira_4cbcfbb7ee.jpg",
+                  "url": "/cms-media/Hugo_Teles_Pereira_4cbcfbb7ee.jpg",
                   "hash": "thumbnail_Hugo_Teles_Pereira_4cbcfbb7ee",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Hugo Teles Pereira.jpg",
@@ -260,7 +260,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Catia_Teixeira_2ff6dcfe9f.jpg",
+                  "url": "/cms-media/Catia_Teixeira_2ff6dcfe9f.jpg",
                   "hash": "large_Catia_Teixeira_2ff6dcfe9f",
                   "mime": "image/jpeg",
                   "name": "large_Catia Teixeira.jpg",
@@ -272,7 +272,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Catia_Teixeira_2ff6dcfe9f.jpg",
+                  "url": "/cms-media/Catia_Teixeira_2ff6dcfe9f.jpg",
                   "hash": "small_Catia_Teixeira_2ff6dcfe9f",
                   "mime": "image/jpeg",
                   "name": "small_Catia Teixeira.jpg",
@@ -284,7 +284,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Catia_Teixeira_2ff6dcfe9f.jpg",
+                  "url": "/cms-media/Catia_Teixeira_2ff6dcfe9f.jpg",
                   "hash": "medium_Catia_Teixeira_2ff6dcfe9f",
                   "mime": "image/jpeg",
                   "name": "medium_Catia Teixeira.jpg",
@@ -296,7 +296,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Catia_Teixeira_2ff6dcfe9f.jpg",
+                  "url": "/cms-media/Catia_Teixeira_2ff6dcfe9f.jpg",
                   "hash": "thumbnail_Catia_Teixeira_2ff6dcfe9f",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Catia Teixeira.jpg",
@@ -335,7 +335,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Filipe_Almeida_f1e5c31635.jpg",
+                  "url": "/cms-media/Filipe_Almeida_f1e5c31635.jpg",
                   "hash": "large_Filipe_Almeida_f1e5c31635",
                   "mime": "image/jpeg",
                   "name": "large_Filipe Almeida.jpg",
@@ -347,7 +347,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Filipe_Almeida_f1e5c31635.jpg",
+                  "url": "/cms-media/Filipe_Almeida_f1e5c31635.jpg",
                   "hash": "small_Filipe_Almeida_f1e5c31635",
                   "mime": "image/jpeg",
                   "name": "small_Filipe Almeida.jpg",
@@ -359,7 +359,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Filipe_Almeida_f1e5c31635.jpg",
+                  "url": "/cms-media/Filipe_Almeida_f1e5c31635.jpg",
                   "hash": "medium_Filipe_Almeida_f1e5c31635",
                   "mime": "image/jpeg",
                   "name": "medium_Filipe Almeida.jpg",
@@ -371,7 +371,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Filipe_Almeida_f1e5c31635.jpg",
+                  "url": "/cms-media/Filipe_Almeida_f1e5c31635.jpg",
                   "hash": "thumbnail_Filipe_Almeida_f1e5c31635",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Filipe Almeida.jpg",
@@ -430,7 +430,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Catia_Godinho_d5788c6838.jpg",
+                  "url": "/cms-media/Catia_Godinho_d5788c6838.jpg",
                   "hash": "large_Catia_Godinho_d5788c6838",
                   "mime": "image/jpeg",
                   "name": "large_Catia Godinho.jpg",
@@ -442,7 +442,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Catia_Godinho_d5788c6838.jpg",
+                  "url": "/cms-media/Catia_Godinho_d5788c6838.jpg",
                   "hash": "small_Catia_Godinho_d5788c6838",
                   "mime": "image/jpeg",
                   "name": "small_Catia Godinho.jpg",
@@ -454,7 +454,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Catia_Godinho_d5788c6838.jpg",
+                  "url": "/cms-media/Catia_Godinho_d5788c6838.jpg",
                   "hash": "medium_Catia_Godinho_d5788c6838",
                   "mime": "image/jpeg",
                   "name": "medium_Catia Godinho.jpg",
@@ -466,7 +466,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Catia_Godinho_d5788c6838.jpg",
+                  "url": "/cms-media/Catia_Godinho_d5788c6838.jpg",
                   "hash": "thumbnail_Catia_Godinho_d5788c6838",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Catia Godinho.jpg",
@@ -505,7 +505,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Joana_Carvalho_31e45d8e2b.jpg",
+                  "url": "/cms-media/Joana_Carvalho_31e45d8e2b.jpg",
                   "hash": "large_Joana_Carvalho_31e45d8e2b",
                   "mime": "image/jpeg",
                   "name": "large_Joana Carvalho.jpg",
@@ -517,7 +517,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Joana_Carvalho_31e45d8e2b.jpg",
+                  "url": "/cms-media/Joana_Carvalho_31e45d8e2b.jpg",
                   "hash": "small_Joana_Carvalho_31e45d8e2b",
                   "mime": "image/jpeg",
                   "name": "small_Joana Carvalho.jpg",
@@ -529,7 +529,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Joana_Carvalho_31e45d8e2b.jpg",
+                  "url": "/cms-media/Joana_Carvalho_31e45d8e2b.jpg",
                   "hash": "medium_Joana_Carvalho_31e45d8e2b",
                   "mime": "image/jpeg",
                   "name": "medium_Joana Carvalho.jpg",
@@ -541,7 +541,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Joana_Carvalho_31e45d8e2b.jpg",
+                  "url": "/cms-media/Joana_Carvalho_31e45d8e2b.jpg",
                   "hash": "thumbnail_Joana_Carvalho_31e45d8e2b",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Joana Carvalho.jpg",
@@ -580,7 +580,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Joana_Oliveira_c5582c1e4d.jpg",
+                  "url": "/cms-media/Joana_Oliveira_c5582c1e4d.jpg",
                   "hash": "large_Joana_Oliveira_c5582c1e4d",
                   "mime": "image/jpeg",
                   "name": "large_Joana Oliveira.jpg",
@@ -592,7 +592,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Joana_Oliveira_c5582c1e4d.jpg",
+                  "url": "/cms-media/Joana_Oliveira_c5582c1e4d.jpg",
                   "hash": "small_Joana_Oliveira_c5582c1e4d",
                   "mime": "image/jpeg",
                   "name": "small_Joana Oliveira.jpg",
@@ -604,7 +604,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Joana_Oliveira_c5582c1e4d.jpg",
+                  "url": "/cms-media/Joana_Oliveira_c5582c1e4d.jpg",
                   "hash": "medium_Joana_Oliveira_c5582c1e4d",
                   "mime": "image/jpeg",
                   "name": "medium_Joana Oliveira.jpg",
@@ -616,7 +616,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Joana_Oliveira_c5582c1e4d.jpg",
+                  "url": "/cms-media/Joana_Oliveira_c5582c1e4d.jpg",
                   "hash": "thumbnail_Joana_Oliveira_c5582c1e4d",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Joana Oliveira.jpg",
@@ -655,7 +655,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Yvonne_Pacheco_49df51e0c8.jpg",
+                  "url": "/cms-media/Yvonne_Pacheco_49df51e0c8.jpg",
                   "hash": "large_Yvonne_Pacheco_49df51e0c8",
                   "mime": "image/jpeg",
                   "name": "large_Yvonne Pacheco.jpg",
@@ -667,7 +667,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Yvonne_Pacheco_49df51e0c8.jpg",
+                  "url": "/cms-media/Yvonne_Pacheco_49df51e0c8.jpg",
                   "hash": "small_Yvonne_Pacheco_49df51e0c8",
                   "mime": "image/jpeg",
                   "name": "small_Yvonne Pacheco.jpg",
@@ -679,7 +679,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Yvonne_Pacheco_49df51e0c8.jpg",
+                  "url": "/cms-media/Yvonne_Pacheco_49df51e0c8.jpg",
                   "hash": "medium_Yvonne_Pacheco_49df51e0c8",
                   "mime": "image/jpeg",
                   "name": "medium_Yvonne Pacheco.jpg",
@@ -691,7 +691,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Yvonne_Pacheco_49df51e0c8.jpg",
+                  "url": "/cms-media/Yvonne_Pacheco_49df51e0c8.jpg",
                   "hash": "thumbnail_Yvonne_Pacheco_49df51e0c8",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Yvonne Pacheco.jpg",
@@ -750,7 +750,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Catarina_Almeida_9fada9386d.jpg",
+                  "url": "/cms-media/Catarina_Almeida_9fada9386d.jpg",
                   "hash": "large_Catarina_Almeida_9fada9386d",
                   "mime": "image/jpeg",
                   "name": "large_Catarina Almeida.jpg",
@@ -762,7 +762,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Catarina_Almeida_9fada9386d.jpg",
+                  "url": "/cms-media/Catarina_Almeida_9fada9386d.jpg",
                   "hash": "small_Catarina_Almeida_9fada9386d",
                   "mime": "image/jpeg",
                   "name": "small_Catarina Almeida.jpg",
@@ -774,7 +774,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Catarina_Almeida_9fada9386d.jpg",
+                  "url": "/cms-media/Catarina_Almeida_9fada9386d.jpg",
                   "hash": "medium_Catarina_Almeida_9fada9386d",
                   "mime": "image/jpeg",
                   "name": "medium_Catarina Almeida.jpg",
@@ -786,7 +786,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Catarina_Almeida_9fada9386d.jpg",
+                  "url": "/cms-media/Catarina_Almeida_9fada9386d.jpg",
                   "hash": "thumbnail_Catarina_Almeida_9fada9386d",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Catarina Almeida.jpg",
@@ -825,7 +825,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Sara_Espirito_Santo_1489745694.jpg",
+                  "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
                   "hash": "large_Sara_Espirito_Santo_1489745694",
                   "mime": "image/jpeg",
                   "name": "large_Sara Espirito Santo.jpg",
@@ -837,7 +837,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Sara_Espirito_Santo_1489745694.jpg",
+                  "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
                   "hash": "small_Sara_Espirito_Santo_1489745694",
                   "mime": "image/jpeg",
                   "name": "small_Sara Espirito Santo.jpg",
@@ -849,7 +849,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Sara_Espirito_Santo_1489745694.jpg",
+                  "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
                   "hash": "medium_Sara_Espirito_Santo_1489745694",
                   "mime": "image/jpeg",
                   "name": "medium_Sara Espirito Santo.jpg",
@@ -861,7 +861,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Sara_Espirito_Santo_1489745694.jpg",
+                  "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
                   "hash": "thumbnail_Sara_Espirito_Santo_1489745694",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Sara Espirito Santo.jpg",
@@ -900,7 +900,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Beatriz_Pires_be001ec4eb.jpg",
+                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
                   "hash": "large_Beatriz_Pires_be001ec4eb",
                   "mime": "image/jpeg",
                   "name": "large_Beatriz Pires.jpg",
@@ -912,7 +912,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Beatriz_Pires_be001ec4eb.jpg",
+                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
                   "hash": "small_Beatriz_Pires_be001ec4eb",
                   "mime": "image/jpeg",
                   "name": "small_Beatriz Pires.jpg",
@@ -924,7 +924,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Beatriz_Pires_be001ec4eb.jpg",
+                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
                   "hash": "medium_Beatriz_Pires_be001ec4eb",
                   "mime": "image/jpeg",
                   "name": "medium_Beatriz Pires.jpg",
@@ -936,7 +936,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Beatriz_Pires_be001ec4eb.jpg",
+                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
                   "hash": "thumbnail_Beatriz_Pires_be001ec4eb",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Beatriz Pires.jpg",
@@ -975,7 +975,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Daniela_Vito_2d9e1603d8.jpg",
+                  "url": "/cms-media/Daniela_Vito_2d9e1603d8.jpg",
                   "hash": "large_Daniela_Vito_2d9e1603d8",
                   "mime": "image/jpeg",
                   "name": "large_Daniela Vito.jpg",
@@ -987,7 +987,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Daniela_Vito_2d9e1603d8.jpg",
+                  "url": "/cms-media/Daniela_Vito_2d9e1603d8.jpg",
                   "hash": "small_Daniela_Vito_2d9e1603d8",
                   "mime": "image/jpeg",
                   "name": "small_Daniela Vito.jpg",
@@ -999,7 +999,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Daniela_Vito_2d9e1603d8.jpg",
+                  "url": "/cms-media/Daniela_Vito_2d9e1603d8.jpg",
                   "hash": "medium_Daniela_Vito_2d9e1603d8",
                   "mime": "image/jpeg",
                   "name": "medium_Daniela Vito.jpg",
@@ -1011,7 +1011,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Daniela_Vito_2d9e1603d8.jpg",
+                  "url": "/cms-media/Daniela_Vito_2d9e1603d8.jpg",
                   "hash": "thumbnail_Daniela_Vito_2d9e1603d8",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Daniela Vito.jpg",
@@ -1050,7 +1050,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Samuel_Rodrigues_7eb98b158a.jpg",
+                  "url": "/cms-media/Samuel_Rodrigues_7eb98b158a.jpg",
                   "hash": "large_Samuel_Rodrigues_7eb98b158a",
                   "mime": "image/jpeg",
                   "name": "large_Samuel Rodrigues.jpg",
@@ -1062,7 +1062,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Samuel_Rodrigues_7eb98b158a.jpg",
+                  "url": "/cms-media/Samuel_Rodrigues_7eb98b158a.jpg",
                   "hash": "small_Samuel_Rodrigues_7eb98b158a",
                   "mime": "image/jpeg",
                   "name": "small_Samuel Rodrigues.jpg",
@@ -1074,7 +1074,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Samuel_Rodrigues_7eb98b158a.jpg",
+                  "url": "/cms-media/Samuel_Rodrigues_7eb98b158a.jpg",
                   "hash": "medium_Samuel_Rodrigues_7eb98b158a",
                   "mime": "image/jpeg",
                   "name": "medium_Samuel Rodrigues.jpg",
@@ -1086,7 +1086,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Samuel_Rodrigues_7eb98b158a.jpg",
+                  "url": "/cms-media/Samuel_Rodrigues_7eb98b158a.jpg",
                   "hash": "thumbnail_Samuel_Rodrigues_7eb98b158a",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Samuel Rodrigues.jpg",
@@ -1125,7 +1125,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Sofia_Neves_07ba1cb840.jpg",
+                  "url": "/cms-media/Sofia_Neves_07ba1cb840.jpg",
                   "hash": "large_Sofia_Neves_07ba1cb840",
                   "mime": "image/jpeg",
                   "name": "large_Sofia Neves.jpg",
@@ -1141,7 +1141,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Sofia_Neves_07ba1cb840.jpg",
+                  "url": "/cms-media/Sofia_Neves_07ba1cb840.jpg",
                   "hash": "small_Sofia_Neves_07ba1cb840",
                   "mime": "image/jpeg",
                   "name": "small_Sofia Neves.jpg",
@@ -1157,7 +1157,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Sofia_Neves_07ba1cb840.jpg",
+                  "url": "/cms-media/Sofia_Neves_07ba1cb840.jpg",
                   "hash": "medium_Sofia_Neves_07ba1cb840",
                   "mime": "image/jpeg",
                   "name": "medium_Sofia Neves.jpg",
@@ -1173,7 +1173,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Sofia_Neves_07ba1cb840.jpg",
+                  "url": "/cms-media/Sofia_Neves_07ba1cb840.jpg",
                   "hash": "thumbnail_Sofia_Neves_07ba1cb840",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Sofia Neves.jpg",
@@ -1239,7 +1239,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Carolina_Pereira_ae4a27afd3.jpg",
+                  "url": "/cms-media/Carolina_Pereira_ae4a27afd3.jpg",
                   "hash": "large_Carolina_Pereira_ae4a27afd3",
                   "mime": "image/jpeg",
                   "name": "large_Carolina Pereira.jpg",
@@ -1251,7 +1251,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Carolina_Pereira_ae4a27afd3.jpg",
+                  "url": "/cms-media/Carolina_Pereira_ae4a27afd3.jpg",
                   "hash": "small_Carolina_Pereira_ae4a27afd3",
                   "mime": "image/jpeg",
                   "name": "small_Carolina Pereira.jpg",
@@ -1263,7 +1263,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Carolina_Pereira_ae4a27afd3.jpg",
+                  "url": "/cms-media/Carolina_Pereira_ae4a27afd3.jpg",
                   "hash": "medium_Carolina_Pereira_ae4a27afd3",
                   "mime": "image/jpeg",
                   "name": "medium_Carolina Pereira.jpg",
@@ -1275,7 +1275,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Carolina_Pereira_ae4a27afd3.jpg",
+                  "url": "/cms-media/Carolina_Pereira_ae4a27afd3.jpg",
                   "hash": "thumbnail_Carolina_Pereira_ae4a27afd3",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Carolina Pereira.jpg",
@@ -1314,7 +1314,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Filipa_Freire_5b0a3812ae.jpg",
+                  "url": "/cms-media/Filipa_Freire_5b0a3812ae.jpg",
                   "hash": "large_Filipa_Freire_5b0a3812ae",
                   "mime": "image/jpeg",
                   "name": "large_Filipa Freire.jpg",
@@ -1326,7 +1326,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Filipa_Freire_5b0a3812ae.jpg",
+                  "url": "/cms-media/Filipa_Freire_5b0a3812ae.jpg",
                   "hash": "small_Filipa_Freire_5b0a3812ae",
                   "mime": "image/jpeg",
                   "name": "small_Filipa Freire.jpg",
@@ -1338,7 +1338,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Filipa_Freire_5b0a3812ae.jpg",
+                  "url": "/cms-media/Filipa_Freire_5b0a3812ae.jpg",
                   "hash": "medium_Filipa_Freire_5b0a3812ae",
                   "mime": "image/jpeg",
                   "name": "medium_Filipa Freire.jpg",
@@ -1350,7 +1350,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Filipa_Freire_5b0a3812ae.jpg",
+                  "url": "/cms-media/Filipa_Freire_5b0a3812ae.jpg",
                   "hash": "thumbnail_Filipa_Freire_5b0a3812ae",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Filipa Freire.jpg",
@@ -1389,7 +1389,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Sofia_Lopes_ffce1e48c8.jpg",
+                  "url": "/cms-media/Sofia_Lopes_ffce1e48c8.jpg",
                   "hash": "large_Sofia_Lopes_ffce1e48c8",
                   "mime": "image/jpeg",
                   "name": "large_Sofia Lopes.jpg",
@@ -1401,7 +1401,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Sofia_Lopes_ffce1e48c8.jpg",
+                  "url": "/cms-media/Sofia_Lopes_ffce1e48c8.jpg",
                   "hash": "small_Sofia_Lopes_ffce1e48c8",
                   "mime": "image/jpeg",
                   "name": "small_Sofia Lopes.jpg",
@@ -1413,7 +1413,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Sofia_Lopes_ffce1e48c8.jpg",
+                  "url": "/cms-media/Sofia_Lopes_ffce1e48c8.jpg",
                   "hash": "medium_Sofia_Lopes_ffce1e48c8",
                   "mime": "image/jpeg",
                   "name": "medium_Sofia Lopes.jpg",
@@ -1425,7 +1425,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Sofia_Lopes_ffce1e48c8.jpg",
+                  "url": "/cms-media/Sofia_Lopes_ffce1e48c8.jpg",
                   "hash": "thumbnail_Sofia_Lopes_ffce1e48c8",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Sofia Lopes.jpg",
@@ -1484,7 +1484,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Diogo_Martinho_c29a39d451.jpg",
+                  "url": "/cms-media/Diogo_Martinho_c29a39d451.jpg",
                   "hash": "large_Diogo_Martinho_c29a39d451",
                   "mime": "image/jpeg",
                   "name": "large_Diogo Martinho.jpg",
@@ -1496,7 +1496,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Diogo_Martinho_c29a39d451.jpg",
+                  "url": "/cms-media/Diogo_Martinho_c29a39d451.jpg",
                   "hash": "small_Diogo_Martinho_c29a39d451",
                   "mime": "image/jpeg",
                   "name": "small_Diogo Martinho.jpg",
@@ -1508,7 +1508,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Diogo_Martinho_c29a39d451.jpg",
+                  "url": "/cms-media/Diogo_Martinho_c29a39d451.jpg",
                   "hash": "medium_Diogo_Martinho_c29a39d451",
                   "mime": "image/jpeg",
                   "name": "medium_Diogo Martinho.jpg",
@@ -1520,7 +1520,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Diogo_Martinho_c29a39d451.jpg",
+                  "url": "/cms-media/Diogo_Martinho_c29a39d451.jpg",
                   "hash": "thumbnail_Diogo_Martinho_c29a39d451",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Diogo Martinho.jpg",
@@ -1559,7 +1559,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Goncalo_Guerreira_143697799d.jpg",
+                  "url": "/cms-media/Goncalo_Guerreira_143697799d.jpg",
                   "hash": "large_Goncalo_Guerreira_143697799d",
                   "mime": "image/jpeg",
                   "name": "large_Goncalo Guerreira.jpg",
@@ -1571,7 +1571,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Goncalo_Guerreira_143697799d.jpg",
+                  "url": "/cms-media/Goncalo_Guerreira_143697799d.jpg",
                   "hash": "small_Goncalo_Guerreira_143697799d",
                   "mime": "image/jpeg",
                   "name": "small_Goncalo Guerreira.jpg",
@@ -1583,7 +1583,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Goncalo_Guerreira_143697799d.jpg",
+                  "url": "/cms-media/Goncalo_Guerreira_143697799d.jpg",
                   "hash": "medium_Goncalo_Guerreira_143697799d",
                   "mime": "image/jpeg",
                   "name": "medium_Goncalo Guerreira.jpg",
@@ -1595,7 +1595,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Goncalo_Guerreira_143697799d.jpg",
+                  "url": "/cms-media/Goncalo_Guerreira_143697799d.jpg",
                   "hash": "thumbnail_Goncalo_Guerreira_143697799d",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Goncalo Guerreira.jpg",
@@ -1634,7 +1634,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Joana_Goncalves_765b8557f4.jpg",
+                  "url": "/cms-media/Joana_Goncalves_765b8557f4.jpg",
                   "hash": "large_Joana_Goncalves_765b8557f4",
                   "mime": "image/jpeg",
                   "name": "large_Joana Goncalves.jpg",
@@ -1646,7 +1646,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Joana_Goncalves_765b8557f4.jpg",
+                  "url": "/cms-media/Joana_Goncalves_765b8557f4.jpg",
                   "hash": "small_Joana_Goncalves_765b8557f4",
                   "mime": "image/jpeg",
                   "name": "small_Joana Goncalves.jpg",
@@ -1658,7 +1658,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Joana_Goncalves_765b8557f4.jpg",
+                  "url": "/cms-media/Joana_Goncalves_765b8557f4.jpg",
                   "hash": "medium_Joana_Goncalves_765b8557f4",
                   "mime": "image/jpeg",
                   "name": "medium_Joana Goncalves.jpg",
@@ -1670,7 +1670,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Joana_Goncalves_765b8557f4.jpg",
+                  "url": "/cms-media/Joana_Goncalves_765b8557f4.jpg",
                   "hash": "thumbnail_Joana_Goncalves_765b8557f4",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Joana Goncalves.jpg",
@@ -1709,7 +1709,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Marta_Alves_54586a632a.jpg",
+                  "url": "/cms-media/Marta_Alves_54586a632a.jpg",
                   "hash": "large_Marta_Alves_54586a632a",
                   "mime": "image/jpeg",
                   "name": "large_Marta Alves.jpg",
@@ -1721,7 +1721,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Marta_Alves_54586a632a.jpg",
+                  "url": "/cms-media/Marta_Alves_54586a632a.jpg",
                   "hash": "small_Marta_Alves_54586a632a",
                   "mime": "image/jpeg",
                   "name": "small_Marta Alves.jpg",
@@ -1733,7 +1733,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Marta_Alves_54586a632a.jpg",
+                  "url": "/cms-media/Marta_Alves_54586a632a.jpg",
                   "hash": "medium_Marta_Alves_54586a632a",
                   "mime": "image/jpeg",
                   "name": "medium_Marta Alves.jpg",
@@ -1745,7 +1745,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Marta_Alves_54586a632a.jpg",
+                  "url": "/cms-media/Marta_Alves_54586a632a.jpg",
                   "hash": "thumbnail_Marta_Alves_54586a632a",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Marta Alves.jpg",
@@ -1784,7 +1784,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Pedro_Dias_e1906df50f.jpg",
+                  "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
                   "hash": "large_Pedro_Dias_e1906df50f",
                   "mime": "image/jpeg",
                   "name": "large_Pedro Dias.jpg",
@@ -1796,7 +1796,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Pedro_Dias_e1906df50f.jpg",
+                  "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
                   "hash": "small_Pedro_Dias_e1906df50f",
                   "mime": "image/jpeg",
                   "name": "small_Pedro Dias.jpg",
@@ -1808,7 +1808,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Pedro_Dias_e1906df50f.jpg",
+                  "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
                   "hash": "medium_Pedro_Dias_e1906df50f",
                   "mime": "image/jpeg",
                   "name": "medium_Pedro Dias.jpg",
@@ -1820,7 +1820,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Pedro_Dias_e1906df50f.jpg",
+                  "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
                   "hash": "thumbnail_Pedro_Dias_e1906df50f",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Pedro Dias.jpg",
@@ -1859,7 +1859,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Ruben_Cunha_47791b02a9.jpg",
+                  "url": "/cms-media/Ruben_Cunha_47791b02a9.jpg",
                   "hash": "large_Ruben_Cunha_47791b02a9",
                   "mime": "image/jpeg",
                   "name": "large_Ruben Cunha.jpg",
@@ -1871,7 +1871,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Ruben_Cunha_47791b02a9.jpg",
+                  "url": "/cms-media/Ruben_Cunha_47791b02a9.jpg",
                   "hash": "small_Ruben_Cunha_47791b02a9",
                   "mime": "image/jpeg",
                   "name": "small_Ruben Cunha.jpg",
@@ -1883,7 +1883,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Ruben_Cunha_47791b02a9.jpg",
+                  "url": "/cms-media/Ruben_Cunha_47791b02a9.jpg",
                   "hash": "medium_Ruben_Cunha_47791b02a9",
                   "mime": "image/jpeg",
                   "name": "medium_Ruben Cunha.jpg",
@@ -1895,7 +1895,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Ruben_Cunha_47791b02a9.jpg",
+                  "url": "/cms-media/Ruben_Cunha_47791b02a9.jpg",
                   "hash": "thumbnail_Ruben_Cunha_47791b02a9",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Ruben Cunha.jpg",
@@ -1954,7 +1954,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Jean_Testut_af214c99a6.jpg",
+                  "url": "/cms-media/Jean_Testut_af214c99a6.jpg",
                   "hash": "large_Jean_Testut_af214c99a6",
                   "mime": "image/jpeg",
                   "name": "large_Jean Testut.jpg",
@@ -1966,7 +1966,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Jean_Testut_af214c99a6.jpg",
+                  "url": "/cms-media/Jean_Testut_af214c99a6.jpg",
                   "hash": "small_Jean_Testut_af214c99a6",
                   "mime": "image/jpeg",
                   "name": "small_Jean Testut.jpg",
@@ -1978,7 +1978,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Jean_Testut_af214c99a6.jpg",
+                  "url": "/cms-media/Jean_Testut_af214c99a6.jpg",
                   "hash": "medium_Jean_Testut_af214c99a6",
                   "mime": "image/jpeg",
                   "name": "medium_Jean Testut.jpg",
@@ -1990,7 +1990,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Jean_Testut_af214c99a6.jpg",
+                  "url": "/cms-media/Jean_Testut_af214c99a6.jpg",
                   "hash": "thumbnail_Jean_Testut_af214c99a6",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Jean Testut.jpg",
@@ -2029,7 +2029,7 @@
               "formats": {
                 "large": {
                   "ext": ".jpg",
-                  "url": "/cms-media/large_Axel_David_5475c39b5a.jpg",
+                  "url": "/cms-media/Axel_David_5475c39b5a.jpg",
                   "hash": "large_Axel_David_5475c39b5a",
                   "mime": "image/jpeg",
                   "name": "large_Axel David.jpg",
@@ -2041,7 +2041,7 @@
                 },
                 "small": {
                   "ext": ".jpg",
-                  "url": "/cms-media/small_Axel_David_5475c39b5a.jpg",
+                  "url": "/cms-media/Axel_David_5475c39b5a.jpg",
                   "hash": "small_Axel_David_5475c39b5a",
                   "mime": "image/jpeg",
                   "name": "small_Axel David.jpg",
@@ -2053,7 +2053,7 @@
                 },
                 "medium": {
                   "ext": ".jpg",
-                  "url": "/cms-media/medium_Axel_David_5475c39b5a.jpg",
+                  "url": "/cms-media/Axel_David_5475c39b5a.jpg",
                   "hash": "medium_Axel_David_5475c39b5a",
                   "mime": "image/jpeg",
                   "name": "medium_Axel David.jpg",
@@ -2065,7 +2065,7 @@
                 },
                 "thumbnail": {
                   "ext": ".jpg",
-                  "url": "/cms-media/thumbnail_Axel_David_5475c39b5a.jpg",
+                  "url": "/cms-media/Axel_David_5475c39b5a.jpg",
                   "hash": "thumbnail_Axel_David_5475c39b5a",
                   "mime": "image/jpeg",
                   "name": "thumbnail_Axel David.jpg",
@@ -2097,3 +2097,4 @@
   "createdAt": "2025-04-15T10:06:46.332Z",
   "updatedAt": "2025-06-06T11:29:06.925Z"
 }
+

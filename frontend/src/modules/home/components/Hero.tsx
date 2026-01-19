@@ -11,6 +11,7 @@ import {
 } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 import { strapiUrl } from "@/data/strapiUrl";
+import { optimizeImage } from "@/util/optimizeImage";
 
 interface Props {
   videoUrl: string;
@@ -63,7 +64,7 @@ export const Hero: React.FC<Props> = ({ videoUrl, bannerImage, logo }) => {
         style={
           !playing
             ? {
-                backgroundImage: `url(${strapiUrl}${bannerImage?.url})`,
+                backgroundImage: `url(${optimizeImage(`${strapiUrl}${bannerImage?.url}`)})`,
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
               }
             : {}

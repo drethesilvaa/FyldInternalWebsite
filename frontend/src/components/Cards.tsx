@@ -4,6 +4,7 @@ import { AspectRatio } from "@/data/AspectRatio";
 import { RichTextBlock } from "./RichTextBlock";
 import { motion } from "framer-motion";
 import { strapiUrl } from "@/data/strapiUrl";
+import { optimizeImage } from "@/util/optimizeImage";
 
 export interface CardsProps {
   Horizontal: boolean;
@@ -112,7 +113,7 @@ export const Cards = ({
           >
             <img
               className="object-cover w-full h-full"
-              src={`${strapiUrl}${item.Imagem?.url}`}
+              src={optimizeImage(`${strapiUrl}${item.Imagem?.url}`)}
               alt={item.Imagem?.alt}
             />
           </figure>

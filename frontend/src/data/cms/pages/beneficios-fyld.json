@@ -13,7 +13,7 @@
     "formats": {
       "large": {
         "ext": ".jpg",
-        "url": "/cms-media/large_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "large_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "large_pexels-fauxels-3184434.jpg",
@@ -25,7 +25,7 @@
       },
       "small": {
         "ext": ".jpg",
-        "url": "/cms-media/small_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "small_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "small_pexels-fauxels-3184434.jpg",
@@ -37,7 +37,7 @@
       },
       "medium": {
         "ext": ".jpg",
-        "url": "/cms-media/medium_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "medium_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "medium_pexels-fauxels-3184434.jpg",
@@ -49,7 +49,7 @@
       },
       "thumbnail": {
         "ext": ".jpg",
-        "url": "/cms-media/thumbnail_pexels_fauxels_3184434_c1ca826901.jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
         "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
         "mime": "image/jpeg",
         "name": "thumbnail_pexels-fauxels-3184434.jpg",
@@ -142,7 +142,7 @@
             "formats": {
               "large": {
                 "ext": ".png",
-                "url": "/cms-media/large_psicologia_7ad72bc4ac.jpg",
+                "url": "/cms-media/psicologia_7ad72bc4ac.jpg",
                 "hash": "large_psicologia_7ad72bc4ac",
                 "mime": "image/jpeg",
                 "name": "large_psicologia.png",
@@ -158,7 +158,7 @@
               },
               "small": {
                 "ext": ".png",
-                "url": "/cms-media/small_psicologia_7ad72bc4ac.jpg",
+                "url": "/cms-media/psicologia_7ad72bc4ac.jpg",
                 "hash": "small_psicologia_7ad72bc4ac",
                 "mime": "image/jpeg",
                 "name": "small_psicologia.png",
@@ -174,7 +174,7 @@
               },
               "medium": {
                 "ext": ".png",
-                "url": "/cms-media/medium_psicologia_7ad72bc4ac.jpg",
+                "url": "/cms-media/psicologia_7ad72bc4ac.jpg",
                 "hash": "medium_psicologia_7ad72bc4ac",
                 "mime": "image/jpeg",
                 "name": "medium_psicologia.png",
@@ -190,7 +190,7 @@
               },
               "thumbnail": {
                 "ext": ".png",
-                "url": "/cms-media/thumbnail_psicologia_7ad72bc4ac.jpg",
+                "url": "/cms-media/psicologia_7ad72bc4ac.jpg",
                 "hash": "thumbnail_psicologia_7ad72bc4ac",
                 "mime": "image/jpeg",
                 "name": "thumbnail_psicologia.png",
@@ -236,7 +236,7 @@
             "formats": {
               "small": {
                 "ext": ".png",
-                "url": "/cms-media/small_Pestana_d53d909ec1.png",
+                "url": "/cms-media/Pestana_d53d909ec1.png",
                 "hash": "small_Pestana_d53d909ec1",
                 "mime": "image/png",
                 "name": "small_Pestana.png",
@@ -252,7 +252,7 @@
               },
               "thumbnail": {
                 "ext": ".png",
-                "url": "/cms-media/thumbnail_Pestana_d53d909ec1.png",
+                "url": "/cms-media/Pestana_d53d909ec1.png",
                 "hash": "thumbnail_Pestana_d53d909ec1",
                 "mime": "image/png",
                 "name": "thumbnail_Pestana.png",
@@ -298,7 +298,7 @@
             "formats": {
               "small": {
                 "ext": ".png",
-                "url": "/cms-media/small_Fitness_Hut_a5dc1ed3f0.png",
+                "url": "/cms-media/Fitness_Hut_a5dc1ed3f0.png",
                 "hash": "small_Fitness_Hut_a5dc1ed3f0",
                 "mime": "image/png",
                 "name": "small_FitnessHut.png",
@@ -314,7 +314,7 @@
               },
               "thumbnail": {
                 "ext": ".png",
-                "url": "/cms-media/thumbnail_Fitness_Hut_a5dc1ed3f0.png",
+                "url": "/cms-media/Fitness_Hut_a5dc1ed3f0.png",
                 "hash": "thumbnail_Fitness_Hut_a5dc1ed3f0",
                 "mime": "image/png",
                 "name": "thumbnail_FitnessHut.png",
@@ -360,7 +360,7 @@
             "formats": {
               "small": {
                 "ext": ".png",
-                "url": "/cms-media/small_Farmacia_Confianca_62f5013a4d.png",
+                "url": "/cms-media/Farmacia_Confianca_62f5013a4d.png",
                 "hash": "small_Farmacia_Confianca_62f5013a4d",
                 "mime": "image/png",
                 "name": "small_FarmaciaConfianca.png",
@@ -376,7 +376,7 @@
               },
               "thumbnail": {
                 "ext": ".png",
-                "url": "/cms-media/thumbnail_Farmacia_Confianca_62f5013a4d.png",
+                "url": "/cms-media/Farmacia_Confianca_62f5013a4d.png",
                 "hash": "thumbnail_Farmacia_Confianca_62f5013a4d",
                 "mime": "image/png",
                 "name": "thumbnail_FarmaciaConfianca.png",
@@ -422,7 +422,7 @@
             "formats": {
               "large": {
                 "ext": ".png",
-                "url": "/cms-media/large_Excel_Ana_Morais_91ef89318d.jpg",
+                "url": "/cms-media/Excel_Ana_Morais_91ef89318d.jpg",
                 "hash": "large_Excel_Ana_Morais_91ef89318d",
                 "mime": "image/jpeg",
                 "name": "large_ExcelAnaMorais.png",
@@ -438,7 +438,7 @@
               },
               "small": {
                 "ext": ".png",
-                "url": "/cms-media/small_Excel_Ana_Morais_91ef89318d.jpg",
+                "url": "/cms-media/Excel_Ana_Morais_91ef89318d.jpg",
                 "hash": "small_Excel_Ana_Morais_91ef89318d",
                 "mime": "image/jpeg",
                 "name": "small_ExcelAnaMorais.png",
@@ -454,7 +454,7 @@
               },
               "medium": {
                 "ext": ".png",
-                "url": "/cms-media/medium_Excel_Ana_Morais_91ef89318d.jpg",
+                "url": "/cms-media/Excel_Ana_Morais_91ef89318d.jpg",
                 "hash": "medium_Excel_Ana_Morais_91ef89318d",
                 "mime": "image/jpeg",
                 "name": "medium_ExcelAnaMorais.png",
@@ -470,7 +470,7 @@
               },
               "thumbnail": {
                 "ext": ".png",
-                "url": "/cms-media/thumbnail_Excel_Ana_Morais_91ef89318d.jpg",
+                "url": "/cms-media/Excel_Ana_Morais_91ef89318d.jpg",
                 "hash": "thumbnail_Excel_Ana_Morais_91ef89318d",
                 "mime": "image/jpeg",
                 "name": "thumbnail_ExcelAnaMorais.png",
@@ -516,3 +516,4 @@
   "createdAt": "2025-04-17T15:02:32.038Z",
   "updatedAt": "2025-07-03T17:06:24.187Z"
 }
+

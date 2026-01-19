@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import Image, { StaticImageData } from "next/image";
 import PageLoader from "./PageLoader";
 import { strapiUrl } from "@/data/strapiUrl";
+import { optimizeImage } from "@/util/optimizeImage";
 
 export default function PagesLayout({
   children,
@@ -26,7 +27,7 @@ export default function PagesLayout({
       {banner?.url && (
         <div className="relative">
           <img
-            src={`${strapiUrl}${banner?.url}`}
+            src={optimizeImage(`${strapiUrl}${banner?.url}`)}
             className="object-cover aspect-[12/1] brightness-50 max-h-40 w-full"
             alt={banner?.alternativeText}
           />
