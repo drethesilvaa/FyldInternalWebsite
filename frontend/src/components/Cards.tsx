@@ -83,6 +83,8 @@ export const Cards = ({
     12: "grid-cols-1 lg:grid-cols-12",
   };
 
+  console.log(ratioClass)
+
   return (
     <div
       className={`grid gap-4 ${colVariants[colunas]} ${

@@ -714,6 +714,231 @@
               "updatedAt": "2025-04-30T16:33:38.002Z",
               "publishedAt": "2025-04-30T16:33:38.002Z"
             }
+          },
+          {
+            "id": 673,
+            "Content": "<h5 style=\"text-align:center;\">Daniela Quental</h5><h6 style=\"text-align:center;\">Talent Manager</h6>",
+            "aspectRatio": "Medium Format",
+            "Imagem": {
+              "id": 134,
+              "documentId": "ehjfiehfusf",
+              "name": "Daniela_Quental.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 5500,
+              "height": 3668,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Daniela_Quental.jpg",
+                  "hash": "Daniela_Quental",
+                  "mime": "image/jpeg",
+                  "name": "Daniela_Quental.jpg",
+                  "path": null,
+                  "size": 30.58,
+                  "width": 1000,
+                  "height": 667,
+                  "sizeInBytes": 30581
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Daniela_Quental.jpg",
+                  "hash": "Daniela_Quental",
+                  "mime": "image/jpeg",
+                  "name": "Daniela_Quental.jpg",
+                  "path": null,
+                  "size": 10.89,
+                  "width": 500,
+                  "height": 333,
+                  "sizeInBytes": 10885
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Daniela_Quental.jpg",
+                  "hash": "Daniela_Quental",
+                  "mime": "image/jpeg",
+                  "name": "Daniela_Quental.jpg",
+                  "path": null,
+                  "size": 19.86,
+                  "width": 750,
+                  "height": 500,
+                  "sizeInBytes": 19856
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Daniela_Quental.jpg",
+                  "hash": "Daniela_Quental",
+                  "mime": "image/jpeg",
+                  "name": "Daniela_Quental.jpg",
+                  "path": null,
+                  "size": 3.83,
+                  "width": 234,
+                  "height": 156,
+                  "sizeInBytes": 3831
+                }
+              },
+              "hash": "Daniela_Quental",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 522.56,
+              "url": "/cms-media/Daniela_Quental.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": null,
+              "createdAt": "2025-04-30T16:33:38.002Z",
+              "updatedAt": "2025-04-30T16:33:38.002Z",
+              "publishedAt": "2025-04-30T16:33:38.002Z"
+            }
+          },
+          {
+            "id": 676,
+            "Content": "<h5 style=\"text-align:center;\">Beatriz Pires</h5><h6 style=\"text-align:center;\">Talent Manager</h6>",
+            "aspectRatio": "Medium Format",
+            "Imagem": {
+              "id": 126,
+              "documentId": "mmwnauzt6gdwpx2whfn07xy4",
+              "name": "Beatriz Pires.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 5500,
+              "height": 3668,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+                  "hash": "large_Beatriz_Pires_be001ec4eb",
+                  "mime": "image/jpeg",
+                  "name": "large_Beatriz Pires.jpg",
+                  "path": null,
+                  "size": 23.25,
+                  "width": 1000,
+                  "height": 667,
+                  "sizeInBytes": 23248
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+                  "hash": "small_Beatriz_Pires_be001ec4eb",
+                  "mime": "image/jpeg",
+                  "name": "small_Beatriz Pires.jpg",
+                  "path": null,
+                  "size": 8.51,
+                  "width": 500,
+                  "height": 333,
+                  "sizeInBytes": 8508
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+                  "hash": "medium_Beatriz_Pires_be001ec4eb",
+                  "mime": "image/jpeg",
+                  "name": "medium_Beatriz Pires.jpg",
+                  "path": null,
+                  "size": 15.17,
+                  "width": 750,
+                  "height": 500,
+                  "sizeInBytes": 15173
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+                  "hash": "thumbnail_Beatriz_Pires_be001ec4eb",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_Beatriz Pires.jpg",
+                  "path": null,
+                  "size": 3.21,
+                  "width": 234,
+                  "height": 156,
+                  "sizeInBytes": 3208
+                }
+              },
+              "hash": "Beatriz_Pires_be001ec4eb",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 422,
+              "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": null,
+              "createdAt": "2025-04-30T16:33:35.218Z",
+              "updatedAt": "2025-04-30T16:33:35.218Z",
+              "publishedAt": "2025-04-30T16:33:35.218Z"
+            }
+          },
+          {
+            "id": 676,
+            "Content": "<h5 style=\"text-align:center;\">Luís Lucas</h5><h6 style=\"text-align:center;\">Financial Controller</h6>",
+            "aspectRatio": "Medium Format",
+            "Imagem": {
+              "id": 126,
+              "documentId": "mmwnauzt6gdwpx2whfn07xy4",
+              "name": "Luis_Lucas.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 5500,
+              "height": 3668,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Luis_Lucas.jpg",
+                  "hash": "Luis_Lucas",
+                  "mime": "image/jpeg",
+                  "name": "Luis_Lucas.jpg",
+                  "path": null,
+                  "size": 23.25,
+                  "width": 1000,
+                  "height": 667,
+                  "sizeInBytes": 23248
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Luis_Lucas.jpg",
+                  "hash": "Luis_Lucas",
+                  "mime": "image/jpeg",
+                  "name": "Luis_Lucas.jpg",
+                  "path": null,
+                  "size": 8.51,
+                  "width": 500,
+                  "height": 333,
+                  "sizeInBytes": 8508
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Luis_Lucas.jpg",
+                  "hash": "Luis_Lucas",
+                  "mime": "image/jpeg",
+                  "name": "Luis_Lucas.jpg",
+                  "path": null,
+                  "size": 15.17,
+                  "width": 750,
+                  "height": 500,
+                  "sizeInBytes": 15173
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Luis_Lucas.jpg",
+                  "hash": "Luis_Lucas",
+                  "mime": "image/jpeg",
+                  "name": "Luis_Lucas.jpg",
+                  "path": null,
+                  "size": 3.21,
+                  "width": 234,
+                  "height": 156,
+                  "sizeInBytes": 3208
+                }
+              },
+              "hash": "Luis_Lucas",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 422,
+              "url": "/cms-media/Luis_Lucas.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": null,
+              "createdAt": "2025-04-30T16:33:35.218Z",
+              "updatedAt": "2025-04-30T16:33:35.218Z",
+              "publishedAt": "2025-04-30T16:33:35.218Z"
+            }
           }
         ]
       }
@@ -811,156 +1036,6 @@
             }
           },
           {
-            "id": 675,
-            "Content": "<h5 style=\"text-align:center;\">Sara Espírito Santo</h5><h6 style=\"text-align:center;\">Senior Talent Acquisition</h6>",
-            "aspectRatio": "Medium Format",
-            "Imagem": {
-              "id": 122,
-              "documentId": "qu09f8r0r97waxxlst5aply3",
-              "name": "Sara Espirito Santo.jpg",
-              "alternativeText": null,
-              "caption": null,
-              "width": 5500,
-              "height": 3668,
-              "formats": {
-                "large": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-                  "hash": "large_Sara_Espirito_Santo_1489745694",
-                  "mime": "image/jpeg",
-                  "name": "large_Sara Espirito Santo.jpg",
-                  "path": null,
-                  "size": 23.37,
-                  "width": 1000,
-                  "height": 667,
-                  "sizeInBytes": 23365
-                },
-                "small": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-                  "hash": "small_Sara_Espirito_Santo_1489745694",
-                  "mime": "image/jpeg",
-                  "name": "small_Sara Espirito Santo.jpg",
-                  "path": null,
-                  "size": 8.6,
-                  "width": 500,
-                  "height": 333,
-                  "sizeInBytes": 8601
-                },
-                "medium": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-                  "hash": "medium_Sara_Espirito_Santo_1489745694",
-                  "mime": "image/jpeg",
-                  "name": "medium_Sara Espirito Santo.jpg",
-                  "path": null,
-                  "size": 15.33,
-                  "width": 750,
-                  "height": 500,
-                  "sizeInBytes": 15329
-                },
-                "thumbnail": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-                  "hash": "thumbnail_Sara_Espirito_Santo_1489745694",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_Sara Espirito Santo.jpg",
-                  "path": null,
-                  "size": 3.26,
-                  "width": 234,
-                  "height": 156,
-                  "sizeInBytes": 3259
-                }
-              },
-              "hash": "Sara_Espirito_Santo_1489745694",
-              "ext": ".jpg",
-              "mime": "image/jpeg",
-              "size": 403.85,
-              "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": null,
-              "createdAt": "2025-04-30T16:33:34.485Z",
-              "updatedAt": "2025-04-30T16:33:34.485Z",
-              "publishedAt": "2025-04-30T16:33:34.486Z"
-            }
-          },
-          {
-            "id": 676,
-            "Content": "<h5 style=\"text-align:center;\">Beatriz Pires</h5><h6 style=\"text-align:center;\">Talent Acquisition</h6>",
-            "aspectRatio": "Medium Format",
-            "Imagem": {
-              "id": 126,
-              "documentId": "mmwnauzt6gdwpx2whfn07xy4",
-              "name": "Beatriz Pires.jpg",
-              "alternativeText": null,
-              "caption": null,
-              "width": 5500,
-              "height": 3668,
-              "formats": {
-                "large": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-                  "hash": "large_Beatriz_Pires_be001ec4eb",
-                  "mime": "image/jpeg",
-                  "name": "large_Beatriz Pires.jpg",
-                  "path": null,
-                  "size": 23.25,
-                  "width": 1000,
-                  "height": 667,
-                  "sizeInBytes": 23248
-                },
-                "small": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-                  "hash": "small_Beatriz_Pires_be001ec4eb",
-                  "mime": "image/jpeg",
-                  "name": "small_Beatriz Pires.jpg",
-                  "path": null,
-                  "size": 8.51,
-                  "width": 500,
-                  "height": 333,
-                  "sizeInBytes": 8508
-                },
-                "medium": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-                  "hash": "medium_Beatriz_Pires_be001ec4eb",
-                  "mime": "image/jpeg",
-                  "name": "medium_Beatriz Pires.jpg",
-                  "path": null,
-                  "size": 15.17,
-                  "width": 750,
-                  "height": 500,
-                  "sizeInBytes": 15173
-                },
-                "thumbnail": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-                  "hash": "thumbnail_Beatriz_Pires_be001ec4eb",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_Beatriz Pires.jpg",
-                  "path": null,
-                  "size": 3.21,
-                  "width": 234,
-                  "height": 156,
-                  "sizeInBytes": 3208
-                }
-              },
-              "hash": "Beatriz_Pires_be001ec4eb",
-              "ext": ".jpg",
-              "mime": "image/jpeg",
-              "size": 422,
-              "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": null,
-              "createdAt": "2025-04-30T16:33:35.218Z",
-              "updatedAt": "2025-04-30T16:33:35.218Z",
-              "publishedAt": "2025-04-30T16:33:35.218Z"
-            }
-          },
-          {
             "id": 677,
             "Content": "<h5 style=\"text-align:center;\">Daniela Vito</h5><h6 style=\"text-align:center;\">Talent Acquisition</h6>",
             "aspectRatio": "Medium Format",
@@ -1037,7 +1112,7 @@
           },
           {
             "id": 678,
-            "Content": "<h5 style=\"text-align:center;\">Samuel Rodrigues</h5><h6 style=\"text-align:center;\">Talent Acquisition</h6>",
+            "Content": "<h5 style=\"text-align:center;\">Samuel Rodrigues</h5><h6 style=\"text-align:center;\">Senior Talent Acquisition</h6>",
             "aspectRatio": "Medium Format",
             "Imagem": {
               "id": 124,
@@ -1199,6 +1274,80 @@
                 "public_id": "Sofia_Neves_07ba1cb840",
                 "resource_type": "image"
               },
+              "createdAt": "2025-06-03T11:19:58.360Z",
+              "updatedAt": "2025-06-03T11:19:58.360Z",
+              "publishedAt": "2025-06-03T11:19:58.370Z"
+            }
+          },
+          {
+            "id": 679,
+            "Content": "<h5 style=\"text-align:center;\">Sara Sequeira</h5><h6 style=\"text-align:center;\">Talent Acquisition</h6>",
+            "aspectRatio": "Medium Format",
+            "Imagem": {
+              "id": 163,
+              "documentId": "m74f16hnivv5mcw6svv1kanq",
+              "name": "Sara_Sequeira.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 6000,
+              "height": 4000,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Sara_Sequeira.jpg",
+                  "hash": "Sara_Sequeira",
+                  "mime": "image/jpeg",
+                  "name": "Sara_Sequeira.jpg",
+                  "path": null,
+                  "size": 37.23,
+                  "width": 1000,
+                  "height": 667,
+                  "sizeInBytes": 37234
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Sara_Sequeira.jpg",
+                  "hash": "Sara_Sequeira",
+                  "mime": "image/jpeg",
+                  "name": "Sara_Sequeira.jpg",
+                  "path": null,
+                  "size": 12.64,
+                  "width": 500,
+                  "height": 333,
+                  "sizeInBytes": 12635
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Sara_Sequeira.jpg",
+                  "hash": "Sara_Sequeira",
+                  "mime": "image/jpeg",
+                  "name": "Sara_Sequeira.jpg",
+                  "path": null,
+                  "size": 23.61,
+                  "width": 750,
+                  "height": 500,
+                  "sizeInBytes": 23612
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "/cms-media/Sara_Sequeira.jpg",
+                  "hash": "Sara_Sequeira",
+                  "mime": "image/jpeg",
+                  "name": "Sara_Sequeira.jpg",
+                  "path": null,
+                  "size": 4.35,
+                  "width": 234,
+                  "height": 156,
+                  "sizeInBytes": 4347
+                }
+              },
+              "hash": "Sara_Sequeira",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 868.14,
+              "url": "/cms-media/Sara_Sequeira.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
               "createdAt": "2025-06-03T11:19:58.360Z",
               "updatedAt": "2025-06-03T11:19:58.360Z",
               "publishedAt": "2025-06-03T11:19:58.370Z"
@@ -1546,7 +1695,7 @@
           },
           {
             "id": 684,
-            "Content": "<h5 style=\"text-align:center;\">Gonçalo Guerreiro</h5><h6 style=\"text-align:center;\">Business Manager</h6>",
+            "Content": "<h5 style=\"text-align:center;\">Gonçalo Guerreiro</h5><h6 style=\"text-align:center;\">Senior Business Manager</h6>",
             "aspectRatio": "Medium Format",
             "Imagem": {
               "id": 118,
@@ -1770,83 +1919,8 @@
             }
           },
           {
-            "id": 687,
-            "Content": "<h5 style=\"text-align:center;\">Pedro Dias</h5><h6 style=\"text-align:center;\">Business Manager</h6>",
-            "aspectRatio": "Medium Format",
-            "Imagem": {
-              "id": 110,
-              "documentId": "gruymo8yv03is2162pybz99h",
-              "name": "Pedro Dias.jpg",
-              "alternativeText": null,
-              "caption": null,
-              "width": 6000,
-              "height": 4000,
-              "formats": {
-                "large": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-                  "hash": "large_Pedro_Dias_e1906df50f",
-                  "mime": "image/jpeg",
-                  "name": "large_Pedro Dias.jpg",
-                  "path": null,
-                  "size": 25.71,
-                  "width": 1000,
-                  "height": 667,
-                  "sizeInBytes": 25708
-                },
-                "small": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-                  "hash": "small_Pedro_Dias_e1906df50f",
-                  "mime": "image/jpeg",
-                  "name": "small_Pedro Dias.jpg",
-                  "path": null,
-                  "size": 9.59,
-                  "width": 500,
-                  "height": 333,
-                  "sizeInBytes": 9585
-                },
-                "medium": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-                  "hash": "medium_Pedro_Dias_e1906df50f",
-                  "mime": "image/jpeg",
-                  "name": "medium_Pedro Dias.jpg",
-                  "path": null,
-                  "size": 17,
-                  "width": 750,
-                  "height": 500,
-                  "sizeInBytes": 16999
-                },
-                "thumbnail": {
-                  "ext": ".jpg",
-                  "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-                  "hash": "thumbnail_Pedro_Dias_e1906df50f",
-                  "mime": "image/jpeg",
-                  "name": "thumbnail_Pedro Dias.jpg",
-                  "path": null,
-                  "size": 3.63,
-                  "width": 234,
-                  "height": 156,
-                  "sizeInBytes": 3625
-                }
-              },
-              "hash": "Pedro_Dias_e1906df50f",
-              "ext": ".jpg",
-              "mime": "image/jpeg",
-              "size": 593.96,
-              "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": null,
-              "createdAt": "2025-04-30T16:33:30.063Z",
-              "updatedAt": "2025-04-30T16:33:30.063Z",
-              "publishedAt": "2025-04-30T16:33:30.064Z"
-            }
-          },
-          {
             "id": 688,
-            "Content": "<h5 style=\"text-align:center;\">Rúben Cunha</h5><h6 style=\"text-align:center;\">Business Manager</h6>",
+            "Content": "<h5 style=\"text-align:center;\">Rúben Cunha</h5><h6 style=\"text-align:center;\">Senior Business Manager</h6>",
             "aspectRatio": "Medium Format",
             "Imagem": {
               "id": 111,
@@ -2097,4 +2171,3 @@
   "createdAt": "2025-04-15T10:06:46.332Z",
   "updatedAt": "2025-06-06T11:29:06.925Z"
 }
-

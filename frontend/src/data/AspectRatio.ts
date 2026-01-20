@@ -5,7 +5,7 @@ export enum AspectRatio {
   ThreeByTwo = "Classic",
   SixteenByNine = "Widescreen",
   NineBySixteen = "Vertical_Portrait",
-  Cinema = "Cinemascope_Panoramic",
+  Cinema = "Cinemascope Panoramic",
 }
 
 // Optional: human‑readable labels
