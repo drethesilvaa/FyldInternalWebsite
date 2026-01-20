@@ -1,0 +1,94 @@
+{
+  "documentId": "gz9oo0h93vdennhjf7po38md",
+  "Title": "Medicina do Trabalho",
+  "slug": "medicina-do-trabalho",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 164,
+      "Content": "<p><strong>A presença na Medicina do Trabalho é uma obrigação legal e é necessário cumprir os prazos legais definidos.&nbsp;</strong><br>As consultas de admissão são realizadas nos primeiros 15 dias e as consultas periódicas são realizadas de dois em dois anos, até à idade de 50 anos. Após essa idade, a consulta é realizada anualmente.<br>A marcação é comunicada através do teu e-mail Fyld, com todas as informações como data, hora e local.</p><p>&nbsp;</p><p><strong>É obrigatória a participação nesta consulta.</strong></p><p style=\"text-align:center;\">&nbsp;</p><p>Se não puderes comparecer, deves sempre contactar os nossos Recursos Humanos, informando-os das razões pelas quais não podes comparecer, a fim de remarcar (no mínimo com 24h de antecedência).</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 372,
+    "documentId": "px4yc8eilkt8utva1bcj8fc0",
+    "Title": "Procedimentos ",
+    "slug": "procedimentos",
+    "createdAt": "2025-04-17T11:21:13.545Z",
+    "updatedAt": "2025-07-03T17:13:50.222Z",
+    "publishedAt": "2025-07-03T17:13:50.641Z"
+  },
+  "createdAt": "2025-04-22T15:51:38.670Z",
+  "updatedAt": "2025-04-23T17:31:43.336Z"
+}
+

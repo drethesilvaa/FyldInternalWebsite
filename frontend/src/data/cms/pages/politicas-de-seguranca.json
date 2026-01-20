@@ -1,0 +1,94 @@
+{
+  "documentId": "upngbzjn2yruuiby3uamrqom",
+  "Title": "Políticas de Segurança",
+  "slug": "politicas-de-seguranca",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 174,
+      "Content": "<p>As políticas de segurança da Fyld são estabelecidas com base em <strong><u>3 objetivos principais</u></strong>:</p><ol style=\"list-style-type:decimal;\"><li><strong>Integridade </strong>- As informações que estão sob o controlo dos processos da Fyld são completas e precisas</li><li><strong>Disponibilidade </strong>- Ao usares ferramentas confiáveis e definires políticas para armazenamento de dados, as informações tornam-se altamente disponíveis.</li><li><strong>Confidencialidade </strong>- A informação só pode ser acedida pelas partes interessadas a quem se refere, empregando grupos de segurança, ActiveDirectory e políticas específicas de gestão de ativos.</li></ol><p>&nbsp;</p><h6>Autoridade e Política de Controlo de Acesso na Fyld</h6><p>A autoridade e o controlo de acesso são definidos num documento próprio, com os principais valores, sendo que o direito de acesso específico é gerido pelo Departamento de TI por solicitação do stackeholder responsável.<br>Os acessos são registados por métricas de identificação de atividades suspeitas e são definidos os alertas para serem gerados, analisados e encaminhados aos stackeholders a quem diz respeito.</p><p>&nbsp;</p><h6>Suporte e operação de dados</h6><p>A proteção de dados é usada através do bloqueio de cópias físicas de informações confidenciais num \"locker\" seguro dentro do nosso escritório.<br>Os dados da rede são protegidos por firewall e o acesso à rede do escritório só é acessível por meio de um serviço VPN.<br>Os computadores são criptografados usando a tecnologia Bitlocker.</p><p>&nbsp;</p><h6>Laptops e dispositivos móveis</h6><p>As informações confidenciais/críticas armazenadas em laptops e outros dispositivos móveis ou computadores pessoais, devem ser reduzidas ao mínimo. Essas informações devem ser mantidas por um período mínimo, de modo a reduzir o impacto caso ocorra uma violação de segurança.<br>Os Players não devem permitir que terceiros, incluindo familiares ou amigos, usem ou modifiquem qualquer equipamento fornecido por nós para realizar as suas tarefas profissionais.<br>A perda de qualquer dispositivo móvel contendo informações sensíveis/críticas ou qualquer outra violação de segurança deve ser relatada imediatamente ao Departamento de TI.<br>As informações confidencias/críticas mantidas em qualquer dispositivo móvel devem ser apagadas com segurança antes que o dispositivo seja reatribuído a outro usuário ou a outra finalidade. Quando necessário, ou em caso de dúvida, deve-se procurar a orientação do Helpdesk de TI sobre as ferramentas adequadas para apagar informações em dispositivos móveis e computadores domésticos.<br>Os usuários só podem usar pen drives de dados USB criptografados autorizados para armazenar temporariamente dados confidenciais e esses dados devem ser transferidos para a área de armazenamento alocada assim que possível.<br>Os dispositivos móveis são vulneráveis a roubo, perda ou acesso não autorizado quando retirados das instalações da Fyld e devem ser fornecidos com as formas adequadas de proteção de acesso, incluindo:</p><ul style=\"list-style-type:disc;\"><li>proteção de senha</li><li>proteção de tempo limite (ex: proteção de ecrã ou hibernação com senha)</li><li>informações confidenciais/críticas devem ser criptografadas - a melhor maneira de conseguir isso é criptografando todo o dispositivo:<ul><li>onde a criptografia deve ser empregue. Procura aconselhamento sobre a melhor forma de conseguires isso junto do Servicedesk;</li><li>observa...que as informações só são protegidas por criptografia quando o teu laptop está desligado e não em uso normal;</li><li>o acesso às informações criptografadas são perdidas se a chave de criptografia for esquecida.</li></ul></li></ul><p><br>Os Players devem garantir uma cópia de backup segura e não criptografada das informações criptografadas, para que seja mantida nos sistemas centrais.</p><p>&nbsp;</p><h6>Política de mesa limpa e ecrã limpo</h6><p>Todos os Players devem seguir as regras abaixo para garantir a proteção de quaisquer dados confidenciais e olhares indiscretos:</p><ol style=\"list-style-type:decimal;\"><li>Os computadores/terminais de computador devem ser desconectados quando não são usados e devem ser protegidos por credenciais;</li><li>O bloqueio de segurança do Windows é definido para ser ativado quando não houver atividade por 3 minutos;</li><li>O bloqueio de segurança do Windows é protegido por credencial para reativação;</li><li>Os desktops devem ter apenas atalhos em vez de arquivos ou pastas;</li><li>Os Players devem desligar as suas máquinas ao sair do trabalho;</li><li>Os pertences dos Players, como bolsas, livros, comestíveis, etc., devem ser mantidos em gavetas ou nas áreas designadas;</li><li>Antes de sair do trabalho, o Player deve certificar-se de que não deixa nenhum papel ou pertences sobre a mesa;</li><li>As telas dos computadores devem ser colocadas longe da vista de pessoas não autorizadas,</li><li>Todas as informações confidencias e de uso restrito devem ser removidas da mesa e trancadas numa gaveta ou arquivo ao final do dia;</li><li>Todas as informações confidenciais e de uso restrito devem ser armazenadas em gavetas ou armários com chave quando não estiverem em uso;</li><li>Os armários que contêm informações confidenciais ou de uso restrito devem estar sempre trancados quando não estiverem em uso ou quando não forem precisos;</li><li>As chaves usadas para aceder a informações confidenciais ou de uso restrito devem ser guardadas com segurança;</li><li>As cópias de documentos que contêm informações confidenciais ou de uso restrito devem ser imediatamente removidas da impressoras;</li><li>As passwords não devem ser colocadas debaixo de um computador ou em qualquer outro local acessível</li></ol><p>&nbsp;</p><h6>Responsabilidades, direitos e deveres de um Player</h6><p>A responsabilidade de gerir, defender e fazer cumprir as políticas de segurança da informação recai sobre o Stackehoder responsável, mas:</p><ol style=\"list-style-type:decimal;\"><li>Todos os Players devem seguir os procedimentos de segurança, incluindo a manutenção da confidencialidade e integridade dos dados. Não fazer isso pode resultas em ação disciplinar;</li><li>Cada Player é responsável por garantir que os dados pessoais necessários são do correto funcionamento dos processos da Fyld e que estão sempre atualizados;</li><li>Todos os Players são responsáveis por relatar qualquer vulnerabilidade de segurança de que tenham conhecimento;</li><li>Todos os Players têm o direito de poder alterar dados pessoais.</li></ol><p>&nbsp;</p><p><strong>NOTA:</strong><br>O não cumprimento deste requisito pode dar origem a acções disciplinares previstas no Código do Trabalho, tendo impacto na Avaliação Anual<br>&nbsp;</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T15:53:31.589Z",
+  "updatedAt": "2025-05-05T09:17:05.586Z"
+}
+

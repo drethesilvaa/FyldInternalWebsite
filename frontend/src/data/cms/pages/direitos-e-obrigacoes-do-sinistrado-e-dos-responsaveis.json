@@ -1,0 +1,94 @@
+{
+  "documentId": "qboibszabpnjfgiufm4kozu3",
+  "Title": "Direitos e Obrigações do Sinistrado e dos Responsáveis",
+  "slug": "direitos-e-obrigacoes-do-sinistrado-e-dos-responsaveis",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 191,
+      "Content": "<p>Face à obrigação decorrente do artigo 177.º da Lei n.º 98/2009, de 4 de setembro, referente à afixação dos direitos e obrigações do sinistrado e dos responsáveis, considera-se como informação mínima a ser prestada, no âmbito do referido normativo, a seguinte:&nbsp;</p><p>&nbsp;</p><h6><strong>Direito dos trabalhadores à reparação dos danos emergentes dos acidentes de trabalho&nbsp;</strong></h6><p>O trabalhador, por conta de outrem, e os seus familiares têm direito à reparação dos danos emergentes dos acidentes de trabalho e doenças profissionais - artigo 2.º.&nbsp;<br>O sinistrado deve ser diligente no cumprimento dos procedimentos a adotar em caso de acidente.<br>Em caso de acidente, se tal for possível, o trabalhador deve dar conhecimento da ocorrência ao seu superior hierárquico ou, na impossibilidade de o fazer, a quem o substitua.&nbsp;</p><h6><br>Proibição de descontos na retribuição por encargos resultantes do regime estabelecido para a reparação de acidentes de trabalho&nbsp;</h6><p>O empregador não pode descontar qualquer quantia na retribuição do trabalhador a título de compensação pelos encargos resultantes de acidente de trabalho - artigo 13.º.&nbsp;</p><h6><br>Direito à reparação: prestações em espécie e em dinheiro&nbsp;</h6><p>A reparação dos acidentes compreende as prestações de natureza médica, cirúrgica, farmacêutica, hospitalar, necessárias e adequadas ao restabelecimento do estado de saúde e da capacidade de trabalho e eventuais indemnizações, pensões, prestações e subsídios - artigo 23.º.&nbsp;</p><h6><br>Observância de prescrições clínicas e cirúrgicas por parte dos sinistrados&nbsp;</h6><p>O sinistrado deve submeter-se ao tratamento e observar as prescrições clínicas e cirúrgicas do médico designado pela entidade responsável e informar o empregador do período de ausência, assim que possível, com base no documento informativo emitido após os atos médicos - artigo 30.º.</p><h6><br>Reabilitação profissional e adaptação do posto de trabalho a assegurar pelo empregador ao trabalhador sinistrado&nbsp;</h6><p>O empregador deve assegurar a reabilitação profissional do trabalhador e a adaptação do posto de trabalho que sejam necessárias ao exercício das funções - artigo 44.º Nos casos em que o empregador declare impossibilidade de assegurar função compatível ao trabalhador, deve consensualizar com este o plano de reintegração profissional - artigo 162.º, n.º 2. O sinistrado deve cooperar na procura de soluções nos processos de reintegração profissional.&nbsp;</p><h6><br>Cálculo e pagamento das prestações&nbsp;</h6><p>A indemnização por incapacidade temporária e a pensão por morte e por incapacidade permanente, absoluta ou parcial, são calculadas com base na retribuição anual ilíquida normalmente devida ao sinistrado, à data do acidente – artigo 71.º.&nbsp;<br>A retribuição correspondente ao dia do acidente é paga pelo empregador - artigo 71.º.&nbsp;</p><p><br>Nota: Os direitos e obrigações do sinistrado e dos responsáveis não se esgotam na presente informação, pelo que sempre que se justifique, a mesma deve ser complementada com a consulta da legislação que regula a matéria.&nbsp;</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T16:01:32.889Z",
+  "updatedAt": "2025-05-05T14:29:09.196Z"
+}
+

@@ -4,12 +4,13 @@ import { AspectRatio } from "@/data/AspectRatio";
 import { RichTextBlock } from "./RichTextBlock";
 import { motion } from "framer-motion";
 import { strapiUrl } from "@/data/strapiUrl";
+import { optimizeImage } from "@/util/optimizeImage";
 
 export interface CardsProps {
   Horizontal: boolean;
   colunas: number;
   padding: PaddingSize;
-  cardsItems: {
+  Items: {
     Content: string;
     Imagem: { url: string; alt: string } | null;
     aspectRatio: AspectRatio;
@@ -65,7 +66,7 @@ export const Cards = ({
   Horizontal,
   colunas,
   padding,
-  cardsItems,
+  Items,
 }: CardsProps) => {
   const colVariants: { [key: number]: string } = {
     1: "grid-cols-1 lg:grid-cols-1",
@@ -82,13 +83,15 @@ export const Cards = ({
     12: "grid-cols-1 lg:grid-cols-12",
   };
 
+  console.log(ratioClass)
+
   return (
     <div
       className={`grid gap-4 ${colVariants[colunas]} ${
         padding ? paddingMap[padding] : ""
       } my-6`}
     >
-      {cardsItems.map((item, index) => (
+      {Items.map((item, index) => (
         <motion.div
           key={index}
           className={`card bg-base-100 shadow-sm ${
@@ -112,7 +115,7 @@ export const Cards = ({
           >
             <img
               className="object-cover w-full h-full"
-              src={`${strapiUrl}${item.Imagem?.url}`}
+              src={optimizeImage(`${strapiUrl}${item.Imagem?.url}`)}
               alt={item.Imagem?.alt}
             />
           </figure>

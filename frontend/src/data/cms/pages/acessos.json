@@ -1,0 +1,126 @@
+{
+  "documentId": "y1q3bhid6mazmamznwbkex1v",
+  "Title": "Acessos",
+  "slug": "acessos",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 315,
+      "Content": "<p style=\"text-align:center;\"><span style=\"font-size:20px;\">Como colaborador da FYLD terás acesso a um endereço de e-mail&nbsp;</span><br><span style=\"font-size:20px;\">e à nossa aplicação interna - JIN.</span></p>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 164,
+      "tamanho": "px24"
+    },
+    {
+      "__component": "ui.grid-section",
+      "id": 98,
+      "Colunas": 7,
+      "Item": [
+        {
+          "id": 285,
+          "Colunas": 3,
+          "Content": "<figure class=\"image\"><img style=\"aspect-ratio:384/385;\" src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1749055672/gmail_8aedd7022a.png\" alt=\"gmail.png\" width=\"384\" height=\"385\"></figure>"
+        },
+        {
+          "id": 286,
+          "Colunas": 3,
+          "Content": "<p>O endereço de e-mail é criado imediatamente após a assinatura do teu contrato. Receberás no email todas as comunicações internas, recibos de vencimento, declarações de rendimentos, e notificações da Fyld App.<br>Para acederes, vai a : <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://mail.google.com/\">https://mail.google.com/</a>, e verifica as credenciais de acesso que enviámos para o teu e-mail pessoal.<br>Irás receber o teu nome de utilizador e palavra-passe. A palavra-passe deverá ser alterada após o primeiro login por razões de segurança.<br>Por fim, deves configurar a tua assinatura de email .</p>"
+        },
+        {
+          "id": 287,
+          "Colunas": 3,
+          "Content": "<figure class=\"image\"><img style=\"aspect-ratio:384/384;\" src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1749055732/jin_e9d6714143.png\" alt=\"jin.png\" width=\"384\" height=\"384\"></figure>"
+        },
+        {
+          "id": 288,
+          "Colunas": 3,
+          "Content": "<p>O acesso à nossa plataforma é feito através do seguinte link.&nbsp;<br>As instruções para criar a senha serão enviadas para o teu e-mail Fyld.<br>No JIN podes encontrar várias instâncias, para registares diferentes tipos de informação, como por exemplo:<br>- Registo de Atividade (para registo de ausências);<br>- Despesas (para submissão de despesas);</p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 372,
+    "documentId": "px4yc8eilkt8utva1bcj8fc0",
+    "Title": "Procedimentos ",
+    "slug": "procedimentos",
+    "createdAt": "2025-04-17T11:21:13.545Z",
+    "updatedAt": "2025-07-03T17:13:50.222Z",
+    "publishedAt": "2025-07-03T17:13:50.641Z"
+  },
+  "createdAt": "2025-04-17T15:39:40.080Z",
+  "updatedAt": "2025-06-04T16:51:10.170Z"
+}
+

@@ -1,0 +1,161 @@
+{
+  "documentId": "e4jo272xnjz6tdytaufxcpz8",
+  "Title": "Processo de Acompanhamento",
+  "slug": "processo-de-acompanhamento",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 333,
+      "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176812/Processos_dba8aeb5b9.png\" alt=\"Processos.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176815/thumbnail_Processos_dba8aeb5b9.png 245w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176814/small_Processos_dba8aeb5b9.png 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176814/medium_Processos_dba8aeb5b9.png 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176813/large_Processos_dba8aeb5b9.png 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"628\"></p>"
+    },
+    {
+      "__component": "ui.grid-section",
+      "id": 112,
+      "Colunas": 6,
+      "Item": [
+        {
+          "id": 388,
+          "Colunas": 2,
+          "Content": "<h4>Antes de Iniciares</h4>"
+        },
+        {
+          "id": 389,
+          "Colunas": 4,
+          "Content": "<p>Sessão de onboarding (presencial ou virtual) para:</p><ul><li>Conheceres os processos e procedimento da Fyld e tirares dúvidas</li><li>Receberes os teus acessos Fyld</li></ul>"
+        },
+        {
+          "id": 390,
+          "Colunas": 2,
+          "Content": "<h4>1º Dia</h4>"
+        },
+        {
+          "id": 391,
+          "Colunas": 4,
+          "Content": "<ul><li>Presencial: Serás acompanhado pelo teu manager ao cliente</li><li>Online: Serás contactado pelo cliente para iniciares</li></ul>"
+        },
+        {
+          "id": 392,
+          "Colunas": 2,
+          "Content": "<h4>Após o 1º Mês</h4>"
+        },
+        {
+          "id": 393,
+          "Colunas": 4,
+          "Content": "<p><strong>Definição do Plano de Carreira</strong> com o teu Manager e Talent Manager</p>"
+        },
+        {
+          "id": 394,
+          "Colunas": 2,
+          "Content": "<h4>Reuniões Trimestrais</h4>"
+        },
+        {
+          "id": 395,
+          "Colunas": 4,
+          "Content": "<div><span>Ponto de situação informal com os Recursos Humanos e Manager</span><br>&nbsp;</div>"
+        },
+        {
+          "id": 396,
+          "Colunas": 2,
+          "Content": "<h4>Reunião 6 Meses</h4>"
+        },
+        {
+          "id": 397,
+          "Colunas": 4,
+          "Content": "<p>Feedback de 6º mês &nbsp;</p><p>Ponto de situação informal com os Recursos Humanos e Manager<br>&nbsp;</p>"
+        },
+        {
+          "id": 398,
+          "Colunas": 2,
+          "Content": "<h4>Avaliação Anual</h4>"
+        },
+        {
+          "id": 399,
+          "Colunas": 4,
+          "Content": "<p>Balanço geral do ano, análise do cumprimento do planod e carreira definido e partilha de feedback do cliente sobre a tua performance<br>&nbsp;</p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 362,
+    "documentId": "gyicytmk9anuzs3cnqof26o8",
+    "Title": "Desenvolvimento profissional",
+    "slug": "desenvolvimento-profissional",
+    "createdAt": "2025-04-17T11:16:51.048Z",
+    "updatedAt": "2025-07-03T16:44:29.375Z",
+    "publishedAt": "2025-07-03T16:44:29.944Z"
+  },
+  "createdAt": "2025-04-22T15:45:48.457Z",
+  "updatedAt": "2025-07-03T16:42:05.155Z"
+}
+

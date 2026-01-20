@@ -206,7 +206,6 @@ export const RichTextBlock: React.FC<RichTextRendererProps> = ({
         return <React.Fragment key={index}>{children}</React.Fragment>;
     }
   };
-  console.log(Content)
 
   // Check if Content is JSON structure or HTML string
   if (Array.isArray(Content)) {

@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { AspectRatio } from "@/data/AspectRatio";
 import { ratioClass } from "./Cards";
 import { strapiUrl } from "@/data/strapiUrl";
+import { optimizeImage } from "@/util/optimizeImage";
 
 interface CarouselProps {
   Items: {
@@ -66,7 +67,7 @@ export const Carousel = ({ Items, Slides }: CarouselProps) => {
             >
               <img
                 style={{ margin: "0 auto" }}
-                src={`${strapiUrl}${item.Imagem?.url}`}
+                src={optimizeImage(`${strapiUrl}${item.Imagem?.url}`)}
                 alt={item.Imagem?.alt}
                 className={`object-cover ${
                   ratioClass

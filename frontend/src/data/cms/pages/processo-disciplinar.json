@@ -1,0 +1,120 @@
+{
+  "documentId": "v37y46stmb4zf725zakk851q",
+  "Title": "Processo Disciplinar",
+  "slug": "processo-disciplinar",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.accordion",
+      "id": 29,
+      "Items": [
+        {
+          "id": 111,
+          "Titulo": "Artigo 328º ",
+          "content": "<p>Sanções disciplinares<br>1 - No exercício do poder disciplinar, o empregador pode aplicar as seguintes sanções:<br>a) Repreensão;&nbsp;<br>b) Repreensão registada;&nbsp;<br>c) Sanção pecuniária;&nbsp;<br>d) Perda de dias de férias;&nbsp;<br>e) Suspensão do trabalho com perda de retribuição e de antiguidade;&nbsp;<br>f) Despedimento sem indemnização ou compensação.&nbsp;<br>2 - O instrumento de regulamentação coletiva de trabalho pode prever outras sanções disciplinares, desde que não prejudiquem os direitos e garantias do trabalhador.&nbsp;<br>3 - A aplicação das sanções deve respeitar os seguinteslimites:&nbsp;<br>a) Assanções pecuniárias aplicadas a trabalhador por infrações praticadas no mesmo dia não podem exceder um terço da retribuição diária e, em cada ano civil, a retribuição correspondente a 30 dias;&nbsp;<br>b) A perda de dias de férias não pode pôr em causa o gozo de 20 dias úteis;&nbsp;<br>c) A suspensão do trabalho não pode exceder 30 dias por cada infração e, em cada ano civil, o total de 90 dias.&nbsp;<br>4 - Sempre que o justifiquem as especiais condições de trabalho, os limites estabelecidos nas alíneas a) e c) do número anterior podem ser elevados até ao dobro por instrumento de regulamentação coletiva de trabalho.&nbsp;<br>5 - A sanção pode ser agravada pela sua divulgação no âmbito da empresa.&nbsp;<br>6 - Constitui contra-ordenação grave a violação do disposto nos n.os 3 ou4.&nbsp;</p>"
+        },
+        {
+          "id": 112,
+          "Titulo": "Artigo 329º",
+          "content": "<p>Procedimento disciplinar e prescrição&nbsp;<br>1 - O direito de exercer o poder disciplinar prescreve um ano após a prática da infração, ou no prazo de prescrição da lei penal se o facto constituir igualmente crime.&nbsp;<br>2 - O procedimento disciplinar deve iniciar-se nos 60 dias subsequentes àquele em que o empregador, ou o superior hierárquico com competência disciplinar, teve conhecimento da infração.&nbsp;<br>3 - O procedimento disciplinar prescreve decorrido um ano contado da data em que é instaurado quando, nesse prazo, o trabalhador não seja notificado da decisão final.&nbsp;<br>4 - O poder disciplinar pode ser exercido diretamente pelo empregador, ou por superior hierárquico do trabalhador, nos termos estabelecidos por aquele.&nbsp;<br>5 - Iniciado o procedimento disciplinar, o empregador pode suspender o trabalhador se a presença deste se mostrar inconveniente, mantendo o pagamento da retribuição.&nbsp;<br>6 - A sanção disciplinar não pode ser aplicada sem audiência prévia do trabalhador. 7 - Sem prejuízo do correspondente direito de ação judicial, o trabalhador pode reclamar para o escalão hierarquicamente superior ao que aplicou a sanção, ou recorrer a processo de resolução de litígio quando previsto em instrumento de regulamentação coletiva de trabalho ou na lei. 8 - Constitui contra-ordenação grave a violação do disposto no n.º 6.</p>"
+        },
+        {
+          "id": 113,
+          "Titulo": "Artigo 330º",
+          "content": "<p>Critério de decisão e aplicação de sanção disciplinar&nbsp;<br>1 - A sanção disciplinar deve ser proporcional à gravidade da infração e à culpabilidade do infrator, não podendo aplicarse mais de uma pela mesma infração.&nbsp;<br>2 - A aplicação da sanção deve ter lugar nos três meses subsequentes à decisão, sob pena de caducidade.&nbsp;<br>3 - O empregador deve entregar ao serviço responsável pela gestão financeira do orçamento da segurança social o montante de sanção pecuniária aplicada.&nbsp;<br>4 - Constitui contra-ordenação grave a violação do disposto nos n.os 2 ou 3.&nbsp;</p>"
+        },
+        {
+          "id": 114,
+          "Titulo": "Artigo 331º",
+          "content": "<p>Sanções abusivas&nbsp;<br>1 - Considera-se abusiva a sanção disciplinar motivada pelo facto de o trabalhador:&nbsp;<br>a) Ter reclamado legitimamente contra as condições de trabalho;&nbsp;<br>b) Se recusar a cumprir ordem a que não deva obediência, nos termos da alínea e) do n.º 1 e do n.º 2 do artigo 128.º;&nbsp;<br>c) Exercer ou candidatar-se ao exercício de funções em estrutura de representação colectiva dostrabalhadores;&nbsp;<br>d) Em geral, exercer, ter exercido, pretender exercer ou invocar os seus direitos ou garantias.&nbsp;<br>2 - Presume-se abusivo o despedimento ou outra sanção aplicada alegadamente para punir uma infracção, quando tenha lugar:&nbsp;<br>a) Até seis meses após qualquer dos factos mencionados no número anterior;&nbsp;<br>b) Até um ano após a denúncia ou outra forma de exercício de direitos relativos a igualdade, não discriminação e assédio.&nbsp;<br>3 - O empregador que aplicar sanção abusiva deve indemnizar o trabalhador nos termos gerais, com as alterações constantes dos números seguintes.&nbsp;<br>4 - Em caso de despedimento, o trabalhador tem direito a optar entre a reintegração e uma indemnização calculada nos termos do n.º 3 do artigo 392.º&nbsp;<br>5 - Em caso de sanção pecuniária ou suspensão do trabalho, a indemnização não deve ser inferior a 10 vezes a importância daquela ou da retribuição perdida.&nbsp;<br>6 - O empregador que aplique sanção abusiva no caso previsto na alínea c) do n.º 1 deve indemnizar o trabalhador nos seguintes termos:&nbsp;<br>a) Os mínimos a que se refere o número anterior são elevados para o dobro;&nbsp;<br>b) Em caso de despedimento, a indemnização não deve ser inferior ao valor da retribuição base e diuturnidades correspondentes a 12 meses.&nbsp;<br>7 - Constitui contra-ordenação grave a aplicação de sanção abusiva.&nbsp;</p>"
+        }
+      ]
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 108,
+      "Content": "<p><strong>No caso de haver um incumprimento por parte de um colaborador da Mainfyld, estes meios serão acionados. Para que o mesmo não aconteça, o colaborador deverá cumprir na integra as políticas e os procedimentos da entidade empregadora (Mainfyld). Para alem do acima descrito, o incumprimento das políticas também terá impacto na Avaliação Anual do colaborador (exemplo: não realizar as formações de caracter obrigatório).&nbsp;</strong><br>&nbsp;</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-17T15:53:08.735Z",
+  "updatedAt": "2025-04-17T16:02:02.904Z"
+}
+

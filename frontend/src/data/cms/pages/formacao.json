@@ -1,0 +1,126 @@
+{
+  "documentId": "py8bqup82wykvp3yuijhrxdj",
+  "Title": "Formação",
+  "slug": "formacao",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 343,
+      "Content": "<p>Tens à tua disposição formação técnica, comportamental e linguística. Podes participar livremente e sem qualquer custo, dependendo do número de vagas disponíveis.<br>Também tens acesso a formação nas mesmas áreas, mas online, de modo a poderes complementar a formação presencial, aprofundando os temas. As plataformas com que habitualmente trabalhamos são Pluralsight e Udemy.</p><p>As sessões de formação e os seus horários são comunicados por email (para o email FYLD) e as inscrições devem ser feitas através do preenchimento do formulário indicado. As inscrições são sujeitas a uma selecção tendo em conta:<br><strong>a) a importância da formação para a tua carreira&nbsp;</strong><br><strong>b) projectos actuais e futuros</strong><br>As faltas à formação devem ser justificadas atempadamente.&nbsp;</p>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 196,
+      "tamanho": "px48"
+    },
+    {
+      "__component": "ui.grid-section",
+      "id": 119,
+      "Colunas": 6,
+      "Item": [
+        {
+          "id": 412,
+          "Colunas": 6,
+          "Content": "<h4 style=\"text-align:center;\">Joyn Academy</h4>"
+        },
+        {
+          "id": 413,
+          "Colunas": 3,
+          "Content": "<figure class=\"image\"><img style=\"aspect-ratio:435/149;\" src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176815/Joyn_Acacemy_06_b011468bac.png\" alt=\"Joyn Acacemy-06.png\" width=\"435\" height=\"149\"></figure>"
+        },
+        {
+          "id": 414,
+          "Colunas": 3,
+          "Content": "<p>Esta aposta na formação online foi impulsionada pelo contexto da pandemia, e surge com o objectivo de proporcionar o desenvolvimento de novas competências e/ou aprofundar conhecimentos a todos os colaboradores do Grupo JOYN.<br>Na JOYN Academy, terás acesso a cursos, workshops e pequenas formações em várias áreas (técnica, comportamental, gestão, etc.), em diferentes formatos (vídeo, apresentação, etc.), que serão disponibilizados pelas várias empresas do grupo.</p>"
+        },
+        {
+          "id": 415,
+          "Colunas": 6,
+          "Content": "<p>Os cursos são criados e ministrados por colaboradores do grupo que querem partilhar o seu know-how e experiência com as outras equipas JOYN.<br>Esta plataforma de formação reforça o nosso lema: Better Together. Because together we grow more and better.<br>Tens perguntas ou dúvidas? Envia-nos um e-mail para <a href=\"mailto:academy@growin.com\"><u>academy@fyld.pt</u></a><br>Para entrares na JOYN Academy, entra no seguinte <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://academy.joyn-group.com/login/index.php#mycourses_available_view\"><u>link</u> </a>e segue passo-a-passo o documento que preparámos para ti!<br>Boa aprendizagem!</p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 372,
+    "documentId": "px4yc8eilkt8utva1bcj8fc0",
+    "Title": "Procedimentos ",
+    "slug": "procedimentos",
+    "createdAt": "2025-04-17T11:21:13.545Z",
+    "updatedAt": "2025-07-03T17:13:50.222Z",
+    "publishedAt": "2025-07-03T17:13:50.641Z"
+  },
+  "createdAt": "2025-04-22T15:52:36.915Z",
+  "updatedAt": "2025-07-03T17:05:29.591Z"
+}
+

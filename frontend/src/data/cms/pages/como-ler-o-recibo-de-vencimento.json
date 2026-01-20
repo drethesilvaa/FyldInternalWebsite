@@ -1,0 +1,116 @@
+{
+  "documentId": "ncj3s3ymmjg6e2l6f0xdts2j",
+  "Title": "Como ler o recibo de vencimento",
+  "slug": "como-ler-o-recibo-de-vencimento",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 342,
+      "Content": "<p>Por vezes, analisar o teu recibo de vencimento pode ser complexo, por isso aqui está um exemplo e algumas dicas sobre como olhar para ele correctamente.&nbsp;<br>Os Recursos Humanos estão disponíveis para esclarecer quaisquer questões ou dúvidas que possas ter.&nbsp;</p>"
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 195,
+      "tamanho": "px24"
+    },
+    {
+      "__component": "ui.grid-section",
+      "id": 118,
+      "Colunas": 6,
+      "Item": [
+        {
+          "id": 410,
+          "Colunas": 3,
+          "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176848/vencimento_0dd60c3ce0.png\" alt=\"vencimento.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176853/thumbnail_vencimento_0dd60c3ce0.png 143w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176851/small_vencimento_0dd60c3ce0.png 459w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176852/medium_vencimento_0dd60c3ce0.png 688w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176850/large_vencimento_0dd60c3ce0.png 918w,\" sizes=\"100vw\" width=\"1190\" height=\"1297\"></p>"
+        },
+        {
+          "id": 411,
+          "Colunas": 3,
+          "Content": "<ol style=\"list-style-type:decimal;\"><li>Neste campo, encontrarás as tuas informações pessoais.<br>(No primeiro pagamento deves validar se todas estas informações estão corretas)</li><li>Estes campos contêm informação sobre o mês em processamento.</li><li>Este campo corresponde ao seguro de acidentes de trabalho em vigor na Empresa.<br>Nota: Se houver um acidente de trabalho que exija cuidados hospitalares imediatos, e não for possível contactar os Recursos Humanos, deverás utilizar o número da apólice que se encontra neste campo.<br>Deverás, depois, contactar os Recursos Humanos a fim de formalizar a participação do acidente de trabalho.</li><li>Aqui encontrarás a tua &nbsp;categoria profissional.</li><li>Este campo representa as retenções acumuladas de IRS do ano e os rendimentos sujeitos a retenção de IRS no respectivo mês de processamento.</li><li>Estes itens representam o teu vencimento base e a componente de isenção de horário de trabalho (corresponde a 20% do valor do vencimento base).</li><li>Valor do subsídio de alimentação a pagar no respectivo mês de processamento.</li><li>Deduções legais existentes sobre a remuneração e isenção de horário de trabalho (impostos).</li><li>Quando houver faltas, elas serão representadas no recibo do salário como o exemplo acima. As ausências devidas a férias não têm impacto no montante do vencimento, no entanto, se tal acontecesse, o montante correspondente estaria na coluna \"Descontos\".</li><li>Corresponde ao subsídio de férias a ser pago no respectivo mês de processamento, e as respectivas deduções legais que lhe são aplicadas. No exemplo acima, para o montante associado, estes são duodécimos.</li><li>Corresponde ao subsídio de Natal a ser pago no respectivo mês de processamento, e as respectivas deduções legais que lhe são aplicadas. No exemplo acima, para o montante associado, estes são duodécimos.</li><li>Neste campo podemos encontrar os métodos de pagamento para os montantes reflectidos no recibo de vencimento.<br>O artigo com o código R13 corresponde ao subsídio de refeição que é pago através de um cartão de refeição (à la card), pelo que é indicado como uma forma de pagamento - cartão bancário.</li><li>Indica a remuneração total e os descontos totais para o mês em processamento.</li><li>Montante total a ser pago, após descontos legais, e inclui montantes pagos por transferência bancária e por cartão de refeição.</li></ol>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 372,
+    "documentId": "px4yc8eilkt8utva1bcj8fc0",
+    "Title": "Procedimentos ",
+    "slug": "procedimentos",
+    "createdAt": "2025-04-17T11:21:13.545Z",
+    "updatedAt": "2025-07-03T17:13:50.222Z",
+    "publishedAt": "2025-07-03T17:13:50.641Z"
+  },
+  "createdAt": "2025-04-22T15:51:53.783Z",
+  "updatedAt": "2025-07-03T17:04:09.192Z"
+}
+

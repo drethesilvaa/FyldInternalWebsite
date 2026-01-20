@@ -25,24 +25,26 @@ type ComponentMapping = {
 };
 
 const componentMapping: ComponentMapping = {
-  ComponentUiRichTextBlock: RichTextBlock,
-  ComponentUiGridSection: GridSection,
-  ComponentUiCarousel: Carousel,
-  ComponentUiCards: Cards,
-  ComponentUiAccordion: Accordion,
-  ComponentUiSpacer: Spacer,
-  ComponentUiLinksGroup: GroupLinks,
-  ComponentUiTree: OrgTree,
-  ComponentUiBentoGrid: BentoGrid,
-  ComponentUiContactsCarrousel: ContactsCarrousel
-
+  "ui.rich-text-block": RichTextBlock,
+  "ui.grid-section": GridSection,
+  "ui.carousel": Carousel,
+  "ui.cards": Cards,
+  "ui.accordion": Accordion,
+  "ui.spacer": Spacer,
+  "ui.links-group": GroupLinks,
+  "ui.tree": OrgTree,
+  "ui.bento-grid": BentoGrid,
+  "ui.contacts-carrousel": ContactsCarrousel,
 };
 
 export const useRenderComponent = (
   componentData: ComponentData,
   typename: string
 ) => {
+
   const Component = componentMapping[typename];
+
+  console.log(componentData)
 
   if (Component) {
     return <Component {...componentData} />;

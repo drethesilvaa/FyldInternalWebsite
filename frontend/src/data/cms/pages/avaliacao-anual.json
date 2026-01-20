@@ -1,0 +1,128 @@
+{
+  "documentId": "fxv7v8ql2nl0koro1ora7wzl",
+  "Title": "Avaliação Anual",
+  "slug": "avaliacao-anual",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.grid-section",
+      "id": 113,
+      "Colunas": 8,
+      "Item": [
+        {
+          "id": 400,
+          "Colunas": 3,
+          "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176838/fyld_58f9bc6c1d.jpg\" alt=\"fyld.jpg\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176841/thumbnail_fyld_58f9bc6c1d.jpg 235w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176839/small_fyld_58f9bc6c1d.jpg 500w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176840/medium_fyld_58f9bc6c1d.jpg 750w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176838/large_fyld_58f9bc6c1d.jpg 1000w,\" sizes=\"100vw\" width=\"1600\" height=\"1066\"></p>"
+        },
+        {
+          "id": 401,
+          "Colunas": 5,
+          "Content": "<p>Apresentamos-te uma Análise de 360º para estabelecer uma cultura de feedback transparente. Isto significa que tens a oportunidade de ter formalmente o feedback dos teus colegas, clientes e claro o teu próprio feedback (através da atua auto-avaliação) para companhares o teu próprio progresso.&nbsp;<br>&nbsp;</p><p>Estes questionários são solicitados apenas uma vez por ano, que será na altura da tua avaliação anual.<br>&nbsp;</p><p><strong>Estás pronto para ser o condutor do teu desempenho e da tua carreira?</strong><br>&nbsp;</p>"
+        }
+      ]
+    },
+    {
+      "__component": "ui.spacer",
+      "id": 189,
+      "tamanho": "px48"
+    },
+    {
+      "__component": "ui.grid-section",
+      "id": 114,
+      "Colunas": 2,
+      "Item": [
+        {
+          "id": 402,
+          "Colunas": 1,
+          "Content": "<h6>Quando devo fazer a minha auto-avaliação?</h6><p>A tua auto-avaliação será despoletada pelos RH através de email.<br>Deverás responder assim que possível, mas depois de fazeres uma reflexão ponderada.</p>"
+        },
+        {
+          "id": 403,
+          "Colunas": 1,
+          "Content": "<h6>Como e quando obter o feedback do Cliente?&nbsp;</h6><p>O teu Manager irá partilhar com o cliente o questionário de feedback. &nbsp;Será na mesma altura em que a tua auto-avaliação for despoletada.</p><p>Se te sentires confortável podes ajudar-nos a conseguir obter feedback mais rapidamente pedindo ao teu líder do projeto que responda ao nosso questionário.&nbsp;</p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 362,
+    "documentId": "gyicytmk9anuzs3cnqof26o8",
+    "Title": "Desenvolvimento profissional",
+    "slug": "desenvolvimento-profissional",
+    "createdAt": "2025-04-17T11:16:51.048Z",
+    "updatedAt": "2025-07-03T16:44:29.375Z",
+    "publishedAt": "2025-07-03T16:44:29.944Z"
+  },
+  "createdAt": "2025-04-22T15:49:14.096Z",
+  "updatedAt": "2025-07-03T16:43:28.005Z"
+}
+

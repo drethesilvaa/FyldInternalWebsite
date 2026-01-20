@@ -1,0 +1,86 @@
+{
+  "documentId": "rb733glefwvxdoru6mojf4mn",
+  "Title": "Informações Úteis",
+  "slug": "informacoes-uteis",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 205,
+      "Content": "<h6>SEF</h6><ul><li>Link: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.sef.pt/pt/Pages/homepage.aspx\">https://www.sef.pt/pt/Pages/homepage.aspx</a></li><li>Contacto: &nbsp;808 202 653</li></ul><h6>Portal das Finanças</h6><ul><li>Link: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.portaldasfinancas.gov.pt\">www.portaldasfinancas.gov.pt</a></li><li>Contacto: &nbsp;217 206 707</li></ul><h6>Encontrar Casa</h6><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.imovirtual.com/\">https://www.imovirtual.com/</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.idealista.pt/\">https://www.idealista.pt/</a></li></ul><h6>Medis</h6><ul><li>Link: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.medis.pt/\">https://www.medis.pt/</a></li><li>Contacto: &nbsp;218 458 888</li></ul><h6>Segurança Social</h6><ul><li>Link: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.seg-social.pt/inicio\">https://www.seg-social.pt/inicio</a></li><li>Contacto: 300 502 502</li></ul><h6>SNS</h6><ul><li>Link: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.sns.gov.pt/\">https://www.sns.gov.pt/</a></li><li>Contacto: 808 24 24 24</li></ul>"
+    }
+  ],
+  "ParentPage": null,
+  "createdAt": "2025-04-17T11:27:33.056Z",
+  "updatedAt": "2025-05-07T18:16:42.136Z"
+}
+

@@ -36,7 +36,7 @@ export const PagesProvider = ({ children }: PagesProviderProps) => {
         isLoading: isLoadingNavbar,
         footer: footer || null,
         isLoadingFooter,
-        fyldIcon: `${strapiUrl}${pages?.home.FyldIcon?.url}` || "",
+        fyldIcon: "/cms-media/Logo_FYLD_Menu_1_7743b63a73.png",
       }}
     >
       {children}

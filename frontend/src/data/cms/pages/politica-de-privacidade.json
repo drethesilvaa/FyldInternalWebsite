@@ -1,0 +1,94 @@
+{
+  "documentId": "yj217zzpdxsavh1lq9cokd9s",
+  "Title": "Política de Privacidade",
+  "slug": "politica-de-privacidade",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 175,
+      "Content": "<p>Na empresa Mainfyld (daqui em diante denominada Fyld), parte do grupo Joyn SGPS, Lda., a confiança e satisfação dos nossos clientes, colaboradores e outras partes interessadas são os principais fatores críticos do nosso sucesso e, portanto, queremos garantir a segurança dos seus assim como a observância de todos os seus direitos.&nbsp;<br>Esta Política de Privacidade pretende ser totalmente transparente em todas as questões relacionadas com a privacidade e proteção de dados, incluindo os dados que estão a ser tratados e para que finalidades, quais os direitos inerentes e como exercê-los através da implementação da tecnologia de acordo com a legislação aplicável, nomeadamente o Regulamento Geral de Proteção de Dados (RGPD – 2016/679 do Parlamento Europeu).</p><p>&nbsp;</p><h6 style=\"text-align:center;\">Âmbito do pedido</h6><p>Esta Política de Privacidade aplica-se a todas as partes interessadas externas à Fyld. A Fyld presta serviços a vários indivíduos e entidades coletivas em todo o mundo. Pode encontrar mais detalhes sobre os nossos serviços no nosso site (www.fyld.pt). Esta política aplica-se aos nossos clientes, fornecedores, candidatos, aos interessados nos nossos produtos, serviços e eventos, e a outras partes que solicitaram receber informações sobre os nossos serviços ou qualquer um dos nossos materiais de marketing e a comunicação.</p><p>&nbsp;</p><h6 style=\"text-align:center;\">Tratamento de dados&nbsp;</h6><p>Na nossa relação com as partes interessadas, processamos diferentes dados pessoais recolhidos através de várias formas e em diferentes momentos, tais como:&nbsp;</p><ul><li><strong>Gestão de Negócios</strong>: Através do nosso site, quando preenche e envia formulários ou utiliza um endereço de e-mail fornecido por nós para um pedido de contacto, descarregue os materiais fornecidos ou registe-se para os nossos eventos, formação e outras iniciativas através dos nossos sites públicos e redes sociais, bases de dados e parceiros de terceiros, e diretamente do Assunto de Dados, informações que normalmente são recolhidas incluem primeiro/último nome, nome da empresa, título, endereço de e-mail e telefone de contacto;</li><li><strong>Gestão de Serviços e Relações Contratuais</strong>: Através do contrato, nosso site, e-mail, presencialmente e por telefone, ao solicitar informações ou na sequência da contratação de serviços, à aquisição de produtos, à clarificação de questões ou à realização de inquéritos e à avaliação dos serviços prestados, as informações normalmente recolhidas incluem o primeiro/último nome, nome da empresa, posição, número de telefone de contacto e endereço de e-mail; </li><li><strong>Processos de recrutamento e seleção</strong>: Através do nosso website e da nossa plataforma de gestão de recrutamento, quando preenche ou envia um pedido, a informação que normalmente é recolhida inclui o primeiro/último nome, endereço de e-mail, endereço de endereço e contacto telefónico;</li></ul><p>&nbsp;</p><h6 style=\"text-align:center;\">Finalidades e legalidade do tratamento de dados&nbsp;</h6><p>O tratamento de dados pessoais é essencial para acrescentar valor às partes interessadas, pelo que utilizamos dados pessoais em estrita conformidade com as disposições do RGPD e para as seguintes finalidades:&nbsp;</p><ul><li><strong>Marketing e Ações Empresariais</strong> – Utilizaremos dados pessoais, baseados em consentimentos para partilhar notícias, enviar convites, realizar questionários e pesquisa de mercado, apresentar produtos e serviços relacionados com a Fyld e o seu grupo empresarial, partilhar estudos e investigação e divulgar as tendências do mercado dentro da nossa indústria; </li><li><strong>Recrutamento e Seleção</strong> – Utilizaremos dados pessoais, com base no consentimento, para integrar em processos de recrutamento, partilhar informações sobre o recrutamento de processos em curso, partilhar dados com os clientes da Fyld e enviar comunicações de oportunidade e medir interesses profissionais; </li><li><strong>Gestão Contratual do Cliente</strong> – Utilizaremos dados pessoais, com base na necessidade de realizar o contrato, para contacto eletrónico e telefónico, de forma a melhorar o nosso serviço e melhorar a relação de parceria, partilhar notícias, novos produtos e serviços complementares e convites, para a realização de questionários, estudos de mercado, inquéritos de satisfação e avaliações dos serviços prestados.</li></ul><p>&nbsp;</p><h6 style=\"text-align:center;\">Retenção de dados&nbsp;</h6><p>Os dados pessoais tratados serão conservados e tratados apenas durante o período mínimo necessário e proporcional às finalidades da sua recolha. Os períodos de retenção, que são inequivocamente claros nas leis aplicáveis, serão estritamente aplicados.&nbsp;<br>No caso dos processos de contratação pública e de acordo com a legislação laboral e o Código do Trabalho, os dados serão conservados por um período de 2 anos .</p><p>&nbsp;</p><h6 style=\"text-align:center;\">Outsourcing e troca de dados&nbsp;</h6><p>Para que possamos acrescentar valor aos nossos stakeholders, a Fyld poderá ter de partilhar dados pessoais com outras entidades externas que nos ajudem com diferentes aspetos dos nossos produtos e serviços. Por isso, a Fyld pode divulgar informações nos seguintes casos:&nbsp;</p><ul><li><strong>Autoridades públicas e organismo</strong>s – De acordo com a legislação aplicável, a Fyld é obrigado a divulgar dados pessoais às autoridades públicas ou organismos para que possam desempenhar as suas funções, tais como Administração Tributária, Segurança Social, Autoridade para as Condições de Trabalho e Autoridade judiciária no âmbito de injunções; </li><li><strong>Para a Joyn SGPS Lda</strong>., os seus dados podem ser comunicados a outras empresas do grupo no âmbito de serviços partilhados entre empresas do grupo, divulgação conjunta, ações comerciais e para fins de gestão interna;</li><li><strong>Para os clientes Fyld</strong> – Estritamente no âmbito dos processos de recrutamento, seleção e integração de recursos humanos, apenas os dados pessoais necessários para estas finalidades serão pseudónimos, comunicados e transferidos; </li><li><strong>Aos prestadores de serviços Fyld de terceiros</strong> – Garantimos medidas técnicas e organizativos para que os prestadores de serviços de terceiros possam aceder de forma segura aos dados pessoais em estrita conformidade com a lei, através da introdução de acordos específicos connosco que regulem a utilização de dados pessoais.</li></ul><p>&nbsp;</p><h6 style=\"text-align:center;\">Direitos do titular dos dados&nbsp;</h6><p>Em conformidade com as disposições do RGPD, a Fyld fornece ao Titular dos Dados os direitos que lhe são concedidos, sob reserva de prova de identidade, incluindo o direito de opor-se à utilização dos seus Dados Pessoais e aos procedimentos de solicitação e, quando livre acesso a esses dados e à sua retificação ou supressão.&nbsp;<br>Por conseguinte, são concedidos ao titular dos dados os seguintes direitos:&nbsp;</p><ul><li><strong>Direito de acesso</strong> – O titular dos dados tem o direito de obter a partir da Fyld confirmando se estão ou não a ser tratados e, se for caso disso, o direito de aceder aos seus dados pessoais e informações sobre a forma como os utilizamos, as entidades com as quais são partilhados e o período durante o qual os dados são armazenados, não excluindo outras situações;</li><li><strong>Direito à retificação</strong> – O Proprietário de Dados Pessoais tem o direito de solicitar à Fyld que corrija dados imprecisos sobre os mesmos; </li><li><strong>Direito de eliminar dados (\"direito a ser esquecido\"</strong>) – O Proprietário tem o direito de solicitar à Fyld que apague os seus dados pessoais, desde que os dados não sejam necessários para a finalidade para a qual são utilizados, o titular dos dados retira o seu consentimento, o proprietário opôs-se ao tratamento de dados pessoais e não existem interesses legítimos que justifiquem o tratamento, e a Fyld cumpre uma obrigação legal nos termos da legislação da União ou dos Estados-Membros; </li><li><strong>Direito à restrição do tratamento</strong> – O Proprietário de Dados Pessoais tem o direito de solicitar à Fyld que limite temporariamente a utilização dos seus dados pessoais quando considerado inexato até ser verificado ou atualizado, quando os dados já não forem necessários para o fim a que se destina, quando se opõem à utilização dos seus dados para qualquer fim, e na avaliação do legítimo interesse da Fyld sobre o seu direito de opor-se à sua utilização; </li><li><strong>Direito de opor</strong> - O Proprietário de Dados Pessoais tem o direito de se opor à utilização dos seus dados pessoais para qualquer uma das finalidades indicadas; </li><li><strong>Direito à portabilidade</strong> – O Titular dos Dados Pessoais tem o direito de receber dados pessoais que lhe digam respeito num formato estruturado;</li><li><strong>Decisões individuais automatizadas, incluindo perfis: o titular dos dados tem o direito de</strong> não estar sujeito a qualquer decisão tomada exclusivamente com base no tratamento automatizado, incluindo perfis que têm efeitos na sua esfera jurídica ou que o afetam significativamente de forma semelhante.</li></ul><p>Os direitos acima mencionados podem ser exercidos contactando a Fyld.&nbsp;<br>Qualquer reclamação deve ser dirigida à Comissão Nacional de Proteção de Dados (CNPD), que é a autoridade competente de supervisão para a proteção de dados.&nbsp;</p><h6 style=\"text-align:center;\"><br>Segurança de informações pessoais&nbsp;</h6><p>A Fyld está empenhada na proteção e segurança das informações pessoais através da implementação de medidas técnicas e organizárias adequadas para garantir um nível adequado de segurança e confidencialidade e para proteger os dados pessoais e informações de acesso, uso ou divulgação não autorizadas. As medidas técnicas e organizárias incluem o armazenamento de dados pessoais em bases de dados encriptadas, a manutenção do acesso físico e lógico a servidores e equipamentos restritos localizados em instalações controladas, a proteção de dados transmitido através da encriptação, como o protocolo Secure Socket Layer (SSL).</p><p>&nbsp;</p><p>Contactos: drh@fyld.pt<br>&nbsp;</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T15:54:54.994Z",
+  "updatedAt": "2025-05-05T09:26:15.779Z"
+}
+

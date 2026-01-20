@@ -1,0 +1,22 @@
+{
+  "id": "navbar",
+  "documentId": "navbar",
+  "logo": {
+    "id": "logo-1",
+    "url": "/cms-media/logo.svg",
+    "alternativeText": "Fyld Logo"
+  },
+  "menuItems": [
+    {
+      "id": "menu-1",
+      "label": "Home",
+      "page": {
+        "id": "home-page",
+        "slug": "home",
+        "Title": "Home"
+      }
+    }
+  ],
+  "createdAt": "2024-01-01T00:00:00Z",
+  "updatedAt": "2024-01-16T00:00:00Z"
+}

@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Clipboard } from "@phosphor-icons/react/dist/ssr";
 import { MagneticCard } from "./Magnetic Card/MagneticCard";
 import Image from "next/image";
+import { optimizeImage } from "@/util/optimizeImage";
 
 
 interface ContactsCarrouselProps {
@@ -58,7 +59,7 @@ export const ContactsCarrousel = ({ title, contacts }: ContactsCarrouselProps) =
                   <div className="avatar">
                     <div className="w-16 h-16 rounded-full overflow-hidden relative">
                       <Image
-                        src={contact.photo?.url || "/placeholder.jpg"}
+                        src={contact.photo?.url ? optimizeImage(contact.photo.url) : "/placeholder.jpg"}
                         alt={contact.photo?.alternativeText || contact.name}
                         fill
                         className="object-cover"

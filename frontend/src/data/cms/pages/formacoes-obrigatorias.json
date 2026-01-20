@@ -1,0 +1,99 @@
+{
+  "documentId": "ykpo1jv7e5smoj2oa0niwcz9",
+  "Title": "Formações Obrigatórias",
+  "slug": "formacoes-obrigatorias",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 167,
+      "Content": "<figure class=\"image image_resized\" style=\"width:24.82%;\"><img style=\"aspect-ratio:435/149;\" src=\"https://fearless-cats-2a14435633.media.strapiapp.com/Joyn_Acacemy_06_b011468bac.png\" alt=\"Joyn Acacemy-06.png\" width=\"435\" height=\"149\"></figure>"
+    },
+    {
+      "__component": "ui.rich-text-block",
+      "id": 168,
+      "Content": "<p>Ao entrares na Fyld tens um conjunto de formações obrigatórias que tens de realizar:&nbsp;<br>São elas:&nbsp;</p><ol style=\"list-style-type:decimal;\"><li><u>Cybersecurity Awareness 101 (2 horas)</u></li><li><u>Segurança e Saúde no Trabalho &nbsp;(30 min )</u></li><li><u>RGPD (1 hora )</u></li><li><u>Information Labeling Classification (duração: 5 minutos)</u></li><li><u>Secure Information Disposal (duração: 5 minutos)</u></li><li><u>Data Privacy- GDPR Compliance Training (duração: 5 minutos)</u></li></ol><p>&nbsp;</p><p>Ao acederes ao curso, tens que fazer \"enroll me\"<br>Pedimos que completes os cursos dentro da tua disponibilidade, sem prejudicar o trabalho no projeto, nem vida pessoal. No entanto, é de extrema importância para a Fyld que estes cursos sejam realizados com a maior brevidade possível.</p><p>&nbsp;</p><p><u>A não realização dos cursos tem impacto na Avaliação Anual.</u></p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 201,
+    "documentId": "ys439wehn2hqhe8p3rmlu9l7",
+    "Title": "Plano de Desenvolvimento Pessoal",
+    "slug": "plano-de-desenvolvimento-pessoal",
+    "createdAt": "2025-04-22T15:47:12.558Z",
+    "updatedAt": "2025-04-23T16:15:13.502Z",
+    "publishedAt": "2025-04-23T16:15:13.651Z"
+  },
+  "createdAt": "2025-04-22T15:47:43.300Z",
+  "updatedAt": "2025-05-02T16:30:36.142Z"
+}
+

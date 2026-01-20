@@ -1,0 +1,106 @@
+{
+  "documentId": "irppmwdwfizk5ow91ea0lvae",
+  "Title": "Registo de Horas e Ausências",
+  "slug": "registo-de-horas-e-ausencias",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.grid-section",
+      "id": 55,
+      "Colunas": 7,
+      "Item": [
+        {
+          "id": 181,
+          "Colunas": 3,
+          "Content": "<p><img src=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176841/jin_e9d6714143.png\" alt=\"jin.png\" srcset=\"https://res.cloudinary.com/dqgschgs7/image/upload/v1746176843/thumbnail_jin_e9d6714143.png 111w,https://res.cloudinary.com/dqgschgs7/image/upload/v1746176841/small_jin_e9d6714143.png 356w,\" sizes=\"100vw\" width=\"384\" height=\"540\"></p>"
+        },
+        {
+          "id": 182,
+          "Colunas": 3,
+          "Content": "<p>Todos os funcionários devem registar suas horas semanalmente no sistema da <strong>Mainfyld : O JIN&nbsp;</strong></p><ul><li>Todas as horas diretas e indiretas (incluindo folgas e licenças) devem ser registradas.</li><li>O lançamento das horas deve ser feito até ao dia 14 de cada mês.</li></ul><p>&nbsp;</p><p>Para muitos <strong>clientes</strong>, é necessário também realizar um registo de horas no sistema do próprio.</p><ul><li>Nestes casos, o colaborador deve registar as horas tanto no sistema do cliente quanto no sistema interno da Mainfyld.</li><li><strong>É essencial que os registos de horas coincidam em ambos os sistemas.</strong></li></ul><p><br><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://academy.joyn-group.com/course/view.php?id=56\">Step by Step - JIN&nbsp;</a></p>"
+        }
+      ]
+    }
+  ],
+  "ParentPage": {
+    "id": 329,
+    "documentId": "waxz21w0ckw2qmvd7t4n9xa1",
+    "Title": "Jin - Joyn Internal Network",
+    "slug": "jin-joyn-internal-network",
+    "createdAt": "2025-04-22T15:50:01.391Z",
+    "updatedAt": "2025-06-04T15:48:59.857Z",
+    "publishedAt": "2025-06-04T15:49:00.360Z"
+  },
+  "createdAt": "2025-04-22T15:51:12.087Z",
+  "updatedAt": "2025-05-05T17:14:55.084Z"
+}
+

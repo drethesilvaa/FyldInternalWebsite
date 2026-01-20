@@ -1,0 +1,94 @@
+{
+  "documentId": "ujcg3ps2manlp4rm51v8rypx",
+  "Title": "Política de Privacidade @Fyld",
+  "slug": "politica-de-privacidade-fyld",
+  "pageBanner": {
+    "id": 69,
+    "documentId": "pwarmzrfsvyegqhbg40yzaz2",
+    "name": "pexels-fauxels-3184434.jpg",
+    "alternativeText": null,
+    "caption": null,
+    "width": 6000,
+    "height": 4004,
+    "formats": {
+      "large": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "large_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "large_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 103.28,
+        "width": 1000,
+        "height": 667,
+        "sizeInBytes": 103276
+      },
+      "small": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "small_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "small_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 37.35,
+        "width": 500,
+        "height": 333,
+        "sizeInBytes": 37353
+      },
+      "medium": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "medium_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "medium_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 68.51,
+        "width": 750,
+        "height": 501,
+        "sizeInBytes": 68507
+      },
+      "thumbnail": {
+        "ext": ".jpg",
+        "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+        "hash": "thumbnail_pexels_fauxels_3184434_c1ca826901",
+        "mime": "image/jpeg",
+        "name": "thumbnail_pexels-fauxels-3184434.jpg",
+        "path": null,
+        "size": 12.08,
+        "width": 234,
+        "height": 156,
+        "sizeInBytes": 12080
+      }
+    },
+    "hash": "pexels_fauxels_3184434_c1ca826901",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 1967.93,
+    "url": "/cms-media/pexels_fauxels_3184434_c1ca826901.jpg",
+    "previewUrl": null,
+    "provider": "cloudinary",
+    "provider_metadata": null,
+    "createdAt": "2025-04-14T18:05:07.341Z",
+    "updatedAt": "2025-04-22T15:43:00.367Z",
+    "publishedAt": "2025-04-14T18:05:07.342Z"
+  },
+  "Content": [
+    {
+      "__component": "ui.rich-text-block",
+      "id": 179,
+      "Content": "<p>A política de segurança da Fyld é estabelecida com base em 3 objectivos principais:<br><strong>Integridade </strong>- As informações que estão sob o controlo dos processos da Fyld são completas e exactas.<br><strong>Disponibilidade </strong>- Ao utilizar ferramentas fiáveis e ao definir políticas para o armazenamento de dados, a informação torna-se altamente disponível.<br><strong>Confidencialidade </strong>- As informações só podem ser acedidas pelas partes interessadas a que dizem respeito, através da utilização de grupos de segurança, do ActiveDirectory e de políticas específicas de gestão de activos.</p><p>&nbsp;</p><h6>Política de Autoridade e Controlo de Acessos na Fyld</h6><p>A autoridade e o controlo de acesso são definidos num documento específico, com os principais valores, e o direito de acesso específico é gerido pelo departamento de TI a pedido da parte interessada responsável.<br>Os acessos são registados por métricas de identificação de actividades suspeitas e são definidos alertas a serem gerados, analisados e encaminhados para os stakeholders a que dizem respeito.</p><p>&nbsp;</p><h6>Suporte e operação de dados</h6><p>A proteção de dados é assegurada através da colocação de cópias físicas de informações confidenciais num \"cacifo\" seguro dentro do nosso escritório.<br>Os dados da rede estão protegidos por uma firewall e o acesso à rede do escritório só é possível através de um serviço VPN.<br>Os computadores são encriptados com a tecnologia Bitlocker.</p><h6><br>Política de palavras-passe</h6><p>Esta política rege a forma como as palavras-passe devem ser geridas.<br>· &nbsp; &nbsp; &nbsp; &nbsp;as palavras-passe são um meio comum de verificar a identidade de um utilizador antes de lhe ser concedido acesso a um sistema ou serviço de informação, de acordo com a autorização do utilizador<br>· &nbsp; &nbsp; &nbsp; &nbsp;podem também ser utilizadas outras tecnologias, por exemplo, a biometria ou a utilização de fichas de hardware, por exemplo, cartões inteligentes.<br>· &nbsp; &nbsp; &nbsp; &nbsp;as palavras-passe permanentes não podem ser atribuídas diretamente, mas sim através do envio de uma palavra-passe temporária que deve ser alterada após a primeira utilização.<br>· &nbsp; &nbsp; &nbsp; &nbsp;a identidade de um utilizador deve ser verificada (enviando um código secreto para o e-mail oficial do utilizador, pedindo-lhe que confirme o código secreto) antes de fornecer uma nova senha, uma senha de substituição ou uma senha temporária<br>· &nbsp; &nbsp; &nbsp; &nbsp;as palavras-passe temporárias devem ser fornecidas aos utilizadores de forma segura (por exemplo, por SMS para o seu telemóvel - a utilização de mensagens com texto não encriptado deve ser evitada e interpretada como uma violação da segurança).<br>· &nbsp; &nbsp; &nbsp; &nbsp;as palavras-passe temporárias devem ser únicas para um indivíduo e não devem ser facilmente adivinhadas ou identificáveis.<br>· &nbsp; &nbsp; &nbsp; &nbsp;as palavras-passe nunca devem ser armazenadas em sistemas informáticos de forma desprotegida - devem ser sempre ofuscadas/encriptadas e armazenadas<br>· &nbsp; &nbsp; &nbsp; &nbsp;as palavras-passe predefinidas dos fornecedores devem ser alteradas imediatamente após a instalação dos sistemas e/ou programas<br>· &nbsp; &nbsp; &nbsp; &nbsp;selecionar palavras-passe de qualidade com um comprimento mínimo suficiente (14 caracteres), que sejam<br>· &nbsp; &nbsp; &nbsp; &nbsp;fácil de encurtar<br>· &nbsp; &nbsp; &nbsp; &nbsp;sem caracteres numéricos ou alfabéticos consecutivos idênticos<br>· &nbsp; &nbsp; &nbsp; &nbsp;não se baseia em nada que possa ser facilmente inferido ou obtido através da relação de informação, por exemplo, nomes, números de telefone e datas de nascimento, etc.<br>· &nbsp; &nbsp; &nbsp; &nbsp;não ser vulnerável a ataques de dicionário (ou seja, não consistir em palavras incluídas em dicionários)<br>· &nbsp; &nbsp; &nbsp; &nbsp;não deve ser guardado qualquer registo de palavras-passe (por exemplo, em papel, ficheiro de software ou dispositivo portátil), exceto se for feito em conformidade com esta política<br>· &nbsp; &nbsp; &nbsp; &nbsp;as palavras-passe devem ser alteradas a intervalos regulares não superiores a 90 dias.<br>· &nbsp; &nbsp; &nbsp; &nbsp;as palavras-passe devem ser alteradas sempre que houver informação de que foram comprometidas.<br>· &nbsp; &nbsp; &nbsp; &nbsp;a mesma palavra-passe não deve ser utilizada para serviços comerciais e não comerciais.<br>· &nbsp; &nbsp; &nbsp; &nbsp;nunca incluir palavras-passe em processos de início de sessão automáticos<br>· &nbsp; &nbsp; &nbsp; &nbsp;e, por último, não partilhar as palavras-passe permanentes individuais.</p>"
+    }
+  ],
+  "ParentPage": {
+    "id": 303,
+    "documentId": "ii8awp2vvugkfgg6raztm27k",
+    "Title": "Politicas",
+    "slug": "politicas",
+    "createdAt": "2025-04-17T15:48:24.777Z",
+    "updatedAt": "2025-05-29T14:48:40.906Z",
+    "publishedAt": "2025-05-29T14:48:41.191Z"
+  },
+  "createdAt": "2025-04-22T15:57:24.995Z",
+  "updatedAt": "2025-05-05T09:49:04.601Z"
+}
+
