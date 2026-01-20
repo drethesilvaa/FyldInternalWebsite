@@ -35,6 +35,7 @@ jobs:
           npm run build -- --no-lint
           cp -r public .next/standalone/public
           cp -r .next/static .next/standalone/.next/static
+          cp -r src/data/cms .next/standalone/public/cms-data
 
       - name: Zip artifact for deployment
         run: |
