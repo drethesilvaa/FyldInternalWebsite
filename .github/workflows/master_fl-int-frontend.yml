@@ -64,7 +64,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "fl-int-frontend"
-          slot-name: "Production"
+          app-name: 'neu-internalfyld'
+          slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A157F5B6AF54C70AA9056D279F137E5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A4AF1F1519CB463D912FD2E3A81E5E1E }}
