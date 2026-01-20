@@ -180,13 +180,22 @@ export interface TreeComponent {
 }
 
 /**
+ * Get the correct CMS data path based on environment
+ */
+function getCmsPath(subPath: string): string {
+  const isDevelopment = process.env.NODE_ENV === 'development';
+  const basePath = isDevelopment ? 'src/data/cms' : 'public/cms-data';
+  return `${basePath}/${subPath}`;
+}
+
+/**
  * Load a page by slug from local JSON files
  */
 export async function getPageBySlug(slug: string): Promise<PageData | null> {
   try {
     const { readFile } = await import('fs/promises');
     const path = await import('path');
-    const filePath = path.join(process.cwd(), 'src/data/cms/pages', `${slug}.json`);
+    const filePath = path.join(process.cwd(), getCmsPath(`pages/${slug}.json`));
     const data = await readFile(filePath, 'utf-8');
     return JSON.parse(data);
   } catch (error) {
@@ -202,7 +211,7 @@ export async function getAllPages(): Promise<PageData[]> {
   try {
     const { readdir, readFile } = await import('fs/promises');
     const path = await import('path');
-    const pagesDir = path.join(process.cwd(), 'src/data/cms/pages');
+    const pagesDir = path.join(process.cwd(), getCmsPath('pages'));
     
     const files = await readdir(pagesDir);
     const pages: PageData[] = [];
@@ -229,7 +238,7 @@ export async function getFooterData(): Promise<FooterData | null> {
   try {
     const { readFile } = await import('fs/promises');
     const path = await import('path');
-    const filePath = path.join(process.cwd(), 'src/data/cms/config', 'footer.json');
+    const filePath = path.join(process.cwd(), getCmsPath('config/footer.json'));
     const data = await readFile(filePath, 'utf-8');
     return JSON.parse(data);
   } catch (error) {
@@ -245,7 +254,7 @@ export async function getNavbarData(): Promise<NavbarData | null> {
   try {
     const { readFile } = await import('fs/promises');
     const path = await import('path');
-    const filePath = path.join(process.cwd(), 'src/data/cms/config', 'navbar.json');
+    const filePath = path.join(process.cwd(), getCmsPath('config/navbar.json'));
     const data = await readFile(filePath, 'utf-8');
     return JSON.parse(data);
   } catch (error) {
@@ -261,7 +270,7 @@ export async function getHomeData(): Promise<any> {
   try {
     const { readFile } = await import('fs/promises');
     const path = await import('path');
-    const filePath = path.join(process.cwd(), 'src/data/cms/config', 'home.json');
+    const filePath = path.join(process.cwd(), getCmsPath('config/home.json'));
     const data = await readFile(filePath, 'utf-8');
     return JSON.parse(data);
   } catch (error) {
