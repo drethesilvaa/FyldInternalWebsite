@@ -544,7 +544,7 @@
         {
           "id": 115,
           "name": "Gonçalo Guerreio",
-          "role": "Business Manager",
+          "role": "Senior Business Manager",
           "email": "goncalo.guerreiro@fyld.pt",
           "photo": {
             "id": 118,
@@ -772,7 +772,7 @@
         {
           "id": 118,
           "name": "Ruben Cunha",
-          "role": "Business Manager",
+          "role": "Senior Business Manager",
           "email": "ruben.cunha@fyld.pt",
           "photo": {
             "id": 111,
@@ -843,82 +843,6 @@
             "createdAt": "2025-04-30T16:33:30.642Z",
             "updatedAt": "2025-04-30T16:33:30.642Z",
             "publishedAt": "2025-04-30T16:33:30.643Z"
-          }
-        },
-        {
-          "id": 119,
-          "name": "Pedro Dias",
-          "role": "Business Manager",
-          "email": "pedro.dias@fyld.pt",
-          "photo": {
-            "id": 110,
-            "documentId": "gruymo8yv03is2162pybz99h",
-            "name": "Pedro Dias.jpg",
-            "alternativeText": null,
-            "caption": null,
-            "width": 6000,
-            "height": 4000,
-            "formats": {
-              "large": {
-                "ext": ".jpg",
-                "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-                "hash": "large_Pedro_Dias_e1906df50f",
-                "mime": "image/jpeg",
-                "name": "large_Pedro Dias.jpg",
-                "path": null,
-                "size": 25.71,
-                "width": 1000,
-                "height": 667,
-                "sizeInBytes": 25708
-              },
-              "small": {
-                "ext": ".jpg",
-                "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-                "hash": "small_Pedro_Dias_e1906df50f",
-                "mime": "image/jpeg",
-                "name": "small_Pedro Dias.jpg",
-                "path": null,
-                "size": 9.59,
-                "width": 500,
-                "height": 333,
-                "sizeInBytes": 9585
-              },
-              "medium": {
-                "ext": ".jpg",
-                "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-                "hash": "medium_Pedro_Dias_e1906df50f",
-                "mime": "image/jpeg",
-                "name": "medium_Pedro Dias.jpg",
-                "path": null,
-                "size": 17,
-                "width": 750,
-                "height": 500,
-                "sizeInBytes": 16999
-              },
-              "thumbnail": {
-                "ext": ".jpg",
-                "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-                "hash": "thumbnail_Pedro_Dias_e1906df50f",
-                "mime": "image/jpeg",
-                "name": "thumbnail_Pedro Dias.jpg",
-                "path": null,
-                "size": 3.63,
-                "width": 234,
-                "height": 156,
-                "sizeInBytes": 3625
-              }
-            },
-            "hash": "Pedro_Dias_e1906df50f",
-            "ext": ".jpg",
-            "mime": "image/jpeg",
-            "size": 593.96,
-            "url": "/cms-media/Pedro_Dias_e1906df50f.jpg",
-            "previewUrl": null,
-            "provider": "cloudinary",
-            "provider_metadata": null,
-            "createdAt": "2025-04-30T16:33:30.063Z",
-            "updatedAt": "2025-04-30T16:33:30.063Z",
-            "publishedAt": "2025-04-30T16:33:30.064Z"
           }
         }
       ]
@@ -1005,82 +929,6 @@
           }
         },
         {
-          "id": 121,
-          "name": "Beatriz Pires",
-          "role": "Talent Acquisition",
-          "email": "beatriz.pires@fyld.pt",
-          "photo": {
-            "id": 126,
-            "documentId": "mmwnauzt6gdwpx2whfn07xy4",
-            "name": "Beatriz Pires.jpg",
-            "alternativeText": null,
-            "caption": null,
-            "width": 5500,
-            "height": 3668,
-            "formats": {
-              "large": {
-                "ext": ".jpg",
-                "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-                "hash": "large_Beatriz_Pires_be001ec4eb",
-                "mime": "image/jpeg",
-                "name": "large_Beatriz Pires.jpg",
-                "path": null,
-                "size": 23.25,
-                "width": 1000,
-                "height": 667,
-                "sizeInBytes": 23248
-              },
-              "small": {
-                "ext": ".jpg",
-                "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-                "hash": "small_Beatriz_Pires_be001ec4eb",
-                "mime": "image/jpeg",
-                "name": "small_Beatriz Pires.jpg",
-                "path": null,
-                "size": 8.51,
-                "width": 500,
-                "height": 333,
-                "sizeInBytes": 8508
-              },
-              "medium": {
-                "ext": ".jpg",
-                "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-                "hash": "medium_Beatriz_Pires_be001ec4eb",
-                "mime": "image/jpeg",
-                "name": "medium_Beatriz Pires.jpg",
-                "path": null,
-                "size": 15.17,
-                "width": 750,
-                "height": 500,
-                "sizeInBytes": 15173
-              },
-              "thumbnail": {
-                "ext": ".jpg",
-                "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-                "hash": "thumbnail_Beatriz_Pires_be001ec4eb",
-                "mime": "image/jpeg",
-                "name": "thumbnail_Beatriz Pires.jpg",
-                "path": null,
-                "size": 3.21,
-                "width": 234,
-                "height": 156,
-                "sizeInBytes": 3208
-              }
-            },
-            "hash": "Beatriz_Pires_be001ec4eb",
-            "ext": ".jpg",
-            "mime": "image/jpeg",
-            "size": 422,
-            "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
-            "previewUrl": null,
-            "provider": "cloudinary",
-            "provider_metadata": null,
-            "createdAt": "2025-04-30T16:33:35.218Z",
-            "updatedAt": "2025-04-30T16:33:35.218Z",
-            "publishedAt": "2025-04-30T16:33:35.218Z"
-          }
-        },
-        {
           "id": 122,
           "name": "Daniela Vito",
           "role": "Talent Acquisition",
@@ -1159,7 +1007,7 @@
         {
           "id": 123,
           "name": "Samuel Rodrigues",
-          "role": "Talent Acquisition",
+          "role": "Senior Talent Acquisition",
           "email": "samuel.rodrigues@fyld.pt",
           "photo": {
             "id": 124,
@@ -1230,82 +1078,6 @@
             "createdAt": "2025-04-30T16:33:34.869Z",
             "updatedAt": "2025-04-30T16:33:34.869Z",
             "publishedAt": "2025-04-30T16:33:34.870Z"
-          }
-        },
-        {
-          "id": 124,
-          "name": "Sara Espirito Santo",
-          "role": "Talent Acquisition",
-          "email": "sara.espiritosanto@fyld.pt",
-          "photo": {
-            "id": 122,
-            "documentId": "qu09f8r0r97waxxlst5aply3",
-            "name": "Sara Espirito Santo.jpg",
-            "alternativeText": null,
-            "caption": null,
-            "width": 5500,
-            "height": 3668,
-            "formats": {
-              "large": {
-                "ext": ".jpg",
-                "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-                "hash": "large_Sara_Espirito_Santo_1489745694",
-                "mime": "image/jpeg",
-                "name": "large_Sara Espirito Santo.jpg",
-                "path": null,
-                "size": 23.37,
-                "width": 1000,
-                "height": 667,
-                "sizeInBytes": 23365
-              },
-              "small": {
-                "ext": ".jpg",
-                "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-                "hash": "small_Sara_Espirito_Santo_1489745694",
-                "mime": "image/jpeg",
-                "name": "small_Sara Espirito Santo.jpg",
-                "path": null,
-                "size": 8.6,
-                "width": 500,
-                "height": 333,
-                "sizeInBytes": 8601
-              },
-              "medium": {
-                "ext": ".jpg",
-                "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-                "hash": "medium_Sara_Espirito_Santo_1489745694",
-                "mime": "image/jpeg",
-                "name": "medium_Sara Espirito Santo.jpg",
-                "path": null,
-                "size": 15.33,
-                "width": 750,
-                "height": 500,
-                "sizeInBytes": 15329
-              },
-              "thumbnail": {
-                "ext": ".jpg",
-                "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-                "hash": "thumbnail_Sara_Espirito_Santo_1489745694",
-                "mime": "image/jpeg",
-                "name": "thumbnail_Sara Espirito Santo.jpg",
-                "path": null,
-                "size": 3.26,
-                "width": 234,
-                "height": 156,
-                "sizeInBytes": 3259
-              }
-            },
-            "hash": "Sara_Espirito_Santo_1489745694",
-            "ext": ".jpg",
-            "mime": "image/jpeg",
-            "size": 403.85,
-            "url": "/cms-media/Sara_Espirito_Santo_1489745694.jpg",
-            "previewUrl": null,
-            "provider": "cloudinary",
-            "provider_metadata": null,
-            "createdAt": "2025-04-30T16:33:34.485Z",
-            "updatedAt": "2025-04-30T16:33:34.485Z",
-            "publishedAt": "2025-04-30T16:33:34.486Z"
           }
         },
         {
@@ -1398,6 +1170,81 @@
               "public_id": "Sofia_Neves_07ba1cb840",
               "resource_type": "image"
             },
+            "createdAt": "2025-06-03T11:19:58.360Z",
+            "updatedAt": "2025-06-03T11:19:58.360Z",
+            "publishedAt": "2025-06-03T11:19:58.370Z"
+          }
+        },
+        {
+          "id": 125,
+          "name": "Sara Sequeira",
+          "role": "Talent Acquisition",
+          "email": "sara.sequeira@fyld.pt",
+          "photo": {
+            "id": 163,
+            "documentId": "m74f16hnivv5mcw6svv1kanq",
+            "name": "Sara_Sequeira.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 6000,
+            "height": 4000,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/cms-media/Sara_Sequeira.jpg",
+                "hash": "Sara_Sequeira",
+                "mime": "image/jpeg",
+                "name": "Sara_Sequeira.jpg",
+                "path": null,
+                "size": 37.23,
+                "width": 1000,
+                "height": 667,
+                "sizeInBytes": 37234
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/cms-media/Sara_Sequeira.jpg",
+                "hash": "Sara_Sequeira",
+                "mime": "image/jpeg",
+                "name": "Sara_Sequeira.jpg",
+                "path": null,
+                "size": 12.64,
+                "width": 500,
+                "height": 333,
+                "sizeInBytes": 12635
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/cms-media/Sara_Sequeira.jpg",
+                "hash": "Sara_Sequeira",
+                "mime": "image/jpeg",
+                "name": "Sara_Sequeira.jpg",
+                "path": null,
+                "size": 23.61,
+                "width": 750,
+                "height": 500,
+                "sizeInBytes": 23612
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/cms-media/Sara_Sequeira.jpg",
+                "hash": "Sara_Sequeira",
+                "mime": "image/jpeg",
+                "name": "Sara_Sequeira.jpg",
+                "path": null,
+                "size": 4.35,
+                "width": 234,
+                "height": 156,
+                "sizeInBytes": 4347
+              }
+            },
+            "hash": "Sara_Sequeira",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 868.14,
+            "url": "/cms-media/Sara_Sequeira.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
             "createdAt": "2025-06-03T11:19:58.360Z",
             "updatedAt": "2025-06-03T11:19:58.360Z",
             "publishedAt": "2025-06-03T11:19:58.370Z"
@@ -1808,6 +1655,158 @@
             "updatedAt": "2025-06-09T09:40:05.199Z",
             "publishedAt": "2025-06-09T09:40:05.200Z"
           }
+        },
+        {
+          "id": 121,
+          "name": "Daniela Quental",
+          "role": "Talent Manager",
+          "email": "daniela.quental@fyld.pt",
+          "photo": {
+            "id": 126,
+            "documentId": "mmwnauzt6gdwpx2whfn07xy4",
+            "name": "Daniela_Quental.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 5500,
+            "height": 3668,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/cms-media/Daniela_Quental.jpg",
+                "hash": "Daniela_Quental",
+                "mime": "image/jpeg",
+                "name": "Daniela_Quental.jpg",
+                "path": null,
+                "size": 23.25,
+                "width": 1000,
+                "height": 667,
+                "sizeInBytes": 23248
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/cms-media/Daniela_Quental.jpg",
+                "hash": "Daniela_Quental",
+                "mime": "image/jpeg",
+                "name": "Daniela_Quental.jpg",
+                "path": null,
+                "size": 8.51,
+                "width": 500,
+                "height": 333,
+                "sizeInBytes": 8508
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/cms-media/Daniela_Quental.jpg",
+                "hash": "Daniela_Quental",
+                "mime": "image/jpeg",
+                "name": "Daniela_Quental.jpg",
+                "path": null,
+                "size": 15.17,
+                "width": 750,
+                "height": 500,
+                "sizeInBytes": 15173
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/cms-media/Daniela_Quental.jpg",
+                "hash": "Daniela_Quental",
+                "mime": "image/jpeg",
+                "name": "Daniela_Quental.jpg",
+                "path": null,
+                "size": 3.21,
+                "width": 234,
+                "height": 156,
+                "sizeInBytes": 3208
+              }
+            },
+            "hash": "Daniela_Quental",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 422,
+            "url": "/cms-media/Daniela_Quental.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": null,
+            "createdAt": "2025-04-30T16:33:35.218Z",
+            "updatedAt": "2025-04-30T16:33:35.218Z",
+            "publishedAt": "2025-04-30T16:33:35.218Z"
+          }
+        },
+        {
+          "id": 121,
+          "name": "Beatriz Pires",
+          "role": "Talent Manager",
+          "email": "beatriz.pires@fyld.pt",
+          "photo": {
+            "id": 126,
+            "documentId": "mmwnauzt6gdwpx2whfn07xy4",
+            "name": "Beatriz Pires.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 5500,
+            "height": 3668,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+                "hash": "large_Beatriz_Pires_be001ec4eb",
+                "mime": "image/jpeg",
+                "name": "large_Beatriz Pires.jpg",
+                "path": null,
+                "size": 23.25,
+                "width": 1000,
+                "height": 667,
+                "sizeInBytes": 23248
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+                "hash": "small_Beatriz_Pires_be001ec4eb",
+                "mime": "image/jpeg",
+                "name": "small_Beatriz Pires.jpg",
+                "path": null,
+                "size": 8.51,
+                "width": 500,
+                "height": 333,
+                "sizeInBytes": 8508
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+                "hash": "medium_Beatriz_Pires_be001ec4eb",
+                "mime": "image/jpeg",
+                "name": "medium_Beatriz Pires.jpg",
+                "path": null,
+                "size": 15.17,
+                "width": 750,
+                "height": 500,
+                "sizeInBytes": 15173
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+                "hash": "thumbnail_Beatriz_Pires_be001ec4eb",
+                "mime": "image/jpeg",
+                "name": "thumbnail_Beatriz Pires.jpg",
+                "path": null,
+                "size": 3.21,
+                "width": 234,
+                "height": 156,
+                "sizeInBytes": 3208
+              }
+            },
+            "hash": "Beatriz_Pires_be001ec4eb",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 422,
+            "url": "/cms-media/Beatriz_Pires_be001ec4eb.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": null,
+            "createdAt": "2025-04-30T16:33:35.218Z",
+            "updatedAt": "2025-04-30T16:33:35.218Z",
+            "publishedAt": "2025-04-30T16:33:35.218Z"
+          }
         }
       ]
     }
@@ -1816,4 +1815,3 @@
   "createdAt": "2025-04-17T11:28:21.368Z",
   "updatedAt": "2025-06-09T09:40:12.826Z"
 }
-
