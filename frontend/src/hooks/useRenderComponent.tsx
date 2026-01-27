@@ -9,6 +9,7 @@ import { GroupLinks } from "@/components/GroupLinks";
 import OrgTree from "@/components/OrgTree";
 import { BentoGrid } from "@/components/BentoGrid";
 import { ContactsCarrousel } from "@/components/ContactsCarrousel";
+import AudioPlayer from "@/components/AudioPlayer";
 
 interface ComponentData {
   Content?: any[];
@@ -35,6 +36,7 @@ const componentMapping: ComponentMapping = {
   "ui.tree": OrgTree,
   "ui.bento-grid": BentoGrid,
   "ui.contacts-carrousel": ContactsCarrousel,
+  "ui.audio-player": AudioPlayer,
 };
 
 export const useRenderComponent = (
